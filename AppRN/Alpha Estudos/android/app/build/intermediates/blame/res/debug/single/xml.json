@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/AlphaEstudos/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/AlphaEstudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/rafaelcamara/Documents/projects/ioasys/test-cefet/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/rafaelcamara/Documents/projects/ioasys/test-cefet/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
+    }
+]

@@ -1,0 +1,25 @@
+import React from 'react';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import constants from '@config/constants';
+
+/* Componentes - Core - Imports */
+import Label from '@components/core/Label';
+import Button from '@components/core/Button';
+
+import StyleMain from '@styles/StyleMain';
+
+export default class AppIntroScreen extends React.Component {
+  render() {
+    return (
+      <View style={StyleMain.backgroundView}>
+        <Image source= {constants.LOGO} style= {StyleMain.startLogo} />
+        <View style={{ width: '80%' }}>
+          <Button marginTop={30} onPress={() => this.props.navigation.navigate('Main')}>
+            Entrar
+          </Button>
+        </View>
+      </View>
+    );
+  }
+};
+
