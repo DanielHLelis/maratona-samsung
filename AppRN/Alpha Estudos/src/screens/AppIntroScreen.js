@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import constants from '@config/constants';
+import IMAGES from '@config/images';
 
 /* Componentes - Core - Imports */
 import Label from '@components/core/Label';
@@ -12,7 +13,7 @@ export default class AppIntroScreen extends React.Component {
   render() {
     return (
       <View style={StyleMain.backgroundView}>
-        <Image source= {constants.LOGO} style= {StyleMain.startLogo} />
+        <Image source= {IMAGES.LOGO} style= {StyleMain.startLogo} />
         <View style={{ width: '80%' }}>
           <Button marginTop={30} onPress={() => this.props.navigation.navigate('Main')}>
             Entrar

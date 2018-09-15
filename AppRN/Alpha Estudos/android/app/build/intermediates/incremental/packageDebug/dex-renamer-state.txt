@@ -1,4 +1,4 @@
-#Thu Sep 13 16:06:28 BRT 2018
-base.0=/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/AlphaEstudos/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Fri Sep 14 17:02:09 BRT 2018
+base.0=D\:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/AlphaEstudos/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=D\:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

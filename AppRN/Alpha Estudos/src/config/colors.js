@@ -2,18 +2,19 @@ const COLORS = {
   /* Primary Colors */
   black: '#000000',
   white: '#FFFFFF',
-  primary: '#FFB63A',
-  darkerPrimary: '#FFC96C',
+  primary: '#4EA4CC',
+  lighterPrimary : '#00D8FF',
+  darkerPrimary: '#146B93',
 
   /* Background Colors */
   background: '#FFFFFF',
-  darkerBackground: '#EAEAEA',
+  blueBackground: '#4EA4CC',
   grayBackground: '#4C4C4C',
 
   /* Text Colors */
   defaultText: '#4C4C4C',
-  secondaryText: '#B2B2B2',
-  lightText: '#D0D5DA',
+  secondaryText: '#616161',
+  lightText: '#FFFFFF',
 
   /* Status Colors */
   successColor: '#5DC0AD',

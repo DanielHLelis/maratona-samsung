@@ -1,6 +1,11 @@
 const CONSTANTS = {
     URL_HOST: 'URL-DA-API',
-    LOGO: require('@assets/images/1by1.png')
+    FONT_SIZE: {
+        large: 22,
+        medium: 18,
+        regular: 14,
+        small: 12
+    }
 };
 
 export default CONSTANTS;

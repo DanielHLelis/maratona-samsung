@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { StyledSheet, Text, TouchableOpacity, ActivityIndicator } from 'react-native';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import TYPOGRAPHY from '@config/typography';
@@ -69,28 +68,4 @@ Button.defaultProps = {
   left: 0,
   right: 0,
   bottom: 0
-};
-
-Button.propTypes = {
-  width: PropTypes.string,
-  height: PropTypes.string,
-  backgroundColor: PropTypes.string,
-  justifyContent: PropTypes.string,
-  alignItems: PropTypes.string,
-  textColor: PropTypes.string,
-  fontWeight: PropTypes.string,
-  textAlign: PropTypes.string,
-  borderRadius: PropTypes.number,
-  borderWidth: PropTypes.number,
-  borderColor: PropTypes.string,
-  typography: PropTypes.array,
-  marginTop: PropTypes.number,
-  marginBottom: PropTypes.number,
-  marginRight: PropTypes.number,
-  marginLeft: PropTypes.number,
-  position: PropTypes.string,
-  top: PropTypes.number,
-  bottom: PropTypes.number,
-  left: PropTypes.number,
-  right: PropTypes.number
 };

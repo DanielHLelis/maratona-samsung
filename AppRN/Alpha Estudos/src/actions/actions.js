@@ -1,5 +1,0 @@
-export default {
-  TEST: 'TEST',
-  TEST_SUCCESS: 'TEST_SUCCESS',
-  TEST_FAILURE: 'TEST_FAILURE'
-};

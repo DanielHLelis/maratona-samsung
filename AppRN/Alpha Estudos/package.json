@@ -1,66 +1,66 @@
 {
-  "name": "basf-agro",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "test": "mocha --require babel-core/register --require babel-polyfill src/tests/**/*.spec.js"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
-  "rnpm": {
-    "assets": [
-      "./resources/fonts"
-    ]
-  },
-  "dependencies": {
-    "react": "16.3.1",
-    "react-native": "~0.55.2",
-    "react-navigation": "^2.11.2",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "rn-fetch-blob": "^0.10.12",
-    "styled-components": "^3.4.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react-native-stage-0": "^1.0.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "chai": "^4.1.2",
-    "fetch-mock": "^6.5.2",
-    "jest": "^23.5.0",
-    "jest-react-native": "^18.0.0",
-    "mocha": "^5.2.0",
-    "react-test-renderer": "16.3.1",
-    "redux-mock-store": "^1.5.3",
-    "sinon": "^6.1.5"
-  },
-  "//": {
-    "babel-preset-react-native-stage-0": "Babel presets for React Native applications. React Native itself uses this Babel preset by default when transforming your app's source code.",
-    "styled-components": "Its used to style our components. We're not using StyleSheets.",
-    "jest": "Jest is a complete and easy to set up JavaScript testing solution. In fact, Jest works out of the box for any React project.",
-    "react-test-renderer": "This package provides an experimental React renderer that can be used to render React components to pure JavaScript objects, without depending on the DOM or a native mobile environment. Essentially, this package makes it easy to grab a snapshot of the 'DOM tree' rendered by a React DOM or React Native component without using a browser or jsdom.",
-    "react-navigation": "Responsible to manage the presentation of, and transition between, multiple screens",
-    "react-redux": "Official React bindings for Redux.",
-    "redux": "Official React bindings for Redux.",
-    "redux-thunk": "Redux Thunk middleware allows you to write action creators that return a function instead of an action.",
-    "redux-logger": "Redux logging tool that lets you replay problems as if they happened in your own browser. ",
-    "rn-fetch-blob": "A project committed to making file access and data transfer easier, efficient for React Native developers.",
-    "babel-core": "Babel compiler core",
-    "babel-preset-env": "A Babel preset that compiles ES2015+",
-    "babel-preset-stage-3": "Babel preset for stage 3 plugins.",
-    "mocha": "Javascript testing framework",
-    "chai": "Assertion Library",
-    "sinon": "Stubs, Mocks & Spies",
-    "fetch-mock": "Mock http requests made using fetch",
-    "redux-mock-store": "A mock store for testing Redux async action creators and middleware",
-    "babel-polyfill": "Provides polyfills necessary for a full ES2015+ environment"
-  }
+    "name": "alpha-estudos",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "react-native start",
+        "android": "react-native run-android",
+        "ios": "react-native run-ios",
+        "test": "mocha --require babel-core/register --require babel-polyfill src/tests/**/*.spec.js"
+    },
+    "jest": {
+        "preset": "react-native"
+    },
+    "rnpm": {
+        "assets": [
+            "./resources/fonts"
+        ]
+    },
+    "dependencies": {
+        "react": "16.3.1",
+        "react-native": "~0.55.2",
+        "react-navigation": "^2.11.2",
+        "react-redux": "^5.0.7",
+        "redux": "^4.0.0",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0",
+        "rn-fetch-blob": "^0.10.12",
+        "styled-components": "^3.4.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react-native-stage-0": "^1.0.1",
+        "babel-preset-stage-3": "^6.24.1",
+        "chai": "^4.1.2",
+        "fetch-mock": "^6.5.2",
+        "jest": "^23.5.0",
+        "jest-react-native": "^18.0.0",
+        "mocha": "^5.2.0",
+        "react-test-renderer": "16.3.1",
+        "redux-mock-store": "^1.5.3",
+        "sinon": "^6.1.5"
+    },
+    "//": {
+        "babel-preset-react-native-stage-0": "Babel presets for React Native applications. React Native itself uses this Babel preset by default when transforming your app's source code.",
+        "styled-components": "Its used to style our components. We're not using StyleSheets.",
+        "jest": "Jest is a complete and easy to set up JavaScript testing solution. In fact, Jest works out of the box for any React project.",
+        "react-test-renderer": "This package provides an experimental React renderer that can be used to render React components to pure JavaScript objects, without depending on the DOM or a native mobile environment. Essentially, this package makes it easy to grab a snapshot of the 'DOM tree' rendered by a React DOM or React Native component without using a browser or jsdom.",
+        "react-navigation": "Responsible to manage the presentation of, and transition between, multiple screens",
+        "react-redux": "Official React bindings for Redux.",
+        "redux": "Official React bindings for Redux.",
+        "redux-thunk": "Redux Thunk middleware allows you to write action creators that return a function instead of an action.",
+        "redux-logger": "Redux logging tool that lets you replay problems as if they happened in your own browser. ",
+        "rn-fetch-blob": "A project committed to making file access and data transfer easier, efficient for React Native developers.",
+        "babel-core": "Babel compiler core",
+        "babel-preset-env": "A Babel preset that compiles ES2015+",
+        "babel-preset-stage-3": "Babel preset for stage 3 plugins.",
+        "mocha": "Javascript testing framework",
+        "chai": "Assertion Library",
+        "sinon": "Stubs, Mocks & Spies",
+        "fetch-mock": "Mock http requests made using fetch",
+        "redux-mock-store": "A mock store for testing Redux async action creators and middleware",
+        "babel-polyfill": "Provides polyfills necessary for a full ES2015+ environment"
+    }
 }

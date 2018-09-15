@@ -6,7 +6,6 @@ import styled from 'styled-components';
 import TYPOGRAPHY from '@config/typography';
 import COLORS from '@config/colors';
 
-// TODO: Still needs to allow the usage of a different set of font-family
 const Label = props => {
   return <StyledLabel {...props}>{props.children}</StyledLabel>;
 };

@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/rafaelcamara/Documents/projects/ioasys/test-cefet/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/rafaelcamara/Documents/projects/ioasys/test-cefet/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/AlphaEstudos/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/AlphaEstudos/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]
