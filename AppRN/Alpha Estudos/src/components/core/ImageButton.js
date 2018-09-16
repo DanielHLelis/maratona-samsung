@@ -2,7 +2,8 @@ import React from 'react';
 import { 
     View,
     TouchableOpacity,
-    Image
+    Image,
+    ActivityIndicator
  } from 'react-native';
 
 import styled from 'styled-components';
@@ -14,7 +15,13 @@ import TYPOGRAPHY from '@config/typography';
     return(
         <View>
                 <StyledTouchableOpacity onPress={props.onPress} {...props}>
-                    <StyledImage source={props.source} {...props} ></StyledImage>
+
+                    {
+                        (props.isLoading)?
+                        (<ActivityIndicator size='small' color={COLORS.lightText}/>):
+                        (<StyledImage source={props.source} {...props} ></StyledImage>)
+                    }
+                    
                 </StyledTouchableOpacity>
         </View>
     );

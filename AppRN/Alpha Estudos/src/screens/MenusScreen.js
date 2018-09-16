@@ -16,17 +16,17 @@ let listaTop = [
     id: "1",
     name: "Cadeias Alimentares",
     image: images.LOGO,
-    done: 0.5
+    done: 0.5, next: {name: 'Você veio do 1'}
   },
-  { id: "2", name: "Tectonismo", image: images.LOGO, done: 0.5 },
-  { id: "3", name: "Geobiologia", image: images.LOGO, done: 0.324 },
-  { id: "4", name: "Lorem Ipsum", image: images.LOGO, done: 1},
-  { id: "5", name: "Lorem Ipsum", image: images.LOGO, done: 1},
-  { id: "6", name: "Lorem Ipsum", image: images.LOGO, done: 1},
-  { id: "7", name: "Lorem Ipsum", image: images.LOGO, done: 1},
-  { id: "8", name: "Lorem Ipsum", image: images.LOGO, done: 1},
-  { id: "9", name: "Lorem Ipsum", image: images.LOGO, done: 1},
-  { id: "10", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Oi'}}
+  { id: "2", name: "Tectonismo", image: images.LOGO, done: 0.5, next: {name: 'Você veio do 2'} },
+  { id: "3", name: "Origem do Universo", image: images.LOGO, done: 0.324, next: {name: 'Você veio do 3'} },
+  { id: "4", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 4'}},
+  { id: "5", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 5'}},
+  { id: "6", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 6'}},
+  { id: "7", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 7'}},
+  { id: "8", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 8'}},
+  { id: "9", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 9'}},
+  { id: "10", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: {name: 'Você veio do 10'}}
 ];
 
 export default class MenusScreen extends React.Component {
@@ -45,7 +45,7 @@ export default class MenusScreen extends React.Component {
             data={listaTop}
             keyExtractor={item => item.id}
             renderItem={({ item }) => (
-              <ListItem onPress={() => this.props.navigation.navigate('AppIntro')}>
+              <ListItem onPress={() => this.props.navigation.navigate('AppIntro', item.next)}>
                 <ThemeIcon source={item.image} />
                 <ThemeTitle>{item.name}</ThemeTitle>
                 <Percentage>{Math.floor(item.done*100) +'%'}</Percentage>

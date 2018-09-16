@@ -8,11 +8,11 @@ import COLORS from '@config/colors';
 export default (Button = props => {
   return (
     <StyledTouchableOpacity onPress={props.onPress} {...props}>
-      {props.isLoading ? (
-        <ActivityIndicator size="small" color={COLORS.primary} />
-      ) : (
-        <StyledText {...props}>{props.children}</StyledText>
-      )}
+      {
+        (props.isLoading)?
+        (<ActivityIndicator size="small" color={COLORS.primary} />):
+        (<StyledText {...props}>{props.children}</StyledText>)
+      }
     </StyledTouchableOpacity>
   );
 });
