@@ -38,6 +38,8 @@ const FONT_FAMILY = {
 };
 
 const TYPOGRAPHY = {
+  FONT_SIZE: FONT_SIZE,
+
   largeText: css`
     font-size: ${FONT_SIZE.large};
     /* ${FONT_FAMILY.NunitoRegular}; */
