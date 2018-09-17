@@ -2,13 +2,14 @@ const COLORS = {
   /* Primary Colors */
   black: '#000000',
   white: '#FFFFFF',
-  primary: '#4EA4CC',
+  primary: '#00A4DD',
   lighterPrimary : '#00D8FF',
   darkerPrimary: '#146B93',
 
   /* Background Colors */
   background: '#FFFFFF',
-  blueBackground: '#4EA4CC',
+  lightBlueBackground: '#00D8FF',
+  blueBackground: '#00A4DD',
   grayBackground: '#4C4C4C',
 
   /* Text Colors */

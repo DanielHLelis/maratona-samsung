@@ -42,7 +42,7 @@ class Header extends Component {
               </UserView>
             ):(
               <UserView>
-                <Logo source={images.LOGO}/>
+                {/* <Logo source={images.LOGO}/> */}
                 <LogoText marginLeft={5}/>
               </UserView>
             )

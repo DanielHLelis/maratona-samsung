@@ -12,7 +12,7 @@ export default class AppIntroScreen extends React.Component {
   render() {
     return (
       <Background>
-        <Logo source={IMAGES.LOGO} blurRadius={4} />
+        <Logo source={IMAGES.Cato} blurRadius={4} />
         <StyledText>
           Alpha{'\n'}Estudos
         </StyledText>
