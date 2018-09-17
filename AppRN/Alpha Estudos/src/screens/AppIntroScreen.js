@@ -1,12 +1,12 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
-import styled from 'styled-components';
+import React from 'react'
+import { StyleSheet, Text, View, Image, Dimensions } from 'react-native'
+import styled from 'styled-components'
 
-import COLORS from '@config/colors';
-import constants from '@config/constants';
-import IMAGES from '@config/images';
+import COLORS from '@config/colors'
+import constants from '@config/constants'
+import IMAGES from '@config/images'
 
-import Button from '@components/core/Button';
+import Button from '@components/core/Button'
 
 export default class AppIntroScreen extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class AppIntroScreen extends React.Component {
         </StyledText>
 
         <View style={{ width: '80%' }}>
-          <Button marginTop={30} onPress={() => this.props.navigation.navigate('Main')}>
+          <Button marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen')}>
             {/* Entrar */} {this.props.navigation.getParam('name', 'Entrar')}
           </Button>
         </View>

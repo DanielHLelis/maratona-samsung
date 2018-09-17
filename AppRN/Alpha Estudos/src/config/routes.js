@@ -4,13 +4,15 @@ import { createBottomTabNavigator, createStackNavigator } from 'react-navigation
 /* Screen imports */
 import AppIntroScreen from '@screens/AppIntroScreen';
 import MenusScreen from '@screens/MenusScreen';
+import SelectionScreen from '@screens/SelectionScreen';
 
 /* Config imports */
 import COLORS from '@config/colors';
 
 const StackIntroRoute = {
     AppIntro: { screen: AppIntroScreen },
-    Main: { screen: MenusScreen }
+    MenusScreen: { screen: MenusScreen },
+    SelectionScreen: { screen: SelectionScreen }
 };
 
 export default StackIntroRoute;

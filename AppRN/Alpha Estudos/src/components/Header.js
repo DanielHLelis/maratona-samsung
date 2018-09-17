@@ -1,15 +1,16 @@
-import React, { Component } from "react";
-import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
-import PropTypes from 'prop-types';
-import styled from "styled-components";
+import React, { Component } from "react"
+import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native"
+import PropTypes from 'prop-types'
+import styled from "styled-components"
 
-import ImageButton from "@components/core/ImageButton";
+import ImageButton from "@components/core/ImageButton"
+import LogoText from "@components/core/AppLogoText"
 
-import constants from "@config/constants";
-import images from "@config/images";
+import constants from "@config/constants"
+import images from "@config/images"
 
-import COLORS from "@config/colors";
-import TYPOGRAPHY from "@config/typography";
+import COLORS from "@config/colors"
+import TYPOGRAPHY from "@config/typography"
 
 class Header extends Component {
   render() {
@@ -22,20 +23,30 @@ class Header extends Component {
           onPress={this.props.leftPress}
         />
 
-        <UserView>
-          <ImageButton
-            borderRadius={50}
-            imageHeight={54}
-            imageWidth={54}
-            marginRight={4}
-            source={images.LOGO}
-          />
-          <UserInfo>
-            <NickName>Beta</NickName>
-
-            <Level>Nível: {23}</Level>
-          </UserInfo>
-        </UserView>
+        
+          {
+            (this.props.logged)?
+            (
+              <UserView>
+                <ImageButton
+                  borderRadius={50}
+                  imageHeight={54}
+                  imageWidth={54}
+                  marginRight={4}
+                  source={this.props.avatar}
+                />
+                <UserInfo>
+                  <NickName>{this.props.nick}</NickName>
+                  <Level>Nível: {this.props.level}</Level>
+                </UserInfo>
+              </UserView>
+            ):(
+              <UserView>
+                <Logo source={images.LOGO}/>
+                <LogoText marginLeft={5}/>
+              </UserView>
+            )
+          }
 
         <ImageButton
           imageHeight={40}
@@ -63,6 +74,12 @@ Header.propTypes = {
   rightPress: PropTypes.func,
   leftPress: PropTypes.func
 };
+
+let Logo = styled.Image`
+  height: 54;
+  width: 54;
+  border-radius: 27;
+`;
 
 let ViewStyled = styled.View`
   background-color: ${COLORS.blueBackground};

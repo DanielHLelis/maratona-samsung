@@ -1,4 +1,4 @@
 const STRINGS = {
-  basf: 'basf',
+  basf: '',
   errors: {}
 };

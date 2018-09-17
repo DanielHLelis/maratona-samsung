@@ -42,7 +42,7 @@ const TYPOGRAPHY = {
 
   largeText: css`
     font-size: ${FONT_SIZE.large};
-    /* ${FONT_FAMILY.NunitoRegular}; */
+    ${FONT_FAMILY.NunitoRegular};
   `,
   largeTextSemibold: css`
     font-size: ${FONT_SIZE.large};
@@ -54,6 +54,7 @@ const TYPOGRAPHY = {
   `,
   regularText: css`
     font-size: ${FONT_SIZE.regular};
+    ${FONT_FAMILY.NunitoRegular};
   `,
   regularTextSemibold: css`
     font-size: ${FONT_SIZE.regular};
@@ -65,6 +66,7 @@ const TYPOGRAPHY = {
   `,
   mediumText: css`
     font-size: ${FONT_SIZE.medium};
+    ${FONT_FAMILY.NunitoRegular};
   `,
   mediumTextSemibold: css`
     font-size: ${FONT_SIZE.medium};
@@ -76,6 +78,7 @@ const TYPOGRAPHY = {
   `,
   smallText: css`
     font-size: ${FONT_SIZE.small};
+    ${FONT_FAMILY.NunitoRegular};
   `,
   smallTextSemibold: css`
     font-size: ${FONT_SIZE.small};
