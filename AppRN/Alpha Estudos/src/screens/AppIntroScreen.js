@@ -8,10 +8,16 @@ import IMAGES from '@config/images'
 
 import Button from '@components/core/Button'
 
+//Start
+
+import QuitAlert from '@components/core/QuitAlert'
+
 export default class AppIntroScreen extends React.Component {
   render() {
     return (
       <Background>
+        <QuitAlert active/>
+
         <Logo source={IMAGES.Cato} blurRadius={4} />
         <StyledText>
           Alpha{'\n'}Estudos
