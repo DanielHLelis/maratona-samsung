@@ -21,17 +21,17 @@ let listaTop = [
     id: "1",
     name: "Cadeias Alimentares",
     image: images.LOGO,
-    done: 0.5, next: { list: [{name: 'Você veio do 1', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '1', done: true}]}
+    done: 0.5, next: { list: [{name: 'Você veio do 1', difficulty: 'Médio', ico: images.LOGO, id: '1', done: true}]}
   },
-  { id: "2", name: "Tectonismo", image: images.LOGO, done: 0.5, next: { list: [{name: 'Você veio do 2', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '2', done: true}]} },
-  { id: "3", name: "Origem do Universo", image: images.LOGO, done: 0.324, next: { list: [{name: 'Você veio do 3', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '3', done: true}]} },
-  { id: "4", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 4', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '4', done: true}]}},
-  { id: "5", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 5', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '5', done: true}]}},
-  { id: "6", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 6', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '6', done: true}]}},
-  { id: "7", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 7', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '7', done: true}]}},
-  { id: "8", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 8', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '8', done: true}]}},
-  { id: "9", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 9', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '9', done: true}]}},
-  { id: "10", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 10', difficulty: 'Quem tá Lendo é Viado', ico: images.LOGO, id: '10', done: true}]}}
+  { id: "2", name: "Tectonismo", image: images.LOGO, done: 0.5, next: { list: [{name: 'Você veio do 2', difficulty: 'Médio', ico: images.LOGO, id: '2', done: true}]} },
+  { id: "3", name: "Origem do Universo", image: images.LOGO, done: 0.324, next: { list: [{name: 'Você veio do 3', difficulty: 'Médio', ico: images.LOGO, id: '3', done: true}]} },
+  { id: "4", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 4', difficulty: 'Médio', ico: images.LOGO, id: '4', done: true}]}},
+  { id: "5", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 5', difficulty: 'Médio', ico: images.LOGO, id: '5', done: true}]}},
+  { id: "6", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 6', difficulty: 'Médio', ico: images.LOGO, id: '6', done: true}]}},
+  { id: "7", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 7', difficulty: 'Médio', ico: images.LOGO, id: '7', done: true}]}},
+  { id: "8", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 8', difficulty: 'Médio', ico: images.LOGO, id: '8', done: true}]}},
+  { id: "9", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 9', difficulty: 'Médio', ico: images.LOGO, id: '9', done: true}]}},
+  { id: "10", name: "Lorem Ipsum", image: images.LOGO, done: 1, next: { list: [{name: 'Você veio do 10', difficulty: 'Médio', ico: images.LOGO, id: '10', done: true}]}}
 ];
       
 

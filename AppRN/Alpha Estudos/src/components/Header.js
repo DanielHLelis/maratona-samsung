@@ -52,7 +52,7 @@ class Header extends Component {
           imageHeight={40}
           imageWidth={40}
           source={this.props.rightImage}
-          opPress={this.props.rightPress}
+          onPress={this.props.rightPress}
         />
       </ViewStyled>
     );

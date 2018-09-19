@@ -54,7 +54,7 @@ class SelectionScreen extends Component{
                         data={this.state.list}
                         keyExtractor={item => item.id}
                         renderItem={({item}) => 
-                            <ListItem>
+                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen')}>
                                 <ThemeIcon source={item.ico}/>
                                 <InfoContainer>
                                     <ThemeTitle2>{item.name}</ThemeTitle2>
