@@ -1,0 +1,155 @@
+import React, { Component } from 'react'
+import {
+    View,
+    TouchableOpacity,
+    Text
+} from 'react-native'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+
+ import COLORS from '@config/colors'
+import TYPOGRAPHY from '@config/typography';
+
+ class CheckBox extends Component{
+    constructor(){
+        super();
+
+        this.state = {
+            checked: false
+        }
+    }
+
+    componentDidMount(){
+        this.setState({checked: this.props.checked});
+        console.log(this.props.setState);
+    }
+
+    render(){
+        return(
+            // <Container {...this.props}>
+            <XVidros {...this.props}>
+                <Box {...this.props} style={{backgroundColor: (this.state.checked)?(this.props.color):('transparent')}} onPress={() => {this.setState({checked: !this.state.checked}); this.props.callBack(this.state.checked);}} />
+                <Label {...this.props} onPress={() => {this.setState({checked: !this.state.checked}); this.props.callBack(this.state.checked);}} >{this.props.label}</Label>
+            </XVidros>
+            // </Container>
+        )
+    }
+
+ }
+
+let XVidros = styled.TouchableOpacity`
+    margin-top: ${props => props.marginTop};
+    margin-bottom: ${props => props.marginBottom};
+    margin-left: ${props => props.marginLeft};
+    margin-right: ${props => props.marginRight};
+    padding-top: ${props => props.paddingTop};
+    padding-bottom: ${props => props.paddingBottom};
+    padding-left: ${props => props.paddingLeft};
+    padding-right: ${props => props.paddingRight};
+    display: flex;
+    top: ${props => props.top};
+    bottom: ${props => props.bottom};
+    left: ${props => props.left};
+    right: ${props => props.right};
+    flex-direction: ${props => props.flexDirection};
+    align-items: ${props => props.alignItems}; 
+    justify-content: ${props => props.justifyContent}; 
+    align-content: ${props => props.alignContent}; 
+    flex: ${props => props.flex};
+`;
+
+let Box = styled.TouchableOpacity`
+    height: ${props => props.size};
+    width: ${props => props.size};
+    border-radius: ${props => (props.checkType === 'circle')?(props.size * 0.5):(props.size * 0.1)};
+    /* background-color: ${props => (props.checked)?(props.color):('transparent')}; */
+    border-width: ${props => props.borderWidth};
+    border-color: ${props => props.color};
+    /* box-sizing: border-box; */
+`;
+
+let Label = styled.Text`
+    font-family: ${props => props.labelFontFamily};
+    font-weight: ${props => props.labelFontWeight};
+    font-size: ${props => props.labelFontSize};
+    text-align: ${props => props.labelAlign};
+    text-align-vertical: ${props => props.labelAlignVertical};
+    color: ${props => props.labelColor};
+    margin-top: ${props => props.labelMarginTop};
+    margin-right: ${props => props.labelMarginRight};
+    margin-bottom: ${props => props.labelMarginBottom};
+    margin-left: ${props => props.labelMarginLeft};
+`;
+
+CheckBox.defaultProps = {
+    checked: false,
+    size: 20,
+    checkType: 'circle',
+    color: COLORS.blueBackground,
+    borderWidth: 2,
+    marginTop: 0,
+    marginRight: 0,
+    marginBottom: 0,
+    marginLeft: 10,
+    paddingTop: 0,
+    paddingRight: 0,
+    paddingBottom: 0,
+    paddingLeft: 0,
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    labelMarginTop: 0,
+    labelMarginRight: 0,
+    labelMarginBottom: 0,
+    labelMarginLeft: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    alignContent: 'center',
+    flex: '1',
+    labelFontFamily: 'Nunito-Regular',
+    labelFontWeight: '200',
+    labelFontSize: 24,
+    labelColor: COLORS.defaultText,
+    labelAlign: 'justify',
+    labelAlignVertical: 'center',
+    callBack: ()=>alert('Puts, não era para isso ter acontecido, culpa do dev! Urgh'),
+}
+
+CheckBox.propTypes = {
+    checked: PropTypes.bool,
+    size: PropTypes.number,
+    type: PropTypes.string,
+    color: PropTypes.string,
+    borderWidth: PropTypes.number,
+    marginTop: PropTypes.number,
+    marginRight: PropTypes.number,
+    marginBottom: PropTypes.number,
+    marginLeft: PropTypes.number,
+    paddingTop: PropTypes.number,
+    paddingRight: PropTypes.number,
+    paddingBottom: PropTypes.number,
+    paddingLeft: PropTypes.number,
+    top: PropTypes.number,
+    bottom: PropTypes.number,
+    left: PropTypes.number,
+    right: PropTypes.number,
+    labelMarginTop: PropTypes.number,
+    labelMarginRight: PropTypes.number,
+    labelMarginBottom: PropTypes.number,
+    labelMarginLeft: PropTypes.number,
+    callBack: PropTypes.func.isRequired,
+    flexDirection: PropTypes.string,
+    alignItems: PropTypes.string,
+    justifyContent: PropTypes.string,
+    flex: PropTypes.string,
+    labelFontFamily: PropTypes.string,
+    labelFontWeight: PropTypes.string,
+    labelFontSize: PropTypes.number,
+    labelColor: PropTypes.string,
+    labelAlign: PropTypes.string,
+    labelAlignVertical: PropTypes.string
+}
+
+export default CheckBox;

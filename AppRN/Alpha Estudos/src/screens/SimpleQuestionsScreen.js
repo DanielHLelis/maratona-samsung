@@ -15,7 +15,6 @@ import {
 import images from '@config/images'
 import TYPOGRAPHY from '@config/typography'
 
-
 import Header from '@components/Header'
 
 class SimpleQuestionsScreen extends Component{
@@ -49,6 +48,7 @@ class SimpleQuestionsScreen extends Component{
                 />
 
                 <TestText>TestText</TestText>
+                
             </Background>
         );
     }
@@ -61,6 +61,9 @@ let TestText = styled.Text`
     text-align-vertical: center;
     text-align: center;
     flex-grow: 1;
+`;
+let Test = styled.View`
+    align-content: center;
 `;
 
 
