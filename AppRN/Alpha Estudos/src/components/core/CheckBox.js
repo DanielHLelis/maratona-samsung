@@ -7,37 +7,22 @@ import {
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
- import COLORS from '@config/colors'
+import COLORS from '@config/colors'
 import TYPOGRAPHY from '@config/typography';
 
  class CheckBox extends Component{
-    constructor(){
-        super();
-
-        this.state = {
-            checked: false
-        }
-    }
-
-    componentDidMount(){
-        this.setState({checked: this.props.checked});
-        console.log(this.props.setState);
-    }
-
     render(){
         return(
-            // <Container {...this.props}>
-            <XVidros {...this.props}>
-                <Box {...this.props} style={{backgroundColor: (this.state.checked)?(this.props.color):('transparent')}} onPress={() => {this.setState({checked: !this.state.checked}); this.props.callBack(this.state.checked);}} />
-                <Label {...this.props} onPress={() => {this.setState({checked: !this.state.checked}); this.props.callBack(this.state.checked);}} >{this.props.label}</Label>
-            </XVidros>
-            // </Container>
+            <Container activeOpacity={1} {...this.props}>
+                <Box {...this.props} onPress={() => {this.props.callBack(!this.props.checked);}} />
+                <Label {...this.props} onPress={() => {this.props.callBack(!this.props.checked);}} >{this.props.label}</Label>
+            </Container>
         )
-    }
+    }   
 
  }
 
-let XVidros = styled.TouchableOpacity`
+let Container = styled.TouchableOpacity`
     margin-top: ${props => props.marginTop};
     margin-bottom: ${props => props.marginBottom};
     margin-left: ${props => props.marginLeft};
@@ -54,15 +39,21 @@ let XVidros = styled.TouchableOpacity`
     flex-direction: ${props => props.flexDirection};
     align-items: ${props => props.alignItems}; 
     justify-content: ${props => props.justifyContent}; 
-    align-content: ${props => props.alignContent}; 
-    flex: ${props => props.flex};
+    /* flex: ${props => props.flex}; */
+    border-width: ${props => props.boxBorderWidth};
+    border-color: ${props => props.boxBorderColor};
+    border-style: ${props => props.boxBorderSyle};
+    border-top-width: ${props => props.boxBorderTopWidth};
+    border-right-width: ${props => props.boxBorderRightWidth};
+    border-bottom-width: ${props => props.boxBorderBottomWidth};
+    border-left-width: ${props => props.boxBorderLeftWidth};    
 `;
 
 let Box = styled.TouchableOpacity`
     height: ${props => props.size};
     width: ${props => props.size};
     border-radius: ${props => (props.checkType === 'circle')?(props.size * 0.5):(props.size * 0.1)};
-    /* background-color: ${props => (props.checked)?(props.color):('transparent')}; */
+    background-color: ${props => (props.checked)?(props.color):('transparent')};
     border-width: ${props => props.borderWidth};
     border-color: ${props => props.color};
     /* box-sizing: border-box; */
@@ -107,7 +98,6 @@ CheckBox.defaultProps = {
     alignItems: 'center',
     justifyContent: 'flex-start',
     alignContent: 'center',
-    flex: '1',
     labelFontFamily: 'Nunito-Regular',
     labelFontWeight: '200',
     labelFontSize: 24,
@@ -115,6 +105,15 @@ CheckBox.defaultProps = {
     labelAlign: 'justify',
     labelAlignVertical: 'center',
     callBack: ()=>alert('Puts, não era para isso ter acontecido, culpa do dev! Urgh'),
+    boxHeight: 'auto',
+    boxWidth: 'auto',
+    boxBorderWidth: 0,
+    boxBorderColor: COLORS.defaultText,
+    boxBorderSyle: 'solid',
+    boxBorderTopWidth: 0,
+    boxBorderRightWidth: 0,
+    boxBorderBottomWidth: 0,
+    boxBorderLeftWidth: 0
 }
 
 CheckBox.propTypes = {
@@ -139,7 +138,7 @@ CheckBox.propTypes = {
     labelMarginRight: PropTypes.number,
     labelMarginBottom: PropTypes.number,
     labelMarginLeft: PropTypes.number,
-    callBack: PropTypes.func.isRequired,
+    callBack: PropTypes.func,
     flexDirection: PropTypes.string,
     alignItems: PropTypes.string,
     justifyContent: PropTypes.string,

@@ -15,6 +15,8 @@ import {
 import images from '@config/images'
 import TYPOGRAPHY from '@config/typography'
 
+import Question from '@components/Question'
+
 import Header from '@components/Header'
 
 class SimpleQuestionsScreen extends Component{
@@ -47,7 +49,7 @@ class SimpleQuestionsScreen extends Component{
                     rightPress={() => console.log('Cato')}
                 />
 
-                <TestText>TestText</TestText>
+                <Question/>
                 
             </Background>
         );
