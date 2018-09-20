@@ -18,6 +18,7 @@ import TYPOGRAPHY from '@config/typography'
 import Question from '@components/Question'
 
 import Header from '@components/Header'
+import CONSTANTS from '@config/constants';
 
 class SimpleQuestionsScreen extends Component{
     constructor(){
@@ -49,7 +50,7 @@ class SimpleQuestionsScreen extends Component{
                     rightPress={() => console.log('Cato')}
                 />
 
-                <Question/>
+                <Question answers={CONSTANTS.answers}/>
                 
             </Background>
         );

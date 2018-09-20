@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import {
     View,
     Text,
-    ScrollView
+    ScrollView,
+    FlatList
  } from 'react-native'
 
  import styled from 'styled-components'
@@ -12,20 +13,35 @@ import {
 
 import CheckBox from '@components/core/CheckBox'  
 
- class QuestionBox extends Component{
+class QuestionBox extends Component{
     constructor(props){
         super(props);
         
         this.state= {
             options:{},
-            answers: props.answers
+            answers: props.answers,
+            opcoes: [
+                {
+                    campo: "Opcao 1",
+                    selecionado: false
+                },
+                {
+                    campo: "Opcao 2",
+                    selecionado: false
+                },
+                {
+                    campo: "Opcao 3",
+                    selecionado: false
+                }
+            ]
         }
     }
 
     createOptions = (options) => {
         let obj ={};
         for(let a in options){
-            obj.push({[a]: false});
+            obj[a] = false;
+
         }
         return obj;
     }
@@ -34,17 +50,46 @@ import CheckBox from '@components/core/CheckBox'
         this.setState({options: this.createOptions(this.props.answers)});
     }
 
+    _keyExtractor = (item, index)=>index;
+
+    SelectOptions = (obj)=>{
+        let ret = [];
+        for(let i in obj){
+                ret.push(
+                    <CheckBox checked={this.state.options[i]} callBack={(res) => {
+                        for(let ob in obj)
+                        this.setState({[i]: res});
+                    }} />
+                );
+        }
+    }
+
     render(){
         return(
-            // <ScrollView>
                 <StyledView style={{flex: 1}}>
 
                     {/*Flat-list por item busca answer por item, (var in a)*/}
-                    <CheckBox  checked={this.state.checked} callBack={(a) => this.setState({checked: a})} />
-                    <CheckBox  checked={this.state.checked} callBack={(a) => this.setState({checked: a})} />    
-                </StyledView>
-            // </ScrollView>
-                
+                    
+                    <Text>{JSON.stringify(this.state.options)}</Text>
+                    {this.state.opcoes.map((item, index) => {
+                        return <CheckBox key={index} checked={item.selecionado} callBack={(value) => {
+                            let newOpcoes = this.state.opcoes;
+                            newOpcoes = newOpcoes.map(option => {
+                                option.selecionado = false;
+
+                                if(option.campo === item.campo) {
+                                    option.selecionado = true;
+                                }
+
+                                return option;
+                            })
+
+                            this.setState({
+                                opcoes: newOpcoes
+                            })
+                        }} />
+                    })}    
+                </StyledView>      
         );
     }
 }
@@ -52,5 +97,7 @@ import CheckBox from '@components/core/CheckBox'
  let StyledView = styled.View`
     flex: 1;
  `;
+
+
 
  export default QuestionBox;
