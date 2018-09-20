@@ -6,10 +6,10 @@ const db = require('./database');
 
 module.exports = function(app){
     app.get('/materias', function(req, res){
-
-        
-        res.send();
-})
-};
-
-
+        console.log(req);
+        require('../databaseOps/subjects')((results)=>{res.send(results); res.end(); }, req.query.filter);
+    });
+    app.get('/qstmat', function(req, res){
+        require('../databaseOps/questoes')((results)=>{res.send(results); res.end();}, req.query.filter);
+    });
+}
