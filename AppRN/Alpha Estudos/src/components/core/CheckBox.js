@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import {
     View,
     TouchableOpacity,
-    Text
+    Text,
+    Dimensions
 } from 'react-native'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
@@ -42,11 +43,13 @@ let Container = styled.TouchableOpacity`
     /* flex: ${props => props.flex}; */
     border-width: ${props => props.boxBorderWidth};
     border-color: ${props => props.boxBorderColor};
-    border-style: ${props => props.boxBorderSyle};
+    border-style: ${props => props.boxBorderStyle};
+    border-radius: ${props => props.boxBorderRadius};
     border-top-width: ${props => props.boxBorderTopWidth};
     border-right-width: ${props => props.boxBorderRightWidth};
     border-bottom-width: ${props => props.boxBorderBottomWidth};
     border-left-width: ${props => props.boxBorderLeftWidth};    
+    width: ${Dimensions.get('screen').width};
 `;
 
 let Box = styled.TouchableOpacity`
@@ -70,6 +73,7 @@ let Label = styled.Text`
     margin-right: ${props => props.labelMarginRight};
     margin-bottom: ${props => props.labelMarginBottom};
     margin-left: ${props => props.labelMarginLeft};
+    line-height: ${props => props.lineHeight};
 `;
 
 CheckBox.defaultProps = {
@@ -81,11 +85,11 @@ CheckBox.defaultProps = {
     marginTop: 0,
     marginRight: 0,
     marginBottom: 0,
-    marginLeft: 10,
+    marginLeft: 0,
     paddingTop: 0,
-    paddingRight: 0,
+    paddingRight: 40,
     paddingBottom: 0,
-    paddingLeft: 0,
+    paddingLeft: 10,
     top: 0,
     bottom: 0,
     left: 0,
@@ -100,7 +104,7 @@ CheckBox.defaultProps = {
     alignContent: 'center',
     labelFontFamily: 'Nunito-Regular',
     labelFontWeight: '200',
-    labelFontSize: 24,
+    labelFontSize: 18,
     labelColor: COLORS.defaultText,
     labelAlign: 'justify',
     labelAlignVertical: 'center',
@@ -109,11 +113,13 @@ CheckBox.defaultProps = {
     boxWidth: 'auto',
     boxBorderWidth: 0,
     boxBorderColor: COLORS.defaultText,
-    boxBorderSyle: 'solid',
+    boxBorderStyle: 'solid',
+    boxBorderRadius: 10,
     boxBorderTopWidth: 0,
     boxBorderRightWidth: 0,
     boxBorderBottomWidth: 0,
-    boxBorderLeftWidth: 0
+    boxBorderLeftWidth: 0,
+    lineHeight: 24
 }
 
 CheckBox.propTypes = {

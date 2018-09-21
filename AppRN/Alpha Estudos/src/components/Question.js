@@ -13,35 +13,25 @@ import {
 
 import CheckBox from '@components/core/CheckBox'  
 
+/* PubSub útil para transferir informaçoes das questões e qual a questão atual */
+
 class QuestionBox extends Component{
     constructor(props){
         super(props);
         
         this.state= {
-            options:{},
-            answers: props.answers,
-            opcoes: [
-                {
-                    campo: "Opcao 1",
-                    selecionado: false
-                },
-                {
-                    campo: "Opcao 2",
-                    selecionado: false
-                },
-                {
-                    campo: "Opcao 3",
-                    selecionado: false
-                }
-            ]
+            options: []
         }
     }
 
     createOptions = (options) => {
-        let obj ={};
+        let obj = [];
         for(let a in options){
-            obj[a] = false;
-
+            obj.push({
+               field: a,
+               selected: false,
+               data: options[a] 
+            });
         }
         return obj;
     }
@@ -52,40 +42,27 @@ class QuestionBox extends Component{
 
     _keyExtractor = (item, index)=>index;
 
-    SelectOptions = (obj)=>{
-        let ret = [];
-        for(let i in obj){
-                ret.push(
-                    <CheckBox checked={this.state.options[i]} callBack={(res) => {
-                        for(let ob in obj)
-                        this.setState({[i]: res});
-                    }} />
-                );
-        }
-    }
-
     render(){
         return(
                 <StyledView style={{flex: 1}}>
+                    <Text>
+                        
+                    </Text>
 
-                    {/*Flat-list por item busca answer por item, (var in a)*/}
-                    
-                    <Text>{JSON.stringify(this.state.options)}</Text>
-                    {this.state.opcoes.map((item, index) => {
-                        return <CheckBox key={index} checked={item.selecionado} callBack={(value) => {
-                            let newOpcoes = this.state.opcoes;
-                            newOpcoes = newOpcoes.map(option => {
-                                option.selecionado = false;
+                    {this.state.options.map((item, index) => {
+                        return <CheckBox {...(index)?({boxBorderTopWidth: 1}):(null)} {...QuestionStyle} key={index} label={item.data} checked={item.selected} callBack={(val) => {
+                            let newOptions = this.state.options.map(option => {
+                                option.selected = false;
 
-                                if(option.campo === item.campo) {
-                                    option.selecionado = true;
+                                if(option.field === item.field) {
+                                    option.selected = true;
                                 }
 
                                 return option;
                             })
 
                             this.setState({
-                                opcoes: newOpcoes
+                                options: newOptions
                             })
                         }} />
                     })}    
@@ -94,10 +71,14 @@ class QuestionBox extends Component{
     }
 }
 
- let StyledView = styled.View`
+ let StyledView = styled.ScrollView`
     flex: 1;
  `;
 
-
+ let QuestionStyle = {
+    paddingTop: 10,
+    paddingBottom: 10,
+    boxBorderStyle: 'dotted'
+ };
 
  export default QuestionBox;
