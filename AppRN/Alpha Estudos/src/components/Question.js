@@ -15,7 +15,7 @@ import colors from '@config/colors';
 
 import CheckBox from '@components/core/CheckBox'  
 
-import ImageSlider from '@components/core/ImageSlider'
+import ImageSlider from '@components/ImageSlider'
 
 //Test
 import images from '@config/images'
@@ -44,14 +44,14 @@ class QuestionBox extends Component{
     }
 
     componentWillMount(){
-        this.setState({options: this.createOptions(this.props.answers)});
+        this.setState({options: this.createOptions(this.props.answers.options)});
     }
 
     _keyExtractor = (item, index)=>index;
 
     render(){
         return(
-                <StyledView style={{flex: 1}}>
+                <StyledView>
                     <Enunciado>
                         {'    '}<B>{'('+this.props.title+')'}  </B>{this.props.enunciado}
                     </Enunciado>
@@ -59,12 +59,15 @@ class QuestionBox extends Component{
                     <ImageSlider imageList={images.LIST}/>
 
                     {this.state.options.map((item, index) => {
-                        return <CheckBox {...(index)?({boxBorderTopWidth: 1}):(null)} {...QuestionStyle} key={index} label={item.data} checked={item.selected} callBack={(val) => {
+                        return(
+                        <CheckBox {...(index)?({boxBorderTopWidth: 1}):(null)} {...QuestionStyle} key={index} label={item.data} checked={item.selected} callBack={(val) => {
                             let newOptions = this.state.options.map(option => {
                                 option.selected = false;
 
                                 if(option.field === item.field) {
                                     option.selected = true;
+                                    if(item.field === this.props.answers.correct)this.props.isCorrect(true);
+                                    else this.props.isCorrect(false);
                                 }
 
                                 return option;
@@ -73,11 +76,15 @@ class QuestionBox extends Component{
                             this.setState({
                                 options: newOptions
                             })
-                        }} />
+                        }} />)
                     })}    
                 </StyledView>      
         );
     }
+};
+
+QuestionBox.propTypes = {
+    isCorrect: PropTypes.func.isRequired
 };
 
 let Enunciado = styled.Text`

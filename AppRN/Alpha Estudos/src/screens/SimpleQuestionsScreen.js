@@ -25,7 +25,7 @@ class SimpleQuestionsScreen extends Component{
         super();
 
         this.state={
-            quit: false
+            quest1: false
         }
     }
 
@@ -50,8 +50,11 @@ class SimpleQuestionsScreen extends Component{
                     rightPress={() => console.log('Cato')}
                 />
 
-                <Question title='Questão 1' enunciado={CONSTANTS.answers.a} answers={CONSTANTS.answers}/>
+                <Question title='Questão 1' enunciado={CONSTANTS.answers.options.a} answers={CONSTANTS.answers} isCorrect={(val) => this.setState({quest1: val})}/>
+                {/*Fix examples, may be automatizated*/}
                 
+                {(this.state.quest1)?(alert('Você Acertou')):(null)}
+
             </Background>
         );
     }

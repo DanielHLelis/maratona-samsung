@@ -5,7 +5,7 @@ const IMAGES = {
     SETA: require('@assets/images/Seta.png'),
     OPTIONS: require('@assets/images/Options.png'),
     LIST:[
-        {image: {uri: 'https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg'}},
+        {image: require('@assets/images/Icon.png')},
         {image: {uri: 'https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg'}},
         {image: {uri: 'https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg'}},
         {image: {uri: 'https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg'}},
