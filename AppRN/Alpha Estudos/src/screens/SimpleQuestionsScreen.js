@@ -50,7 +50,7 @@ class SimpleQuestionsScreen extends Component{
                     rightPress={() => console.log('Cato')}
                 />
 
-                <Question answers={CONSTANTS.answers}/>
+                <Question title='Questão 1' enunciado={CONSTANTS.answers.a} answers={CONSTANTS.answers}/>
                 
             </Background>
         );

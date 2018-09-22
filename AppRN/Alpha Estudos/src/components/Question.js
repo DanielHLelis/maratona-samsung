@@ -6,13 +6,20 @@ import {
     FlatList
  } from 'react-native'
 
- import styled from 'styled-components'
+import styled from 'styled-components'
 
- import TYPOGRAPHY from '@config/typography';
- import colors from '@config/colors';
+import PropTypes from 'prop-types'
+
+import TYPOGRAPHY from '@config/typography';
+import colors from '@config/colors';
 
 import CheckBox from '@components/core/CheckBox'  
 
+import ImageSlider from '@components/core/ImageSlider'
+
+//Test
+import images from '@config/images'
+//Test
 /* PubSub útil para transferir informaçoes das questões e qual a questão atual */
 
 class QuestionBox extends Component{
@@ -45,9 +52,11 @@ class QuestionBox extends Component{
     render(){
         return(
                 <StyledView style={{flex: 1}}>
-                    <Text>
-                        
-                    </Text>
+                    <Enunciado>
+                        {'    '}<B>{'('+this.props.title+')'}  </B>{this.props.enunciado}
+                    </Enunciado>
+
+                    <ImageSlider imageList={images.LIST}/>
 
                     {this.state.options.map((item, index) => {
                         return <CheckBox {...(index)?({boxBorderTopWidth: 1}):(null)} {...QuestionStyle} key={index} label={item.data} checked={item.selected} callBack={(val) => {
@@ -69,9 +78,22 @@ class QuestionBox extends Component{
                 </StyledView>      
         );
     }
-}
+};
 
- let StyledView = styled.ScrollView`
+let Enunciado = styled.Text`
+    ${TYPOGRAPHY.mediumText};
+    padding-left: 10;
+    padding-bottom: 20;
+    color: #222;
+    text-align: justify;
+    line-height: 26;
+`;
+let B = styled.Text`
+    font-weight: bold;
+`;
+
+
+let StyledView = styled.ScrollView`
     flex: 1;
  `;
 
@@ -80,5 +102,9 @@ class QuestionBox extends Component{
     paddingBottom: 10,
     boxBorderStyle: 'dotted'
  };
+
+// QuestionBox.propTypes = {
+//     navigator: PropTypes.any.isRequired
+// }
 
  export default QuestionBox;
