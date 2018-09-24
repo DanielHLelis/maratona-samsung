@@ -102,6 +102,8 @@ let B = styled.Text`
 
 let StyledView = styled.ScrollView`
     flex: 1;
+    background-color: ${colors.background};
+    border-radius: 10;
  `;
 
  let QuestionStyle = {

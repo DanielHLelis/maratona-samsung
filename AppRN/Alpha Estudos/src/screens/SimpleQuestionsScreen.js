@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {
     Text,
     ScrollView,
+    Dimensions,
     Alert
 } from 'react-native';
 import {
@@ -51,15 +52,32 @@ class SimpleQuestionsScreen extends Component{
                     )}
                     leftImage={images.SETA}
                     rightImage={images.Cato}
-                    rightPress={() => console.log('Cato')}
+                    rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar?`, [
+                        {
+                            text: 'Enviar',
+                            onPress: () => null
+                        },
+                        {
+                            text: 'Cancelar',
+                            style: 'cancel'
+                    }],
+                    {cancelable: true}
+                    )}
                 />
 
                 
-                <Question title={info[0].title} enunciado={info[0].text} answers={info[0].options} imageList={info[0].images} correct={info[0].correct} isCorrect={(val) => this.setState({[info[0].title]: val})}/>
+                <Carousel 
+                    data={info}
+                    renderItem={({ item, index }) => 
+                        <Question title={item.title} enunciado={item.text} answers={item.options} imageList={item.images} correct={item.correct} isCorrect={(val) => this.setState({[item.title]: val})}/>  
+                    }
+                    sliderWidth={Dimensions.get('screen').width}
+                    itemWidth={Dimensions.get('screen').width}
+                    layout='tinder'
+                />
                 {/*Fix examples, may be automatizated*/}
                 
-
-                {(this.state[info[0].title])?(alert('Você Acertou')):(null)}
+                {info.map((item) => {(this.state[item.title])?(alert('Você Acertou')):(null)})}
 
             </Background>
         );
