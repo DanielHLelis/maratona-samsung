@@ -30,7 +30,6 @@ class SimpleQuestionsScreen extends Component{
     }
 
     render(){
-
         return(
             <Background>
                 <Header logged={this.props.logged}
