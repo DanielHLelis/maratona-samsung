@@ -25,37 +25,26 @@ import constants from '@config/constants';
 
 class SelectionScreen extends Component{
 
-    constructor(){
-        super();
-        
-        this.state = {
-            from: '',
-            list: []
-        }
-    }
-    componentWillMount(){
-        this.setState({from: this.props.navigation.getParam('theme', 'unknown')});
-        this.setState({list: this.props.navigation.getParam('list', '')});
-    }
-
     render(){
-
+        let data = this.props.navigation.getParam('data', 'Error');
+        let info = this.props.navigation.getParam('info', 'Error');
+        let origIndex = this.props.navigation.getParam('index', 0);
         return(
             
             <Background>
                 <Header  
-                    leftPress={() => this.props.navigation.navigate('MenusScreen')}
+                    leftPress={() => this.props.navigation.goBack()}
                     leftImage={images.SETA}
                     rightImage={images.OPTIONS}
                 />
                 <ScrollView>
                     <FlatList
                         style={{marginBottom: 15}}
-                        data={this.state.list}
-                        keyExtractor={item => item.id}
-                        renderItem={({item}) => 
-                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen')}>
-                                <ThemeIcon source={item.ico}/>
+                        data={info.matters}
+                        keyExtractor={(item, index) => index}
+                        renderItem={({ item, index }) => 
+                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen', {data: data, info: item.questions, index: index})}>
+                                <ThemeIcon source={item.image}/>
                                 <InfoContainer>
                                     <ThemeTitle2>{item.name}</ThemeTitle2>
                                     <ThemeSubTitle>{item.difficulty}</ThemeSubTitle>

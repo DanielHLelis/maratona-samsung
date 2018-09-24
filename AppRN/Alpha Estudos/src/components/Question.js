@@ -44,7 +44,7 @@ class QuestionBox extends Component{
     }
 
     componentWillMount(){
-        this.setState({options: this.createOptions(this.props.answers.options)});
+        this.setState({options: this.createOptions(this.props.answers)});
     }
 
     _keyExtractor = (item, index)=>index;
@@ -56,7 +56,7 @@ class QuestionBox extends Component{
                         {'    '}<B>{'('+this.props.title+')'}  </B>{this.props.enunciado}
                     </Enunciado>
 
-                    <ImageSlider imageList={images.LIST}/>
+                    <ImageSlider imageList={this.props.imageList}/>
 
                     {this.state.options.map((item, index) => {
                         return(
@@ -66,7 +66,7 @@ class QuestionBox extends Component{
 
                                 if(option.field === item.field) {
                                     option.selected = true;
-                                    if(item.field === this.props.answers.correct)this.props.isCorrect(true);
+                                    if(item.field === this.props.correct)this.props.isCorrect(true);
                                     else this.props.isCorrect(false);
                                 }
 

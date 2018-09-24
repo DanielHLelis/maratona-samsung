@@ -9,7 +9,7 @@ import OpenableImage from '@components/core/OpenableImage'
 const ImageSlider = (props) => (
     <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {props.imageList.map((item, index) =>
-            <OpenableImage key={index} source={item.image} subtitle={"Some Test Subtitle, [Cefet, Brasil, 2018, I don't know]"}/>
+            <OpenableImage key={index} source={item.image} subtitle={item.subtitle}/>
         )}
     </ScrollView>
 );

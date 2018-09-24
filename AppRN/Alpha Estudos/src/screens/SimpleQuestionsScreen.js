@@ -18,18 +18,23 @@ import TYPOGRAPHY from '@config/typography'
 import Question from '@components/Question'
 
 import Header from '@components/Header'
-import CONSTANTS from '@config/constants';
+import CONSTANTS from '@config/constants'
+
+import Carousel from 'react-native-snap-carousel'
 
 class SimpleQuestionsScreen extends Component{
     constructor(){
         super();
 
         this.state={
-            quest1: false
+            questions:{}
         }
     }
 
     render(){
+        let data = this.props.navigation.getParam('data', 'Error');
+        let info = this.props.navigation.getParam('info', 'Error');
+        let origIndex = this.props.navigation.getParam('index', 0);
         return(
             <Background>
                 <Header logged={this.props.logged}
@@ -49,24 +54,18 @@ class SimpleQuestionsScreen extends Component{
                     rightPress={() => console.log('Cato')}
                 />
 
-                <Question title='Questão 1' enunciado={CONSTANTS.answers.options.a} answers={CONSTANTS.answers} isCorrect={(val) => this.setState({quest1: val})}/>
+                
+                <Question title={info[0].title} enunciado={info[0].text} answers={info[0].options} imageList={info[0].images} correct={info[0].correct} isCorrect={(val) => this.setState({[info[0].title]: val})}/>
                 {/*Fix examples, may be automatizated*/}
                 
-                {(this.state.quest1)?(alert('Você Acertou')):(null)}
+
+                {(this.state[info[0].title])?(alert('Você Acertou')):(null)}
 
             </Background>
         );
     }
 }
 
-let TestText = styled.Text`
-    ${TYPOGRAPHY.largeText}
-    color: red;
-    align-self: center;
-    text-align-vertical: center;
-    text-align: center;
-    flex-grow: 1;
-`;
 let Test = styled.View`
     align-content: center;
 `;

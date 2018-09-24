@@ -8,6 +8,8 @@ import IMAGES from '@config/images'
 
 import Button from '@components/core/Button'
 
+let data = require('@tests/test.json');
+
 export default class AppIntroScreen extends React.Component {
   render() {
     return (
@@ -18,8 +20,8 @@ export default class AppIntroScreen extends React.Component {
         </StyledText>
 
         <View style={{ width: '80%' }}>
-          <Button marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen')}>
-            {/* Entrar */} {this.props.navigation.getParam('name', 'Entrar')}
+          <Button marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
+            Entrar
           </Button>
         </View>
       </Background>
