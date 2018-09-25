@@ -5,37 +5,61 @@ import {
     Dimensions,
     Alert
 } from 'react-native';
-import {
-
-} from 'react-navigation'
 import styled from 'styled-components'
+import Carousel from 'react-native-snap-carousel'
 
 import {
     Background
 } from '@components/ComponentsList'
-import images from '@config/images'
-import TYPOGRAPHY from '@config/typography'
-
 import Question from '@components/Question'
-
 import Header from '@components/Header'
-import CONSTANTS from '@config/constants'
 
-import Carousel from 'react-native-snap-carousel'
+import images from '@config/images'
+import COLORS from '@config/colors'//
+import TYPOGRAPHY from '@config/typography'//
+import CONSTANTS from '@config/constants' //
 
 class SimpleQuestionsScreen extends Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
 
         this.state={
-            questions:{}
+            questions: {},
+            data: props.navigation.getParam('data', 'Error'),
+            info: props.navigation.getParam('info', 'Error'),
+            origIndex: props.navigation.getParam('index', 0)
         }
     }
 
+    _setQuestions = (orig, name, val, whitch) => {
+        let obj = orig;
+        obj[name].correct = val;
+        obj[name].marked = whitch;
+        return obj;
+    }
+    _defineQuestions = (options) => {
+        let obj = {}
+        options.forEach((el) => {
+            obj[el.title] = {
+                correct: false,
+                marked: null
+            }
+        });
+        return obj;
+    }
+    _count = (obj, test) => {
+        let count = 0;
+        for(let a in obj){
+            if(test(obj[a]))count++;
+        }
+        return count;
+    }
+
+    componentWillMount(){
+        this.setState({questions: this._defineQuestions(this.state.info)});
+    }
+
     render(){
-        let data = this.props.navigation.getParam('data', 'Error');
-        let info = this.props.navigation.getParam('info', 'Error');
-        let origIndex = this.props.navigation.getParam('index', 0);
         return(
             <Background>
                 <Header logged={this.props.logged}
@@ -52,10 +76,10 @@ class SimpleQuestionsScreen extends Component{
                     )}
                     leftImage={images.SETA}
                     rightImage={images.Cato}
-                    rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar?`, [
+                    rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar? #TurnOnDebug`, [
                         {
                             text: 'Enviar',
-                            onPress: () => null
+                            onPress: () => this.setState({debug: true})
                         },
                         {
                             text: 'Cancelar',
@@ -64,21 +88,24 @@ class SimpleQuestionsScreen extends Component{
                     {cancelable: true}
                     )}
                 />
-
+                {this.state.debug?(<Text style={{backgroundColor: COLORS.blueBackground, color: '#fff', textAlign: 'center', justifyContent: 'center'}}>Certas: {this._count(this.state.questions, x=>x.correct)}</Text>):null}
                 
                 <Carousel 
-                    data={info}
+                    data={this.state.info}
                     renderItem={({ item, index }) => 
-                        <Question title={item.title} enunciado={item.text} answers={item.options} imageList={item.images} correct={item.correct} isCorrect={(val) => this.setState({[item.title]: val})}/>  
+                        <Question
+                            title={item.title}
+                            enunciado={item.text}
+                            answers={item.options}
+                            imageList={item.images}
+                            correct={item.correct}
+                            isCorrect={(val, whitch) => this.setState(this._setQuestions(this.state.questions, item.title, val, whitch))}
+                        />  
                     }
                     sliderWidth={Dimensions.get('screen').width}
                     itemWidth={Dimensions.get('screen').width}
                     layout='tinder'
                 />
-                {/*Fix examples, may be automatizated*/}
-                
-                {info.map((item) => {(this.state[item.title])?(alert('Você Acertou')):(null)})}
-
             </Background>
         );
     }

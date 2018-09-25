@@ -66,8 +66,8 @@ class QuestionBox extends Component{
 
                                 if(option.field === item.field) {
                                     option.selected = true;
-                                    if(item.field === this.props.correct)this.props.isCorrect(true);
-                                    else this.props.isCorrect(false);
+                                    if(item.field === this.props.correct)this.props.isCorrect(true, item.field);
+                                    else this.props.isCorrect(false, item.field);
                                 }
 
                                 return option;
