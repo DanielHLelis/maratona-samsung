@@ -75,7 +75,7 @@ class SimpleQuestionsScreen extends Component{
                     {cancelable: true}
                     )}
                     leftImage={images.SETA}
-                    rightImage={images.Cato}
+                    rightText={"Enviar ->"}
                     rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar? #TurnOnDebug`, [
                         {
                             text: 'Enviar',

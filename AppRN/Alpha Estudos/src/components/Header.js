@@ -12,6 +12,11 @@ import images from "@config/images"
 import COLORS from "@config/colors"
 import TYPOGRAPHY from "@config/typography"
 
+/*
+  TODO
+    - Add support for custom components instead of only ImageButtons
+*/
+
 class Header extends Component {
   render() {
     return (
@@ -48,12 +53,24 @@ class Header extends Component {
             )
           }
 
-        <ImageButton
-          imageHeight={40}
-          imageWidth={40}
-          source={this.props.rightImage}
-          onPress={this.props.rightPress}
-        />
+          {
+            !this.props.rightText?
+            (<ImageButton
+            imageHeight={40}
+            imageWidth={40}
+            source={this.props.rightImage}
+            onPress={this.props.rightPress}
+            />
+            ):(
+              <TouchableOpacity onPress={this.props.rightPress}>
+                <TextStyled>
+                  {this.props.rightText}
+                </TextStyled>
+              </TouchableOpacity>
+              
+            )
+
+          }
       </ViewStyled>
     );
   }
@@ -93,8 +110,8 @@ let ViewStyled = styled.View`
 `;
 
 let TextStyled = styled.Text`
-  font-size: ${constants.FONT_SIZE.medium};
-  color: ${COLORS.defaultText};
+  ${TYPOGRAPHY.mediumText}
+  color: ${COLORS.lightText};
 `;
 
 let UserView = styled.View`
