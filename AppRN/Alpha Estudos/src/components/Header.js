@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Platform, View, Text, Image, TouchableOpacity, StyleSheet } from "react-native"
+import { Platform, View, Text, Image, TouchableOpacity, StyleSheet, SafeAreaView } from "react-native"
 import PropTypes from 'prop-types'
 import styled from "styled-components"
 
@@ -20,58 +20,60 @@ import TYPOGRAPHY from "@config/typography"
 class Header extends Component {
   render() {
     return (
-      <ViewStyled>
-        <ImageButton
-          imageHeight={40}
-          imageWidth={32}
-          source={this.props.leftImage}
-          onPress={this.props.leftPress}
-        />
-
-        
-          {
-            (this.props.logged)?
-            (
-              <UserView>
-                <ImageButton
-                  borderRadius={50}
-                  imageHeight={54}
-                  imageWidth={54}
-                  marginRight={4}
-                  source={this.props.avatar}
-                />
-                <UserInfo>
-                  <NickName>{this.props.nick}</NickName>
-                  <Level>Nível: {this.props.level}</Level>
-                </UserInfo>
-              </UserView>
-            ):(
-              <UserView>
-                {/* <Logo source={images.LOGO}/> */}
-                <LogoText marginLeft={5}/>
-              </UserView>
-            )
-          }
-
-          {
-            !this.props.rightText?
-            (<ImageButton
+      <StyledSafeAreaView>
+        <ViewStyled>
+          <ImageButton
             imageHeight={40}
-            imageWidth={40}
-            source={this.props.rightImage}
-            onPress={this.props.rightPress}
-            />
-            ):(
-              <TouchableOpacity onPress={this.props.rightPress}>
-                <TextStyled>
-                  {this.props.rightText}
-                </TextStyled>
-              </TouchableOpacity>
-              
-            )
+            imageWidth={32}
+            source={this.props.leftImage}
+            onPress={this.props.leftPress}
+          />
 
-          }
-      </ViewStyled>
+          
+            {
+              (this.props.logged)?
+              (
+                <UserView>
+                  <ImageButton
+                    borderRadius={50}
+                    imageHeight={54}
+                    imageWidth={54}
+                    marginRight={4}
+                    source={this.props.avatar}
+                  />
+                  <UserInfo>
+                    <NickName>{this.props.nick}</NickName>
+                    <Level>Nível: {this.props.level}</Level>
+                  </UserInfo>
+                </UserView>
+              ):(
+                <UserView>
+                  {/* <Logo source={images.LOGO}/> */}
+                  <LogoText marginLeft={5}/>
+                </UserView>
+              )
+            }
+
+            {
+              !this.props.rightText?
+              (<ImageButton
+              imageHeight={40}
+              imageWidth={40}
+              source={this.props.rightImage}
+              onPress={this.props.rightPress}
+              />
+              ):(
+                <TouchableOpacity onPress={this.props.rightPress}>
+                  <TextStyled>
+                    {this.props.rightText}
+                  </TextStyled>
+                </TouchableOpacity>
+                
+              )
+
+            }
+        </ViewStyled>
+      </StyledSafeAreaView>
     );
   }
 }
@@ -98,6 +100,10 @@ let Logo = styled.Image`
   border-radius: 27;
 `;
 
+let StyledSafeAreaView = styled.SafeAreaView`
+  background-color: ${COLORS.blueBackground};
+`;
+
 let ViewStyled = styled.View`
   background-color: ${COLORS.blueBackground};
   height: 72;
@@ -107,7 +113,7 @@ let ViewStyled = styled.View`
   align-items: center;
   justify-content: space-between;
   z-index: 10;
-  padding-top: ${(Platform.OS==='ios')?(20):(0)};
+  padding-top: ${(Platform.OS==='ios')?(0):(0)};
 `;
 
 let TextStyled = styled.Text`
