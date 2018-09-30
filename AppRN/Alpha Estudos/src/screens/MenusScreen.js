@@ -26,10 +26,7 @@ export default class MenusScreen extends Component {
     }
   }
 
-  _addState(whitch){
-  }
-
-  componentWillMount(){
+  _updateState = () => {
     this.state.data.themes.forEach((el) => {
       storage.getStoreItem('done' + el.name, (key, val) => {
         let count = 0;
@@ -40,6 +37,10 @@ export default class MenusScreen extends Component {
         this.setState({[el.name]: count});
       })
     })
+  }
+
+  componentWillMount(){
+    this._updateState();
   }
 
   render() {
@@ -56,10 +57,14 @@ export default class MenusScreen extends Component {
             data={this.state.data.themes}
             keyExtractor={(item, index) => toString(index)}
             renderItem={({ item, index }) => (
-              <ListItem onPress={() => this.props.navigation.navigate('SelectionScreen', {name: item.name, info: item})}>
+              <ListItem onPress={() => this.props.navigation.navigate('SelectionScreen', {name: item.name, info: item, onReturn: this._updateState})}>
                 <ThemeIcon source={item.image} />
                 <ThemeTitle>{item.name}</ThemeTitle>
-                <Percentage>{Math.floor(this.state[item.name]/item.matters.length*100) +'%'}</Percentage>
+                <Percentage
+                style={{color:(this.state[item.name]/item.matters.length === 1)?('#00aa00'):((this.state[item.name]/item.matters.length >= 0.4)?('#ffca35'):('#ff5500'))}}
+                >
+                  {Math.floor(this.state[item.name]/item.matters.length*100) +'%'}
+                </Percentage>
               </ListItem>
             )}
           />

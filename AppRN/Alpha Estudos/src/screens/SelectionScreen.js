@@ -53,7 +53,10 @@ class SelectionScreen extends Component{
         return(
             <Background>
                 <Header  
-                    leftPress={() => this.props.navigation.goBack()}
+                    leftPress={() => {
+                        this.props.navigation.getParam('onReturn', ()=>null)();
+                        this.props.navigation.goBack();
+                    }}
                     leftImage={images.SETA}
                     rightImage={images.OPTIONS}
                 />
