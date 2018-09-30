@@ -113,7 +113,7 @@ let ViewStyled = styled.View`
   align-items: center;
   justify-content: space-between;
   z-index: 10;
-  padding-top: ${(Platform.OS==='ios')?(0):(0)};
+  margin-top: ${(Platform.OS==='android')?(24):(0)};
 `;
 
 let TextStyled = styled.Text`

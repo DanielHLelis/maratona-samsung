@@ -14,7 +14,7 @@ import TYPOGRAPHY from '@config/typography';
  class CheckBox extends Component{
     render(){
         return(
-            <Container activeOpacity={1} {...this.props}>
+            <Container activeOpacity={1} onPress={() => {this.props.callBack(!this.props.checked);}} {...this.props}>
                 <Box {...this.props} onPress={() => {this.props.callBack(!this.props.checked);}} />
                 <Label {...this.props} onPress={() => {this.props.callBack(!this.props.checked);}} >{this.props.label}</Label>
             </Container>

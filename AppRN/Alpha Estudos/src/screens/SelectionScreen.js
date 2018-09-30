@@ -83,8 +83,8 @@ class SelectionScreen extends Component{
     }
 }
 
-let Done = () => <DoneText color="#00ff00">Feito ✅</DoneText>;
-let Wrong = () => <DoneText color="#ff0000">❌</DoneText>
+let Done = () => <DoneText color="#00aa00">Feito ✅</DoneText>;
+let Wrong = () => <DoneText color="#ff5500">❌</DoneText>
 
 let InfoContainer = styled.View`
     flex: 1;

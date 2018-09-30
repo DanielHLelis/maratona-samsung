@@ -13,6 +13,7 @@ import LeakedButton from '@components/core/LeakedButton';
 /* Config - Imports */
 import SPACING from '@config/spacing';
 import StackIntroRoute from '@config/routes';
+import COLORS from '@config/colors';
 
 
 export default class App extends React.Component {
@@ -25,7 +26,7 @@ export default class App extends React.Component {
 
     return (
         <ViewStyled>
-          <StatusBar barStyle='light-content' />
+          <StatusBar translucent barStyle='light-content' backgroundColor={'#00000022'}/>
           <MainNavigation/>
         </ViewStyled>
     );
