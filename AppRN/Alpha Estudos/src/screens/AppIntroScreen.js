@@ -13,7 +13,7 @@ let data = require('@tests/test.json');
 
 export default class AppIntroScreen extends React.Component {
   componentWillMount(){
-    // storage.cleanAll();
+    storage.cleanAll();
     storage.debug();
   }
 

@@ -5551,11 +5551,6 @@ react-native-lightbox@^0.8.0:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-overlay@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-overlay/-/react-native-overlay-0.5.0.tgz#68d44e2d643d896414e78cbe87aa336d831b0614"
-  integrity sha1-aNROLWQ9iWQU54y+h6ozbYMbBhQ=
-
 react-native-paper@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-2.0.1.tgz#0221ead52e35811ca6d2ce41cf069d424fe92bcf"
