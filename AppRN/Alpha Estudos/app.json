@@ -1,7 +1,4 @@
 {
-    "expo": {
-        "sdkVersion": "23.0.1"
-    },
-    "name": "alphaestudos",
-    "displayName": "Alpha Estudos"
+  "name": "alphaestudos",
+  "displayName": "alphaestudos"
 }

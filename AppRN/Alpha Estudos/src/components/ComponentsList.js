@@ -34,7 +34,7 @@ export let ThemeIcon = styled.Image`
   margin-right: 10;
   height: 75;
   width: 75;
-  border-radius: 50;
+  border-radius: 37.5;
 `;
 
 export let ThemeTitle = styled.Text`

@@ -109,7 +109,7 @@ let StyledView = styled.ScrollView`
  let QuestionStyle = {
     paddingTop: 10,
     paddingBottom: 10,
-    boxBorderStyle: 'dotted'
+    boxBorderStyle: 'solid'
  };
 
 // QuestionBox.propTypes = {

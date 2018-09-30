@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native"
+import { Platform, View, Text, Image, TouchableOpacity, StyleSheet } from "react-native"
 import PropTypes from 'prop-types'
 import styled from "styled-components"
 
@@ -107,6 +107,7 @@ let ViewStyled = styled.View`
   align-items: center;
   justify-content: space-between;
   z-index: 10;
+  padding-top: ${(Platform.OS==='ios')?(20):(0)};
 `;
 
 let TextStyled = styled.Text`
@@ -130,7 +131,10 @@ let UserIco = styled.Image`
 
 let UserInfo = styled.View`
   justify-content: flex-start;
+  flex-grow: 1;
   align-content: center;
+  justify-self: center;
+  align-self: center;
 `;
 
 let NickName = styled.Text`

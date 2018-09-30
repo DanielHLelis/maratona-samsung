@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform } from 'react-native';
+import { Platform, StatusBar } from 'react-native';
 import styled from 'styled-components';
 
 /* Navigation */
@@ -25,6 +25,7 @@ export default class App extends React.Component {
 
     return (
         <ViewStyled>
+          <StatusBar barStyle='light-content' />
           <MainNavigation/>
         </ViewStyled>
     );

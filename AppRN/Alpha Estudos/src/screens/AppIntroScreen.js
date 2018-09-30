@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View, Image, Dimensions } from 'react-native'
 import styled from 'styled-components'
 
+import storage from '@utils/storage'
 import COLORS from '@config/colors'
 import constants from '@config/constants'
 import IMAGES from '@config/images'
@@ -11,10 +12,15 @@ import Button from '@components/core/Button'
 let data = require('@tests/test.json');
 
 export default class AppIntroScreen extends React.Component {
+  componentWillMount(){
+    // storage.cleanAll();
+    storage.debug();
+  }
+
   render() {
     return (
       <Background>
-        <Logo source={IMAGES.Cato} blurRadius={4} />
+        <BackgroundImage source={IMAGES.Cato} blurRadius={4} />
         <StyledText>
           Alpha{'\n'}Estudos
         </StyledText>
@@ -42,7 +48,7 @@ let Background = styled.View`
   justify-content: center;
 `;
 
-let Logo = styled.Image`
+let BackgroundImage = styled.Image`
   width: ${Dimensions.get('screen').width};
   height: ${Dimensions.get('screen').height};
   /* border-radius: ${Dimensions.get('screen').width * 0.4}; */

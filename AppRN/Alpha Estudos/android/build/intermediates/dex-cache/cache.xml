@@ -3,201 +3,219 @@
 
     <item
         is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_2dd0c1a74f656e7d5c167e687cd6b3b93d506412.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\alphaestudos\rn-fetch-blob\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4ed728d7ae624d2159089f212f55947ef4fcd357">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\alphaestudos-rn-fetch-blob-unspecified_61f4e024c9f9a0eb7e39728035b456f0d37f4d0a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_426802bde7ae0dbfb29f4fe1b66f882cf5207069.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_c78fb6edd25e0c0e6747c9a5d57dca2cea0ea019.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_5c9ed7d55d25aec29fc2836a4c1b2175ed749146.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_69b24402d59c6c25bafdea6a8e68743e5cdc35ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_5ba344a4ece299afa1e676adfcc8d378b1f78d60.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_84a8b7c36424d9081983b927a2911d9825485611.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_420288db4735eaa1a937588809bf53c76e050c41.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_983f38a25fddb504ee4b765f5ec32f8da0eb7bdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_c8dcb7e14da5372aef996be736e0d8771f7ae83b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_a9f0d774155243036af5ce05ce5daa2bce1695b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_c8b69c70e94858c492156faa86dd5005632946ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_1967f4c68b374ecc69a73b520f17dc9b46004ff5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_5c765c12e5c944612ab801cae0da2650aefccee5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_95934f5d96ab5f55a33646cd91c12aef79c46f0f.jar" />
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_5d61a047468d671853d13225b691b3cedd71a5e6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/alphaestudos/rn-fetch-blob/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_5ec11fcb8ae71e1c801f4e6e92d8f05eba542e6b.jar" />
+        sha1="4ed728d7ae624d2159089f212f55947ef4fcd357">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/alphaestudos-rn-fetch-blob-unspecified_09559580786aae29055b4a59ed164a8da6d6c0cb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_204080333c5148a4af9b2602954881f95915166e.jar" />
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_dbaeec8fa21acf83ce7a0391cd502963f0fabab6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\danie\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_1be03e7adfbd477879e8cb005aa41fccbf79a6aa.jar" />
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_6eeb30c8ea98a470c8a26871e7bbbb13f965b0b3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_65b3cc5747093eeef9725f1a0257992a704c3930.jar" />
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_44768309bfce8193ce96513791fafe83330663d2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\danie\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d73250b75c5535b9f7d932e8c84e4c3c4f70b51d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/alphaestudos/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/alphaestudos-react-native-vector-icons-unspecified_5150c7d5ec40480048f85fbde418968a09582341.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_8a0bd31164eabfe9fda3dd1c9faa4d7008d7819f.jar" />
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_768129875bcadf89fb2307628d8a3955687b73fe.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_6988429735917450d575a89e34f23186d594af90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_201f960e748f6fde2f26d327e15f517a0a084a3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="D:\Users\danie\Documents\GitHub\maratona-samsung\AppRN\Alpha Estudos\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_e854bd9976b7fdc1c6210ef29afb5ea2808e458d.jar" />
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_9419a82c7ea2cf2c36300ce00251b1c1cc06d609.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_abcbe6902767bf48c8f091ee5381442641bb7e23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_2466feb43ecf02b4930da0253e998459de546667.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_c7e7fdb6eeb735c7db5e58fb728bfcedd9798c4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_5c41105790422c1853588daf30c18f2de1011a20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_2d5f07bd91d96363f5d4a73f4e8befcecf6ffb74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_5bd8c5cdcf11290d9bf350a53accfa9bb2d48748.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ba9c7d445eb6ae2ce8198b5badbddaaf43e3ed29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_4a89af21907d85d990fb9569824a54e4fa5838ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_031b11a5bf5719779e807bc17c1f10d67de27079.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_8f10f5de42f6f444180744bebff9dfd7c54d849c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_f020bf40f3e43f2e222bc9b6a0920e52f436fcb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/alphaestudos/react-native-blur/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9eb0c66ae8f056231ad8ed6c3d39df02570a65fb">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/alphaestudos-react-native-blur-unspecified_de0f76e2ac5cb736c55be34a33b41d69d17a5b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_ab38fae63a40e8cf7a66d44bc1850dda99a66529.jar" />
     </item>
 
 </items>

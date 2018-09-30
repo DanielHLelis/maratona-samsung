@@ -1,6 +1,6 @@
 import { AsyncStorage } from 'react-native';
 
-const setStoreItem = async (key, value, onSuccessCallback = () => {}, onFailureCallback = () => {}) => {
+const setStoreItem = async (key, value, onSuccessCallback = () => null, onFailureCallback = () => null) => {
   try {
     await AsyncStorage.setItem(key, value);
     onSuccessCallback(key, value);
@@ -10,7 +10,7 @@ const setStoreItem = async (key, value, onSuccessCallback = () => {}, onFailureC
   }
 };
 
-const getStoreItem = async (key, callback = () => {}) => {
+const getStoreItem = async (key, callback = () => null) => {
   var value = undefined;
   try {
     value = await AsyncStorage.getItem(key);
@@ -22,7 +22,7 @@ const getStoreItem = async (key, callback = () => {}) => {
   return value;
 };
 
-const resetStoreItem = async (key, callback = () => {}) => {
+const resetStoreItem = async (key, callback = () => null) => {
   var value = undefined;
   try {
     await AsyncStorage.removeItem(key);
@@ -35,7 +35,7 @@ const resetStoreItem = async (key, callback = () => {}) => {
   return value;
 };
 
-const debug = async (callback = () => {}) => {
+const debug = async (callback = () => null) => {
   AsyncStorage.getAllKeys((err, keys) => {
     AsyncStorage.multiGet(keys, (err, stores) => {
       console.log('[DEBUG AsyncStorage - All keys]');
@@ -50,4 +50,13 @@ const debug = async (callback = () => {}) => {
   });
 };
 
-export default { debug, setStoreItem, getStoreItem, resetStoreItem };
+const cleanAll = async (callback = () => null) => {
+  AsyncStorage.getAllKeys((err, keys) => {
+    AsyncStorage.multiRemove(keys, (err) => {
+      console.log('CLEANED');
+      callback();
+    })
+  });
+}
+
+export default { debug, setStoreItem, getStoreItem, resetStoreItem, cleanAll };

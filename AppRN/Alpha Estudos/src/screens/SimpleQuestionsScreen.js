@@ -15,6 +15,7 @@ import Question from '@components/Question'
 import Header from '@components/Header'
 
 import images from '@config/images'
+import storage from '@utils/storage'
 import COLORS from '@config/colors'//
 import TYPOGRAPHY from '@config/typography'//
 import CONSTANTS from '@config/constants' //
@@ -25,9 +26,9 @@ class SimpleQuestionsScreen extends Component{
 
         this.state={
             questions: {},
-            data: props.navigation.getParam('data', 'Error'),
+            name: props.navigation.getParam('name', 'null'),
             info: props.navigation.getParam('info', 'Error'),
-            origIndex: props.navigation.getParam('index', 0)
+            section: props.navigation.getParam('section', 'null')
         }
     }
 
@@ -55,6 +56,37 @@ class SimpleQuestionsScreen extends Component{
         return count;
     }
 
+    _addHistory = (callBack = () => null) => {
+        storage.getStoreItem('history' , (key, val) => {
+            if(!val)
+                val = [];
+            else
+                val = JSON.parse(val);
+            
+            val.push({
+                time: new Date().getTime(),
+                name: this.state.name,
+                done: this._count(this.state.questions, x=>x.correct),
+                total: this.state.info.length,
+                questions: this.state.questions
+            });
+
+            storage.setStoreItem('history', JSON.stringify(val), callBack, callBack);
+        });
+    }
+
+    _submit = (callBack) => {
+        storage.getStoreItem('done' + this.state.section, (key, val) => {
+            if(!val)
+                val = {};
+            else
+                val = JSON.parse(val);
+            val[this.state.name] = (this.state.info.length === this._count(this.state.questions, x=>x.correct))?true:((val[this.state.name])?(true):(false));
+
+            storage.setStoreItem('done' + this.state.section, JSON.stringify(val), callBack, callBack);
+        });
+    }
+
     componentWillMount(){
         this.setState({questions: this._defineQuestions(this.state.info)});
     }
@@ -76,10 +108,16 @@ class SimpleQuestionsScreen extends Component{
                     )}
                     leftImage={images.SETA}
                     rightText={"Enviar ->"}
-                    rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar? #TurnOnDebug`, [
+                    rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar?`, [
                         {
                             text: 'Enviar',
-                            onPress: () => this.setState({debug: true})
+                            onPress: () => {
+                                this._submit(() => {
+                                    this._addHistory();
+                                    this.props.navigation.getParam('onSubmit', () => {})();
+                                    this.props.navigation.goBack();
+                                });
+                            }
                         },
                         {
                             text: 'Cancelar',
@@ -104,7 +142,7 @@ class SimpleQuestionsScreen extends Component{
                     }
                     sliderWidth={Dimensions.get('screen').width}
                     itemWidth={Dimensions.get('screen').width}
-                    layout='tinder'
+                    layout='default'
                 />
             </Background>
         );

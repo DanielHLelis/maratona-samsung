@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
     ScrollView,
     View,
@@ -6,31 +6,51 @@ import {
     Image,
     FlatList,
     Dimensions
-} from 'react-native';
+} from 'react-native'
 import {
     Background,
     ListItem,
     ThemeIcon,
     ThemeTitle,
-} from '@components/ComponentsList';
+} from '@components/ComponentsList'
+import styled from 'styled-components'
 
-import styled from 'styled-components';
+import Header from '@components/Header'
 
-import Header from '@components/Header';
+import colors from '@config/colors'
+import TYPOGRAPHY from '@config/typography'
+import images from '@config/images'
+import constants from '@config/constants'
 
-import colors from '@config/colors';
-import TYPOGRAPHY from '@config/typography';
-import images from '@config/images';
-import constants from '@config/constants';
+import storage from '@utils/storage'
 
 class SelectionScreen extends Component{
 
+    constructor(props){
+        super(props);
+
+        this.state = {
+            done:{},
+            name: props.navigation.getParam('name', 'null'),
+            info: this.props.navigation.getParam('info', {matters: {name: '404', difficulty: 'Not Found'}})
+        }
+    }
+
+    _done(){
+        storage.getStoreItem('done' + this.state.name, (key, val) => {
+            if(!val)return;
+            val = JSON.parse(val);
+            this.setState({done: val});
+        });
+    }
+
+    componentWillMount(){
+        this._done();
+    }
+
     render(){
-        let data = this.props.navigation.getParam('data', 'Error');
-        let info = this.props.navigation.getParam('info', 'Error');
-        let origIndex = this.props.navigation.getParam('index', 0);
+
         return(
-            
             <Background>
                 <Header  
                     leftPress={() => this.props.navigation.goBack()}
@@ -40,16 +60,16 @@ class SelectionScreen extends Component{
                 <ScrollView>
                     <FlatList
                         style={{marginBottom: 15}}
-                        data={info.matters}
-                        keyExtractor={(item, index) => index}
+                        data={this.state.info.matters}
+                        keyExtractor={(item, index) => toString(index)}
                         renderItem={({ item, index }) => 
-                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen', {data: data, info: item.questions, index: index})}>
+                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen', {section: this.state.name, info: item.questions, name: item.name, onSubmit: () => this._done()})}>
                                 <ThemeIcon source={item.image}/>
                                 <InfoContainer>
                                     <ThemeTitle2>{item.name}</ThemeTitle2>
                                     <ThemeSubTitle>{item.difficulty}</ThemeSubTitle>
                                 </InfoContainer>
-                                {(item.done)?(<Done/>):(null)}
+                                {(this.state.done[item.name])?(<Done/>):((this.state.done[item.name] === false)?(<Wrong/>):null)}
                             </ListItem>
                         }
                     />
@@ -60,7 +80,8 @@ class SelectionScreen extends Component{
     }
 }
 
-let Done = () => <DoneText>✅</DoneText>;
+let Done = () => <DoneText color="#00ff00">Feito ✅</DoneText>;
+let Wrong = () => <DoneText color="#ff0000">❌</DoneText>
 
 let InfoContainer = styled.View`
     flex: 1;
@@ -83,7 +104,7 @@ let ThemeSubTitle = styled.Text`
     margin-bottom: 0;
 `;
 let DoneText = styled.Text`
-    color: green;
+    color: ${props => props.color};
     font-size: ${constants.FONT_SIZE.medium};
     font-weight: 400;
     text-align: left;
