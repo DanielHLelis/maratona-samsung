@@ -24,6 +24,11 @@ import constants from '@config/constants'
 
 import storage from '@utils/storage'
 
+/*
+    TODO: Add activity indicator to the question loading, it's a quite long
+*/
+
+
 class SelectionScreen extends Component{
 
     constructor(props){
