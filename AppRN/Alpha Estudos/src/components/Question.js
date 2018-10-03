@@ -89,7 +89,7 @@ QuestionBox.propTypes = {
 
 let Enunciado = styled.Text`
     ${TYPOGRAPHY.mediumText};
-    padding-left: 10;
+    padding-horizontal: 10;
     padding-bottom: 20;
     color: #222;
     text-align: justify;

@@ -17,6 +17,11 @@ import storage from '@utils/storage'
 import Header from "@components/Header";
 import TYPOGRAPHY from "@config/typography";
 
+/*
+  TODO:
+    -Desanexar o código da lista
+*/
+
 export default class MenusScreen extends Component {
   constructor(props){
     super(props);
@@ -57,13 +62,13 @@ export default class MenusScreen extends Component {
             data={this.state.data.themes}
             keyExtractor={(item, index) => toString(index)}
             renderItem={({ item, index }) => (
-              <ListItem onPress={() => this.props.navigation.navigate('SelectionScreen', {name: item.name, info: item, onReturn: this._updateState})}>
-                <ThemeIcon source={item.image} />
-                <ThemeTitle>{item.name}</ThemeTitle>
+              <ListItem style={(item.disabled)?({opacity: 0.8}):null} onPress={(item.matters)?(() => this.props.navigation.navigate('SelectionScreen', {name: item.name, info: item, onReturn: this._updateState})):(() => null)}>
+                {item.image?(<ThemeIcon source={item.image} />):null}
+                <ThemeTitle style={(item.disabled)?({textAlign: 'center'}):null} >{item.name}</ThemeTitle>
                 <Percentage
-                style={{color:(this.state[item.name]/item.matters.length === 1)?('#00aa00'):((this.state[item.name]/item.matters.length >= 0.4)?('#ffca35'):('#ff5500'))}}
+                style={(item.matters)?({color:(this.state[item.name]/item.matters.length === 1)?('#00aa00'):((this.state[item.name]/item.matters.length >= 0.4)?('#ffca35'):('#ff5500'))}):null}
                 >
-                  {Math.floor(this.state[item.name]/item.matters.length*100) +'%'}
+                  {(item.matters)?Math.floor(this.state[item.name]/item.matters.length*100) +'%':null}
                 </Percentage>
               </ListItem>
             )}
