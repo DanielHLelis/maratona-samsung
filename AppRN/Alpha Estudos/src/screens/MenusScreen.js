@@ -60,7 +60,7 @@ export default class MenusScreen extends Component {
           <FlatList
             style={{marginBottom: 15}}
             data={this.state.data.themes}
-            keyExtractor={(item, index) => toString(index)}
+            keyExtractor={(item, index) => index.toString()}
             renderItem={({ item, index }) => (
               <ListItem style={(item.disabled)?({opacity: 0.8}):null} onPress={(item.matters)?(() => this.props.navigation.navigate('SelectionScreen', {name: item.name, info: item, onReturn: this._updateState})):(() => null)}>
                 {item.image?(<ThemeIcon source={item.image} />):null}
