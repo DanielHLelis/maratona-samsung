@@ -53,7 +53,7 @@ class QuestionBox extends Component{
         return(
                 <StyledView>
                     <Enunciado>
-                        {'    '}<B>{'('+this.props.title+')'}  </B>{this.props.enunciado}
+                        {' '}<B>{'('+this.props.title+')'}  </B>{this.props.enunciado}
                     </Enunciado>
 
                     <ImageSlider imageList={this.props.imageList}/>

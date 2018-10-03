@@ -6,7 +6,9 @@ import {
     Alert
 } from 'react-native';
 import styled from 'styled-components'
-import Carousel from 'react-native-snap-carousel'
+import Carousel, {
+    Pagination
+} from 'react-native-snap-carousel'
 
 import {
     Background
@@ -25,11 +27,31 @@ class SimpleQuestionsScreen extends Component{
         super(props);
 
         this.state={
+            carIndx: 0,
             questions: {},
             name: props.navigation.getParam('name', 'null'),
             info: props.navigation.getParam('info', 'Error'),
             section: props.navigation.getParam('section', 'null')
         }
+    }
+
+    get pagination(){
+        const { info, carIndx } = this.state;
+        return(
+            <Pagination
+                dotsLength={info.length}
+                activeDotIndex={carIndx}
+                containerStyle={{backgroundColor: COLORS.blueBackground, paddingTop: 0, paddingBottom: 12}}
+                dotStyle={{
+                    width: 10,
+                    height: 10,
+                    borderRadius: 5,
+                    backgroundColor: '#ffffff'
+                }}
+                inactiveDotOpacity={0.4}
+                inactiveDotScale={0.6}
+            />
+        );
     }
 
     _setQuestions = (orig, name, val, whitch) => {
@@ -127,7 +149,7 @@ class SimpleQuestionsScreen extends Component{
                     )}
                 />
                 {this.state.debug?(<Text style={{backgroundColor: COLORS.blueBackground, color: '#fff', textAlign: 'center', justifyContent: 'center'}}>Certas: {this._count(this.state.questions, x=>x.correct)}</Text>):null}
-                
+                {this.pagination}
                 <Carousel 
                     data={this.state.info}
                     renderItem={({ item, index }) => 
@@ -143,6 +165,7 @@ class SimpleQuestionsScreen extends Component{
                     sliderWidth={Dimensions.get('screen').width}
                     itemWidth={Dimensions.get('screen').width}
                     layout='default'
+                    onSnapToItem={(index) => this.setState({carIndx: index})}
                 />
             </Background>
         );
