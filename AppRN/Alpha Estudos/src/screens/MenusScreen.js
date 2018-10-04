@@ -23,57 +23,28 @@ import TYPOGRAPHY from "@config/typography";
     -Desanexar o código da lista
 */
 
-export default class MenusScreen extends Component {
-  constructor(props){
-    super(props);
-
-    this.state = {
-      data: this.props.navigation.getParam('data', 'Error')
-    }
-  }
-
-  _updateState = () => {
-    this.state.data.themes.forEach((el) => {
-      storage.getStoreItem('done' + el.name, (key, val) => {
-        let count = 0;
-        val = JSON.parse(val);
-        for(let key in val){
-          if(val[key])count++;
-        }
-        this.setState({[el.name]: count});
-      })
-    })
-  }
-  _onPress = (item) => 
-    this.props.navigation.navigate('SelectionScreen',{
-      name: item.name,
-      info: item, 
-      onReturn: this._updateState
-    });
-
-  componentWillMount(){
-    this._updateState();
-  }
-
-  render() {
-    return (
+export default (MenusScreen = (props) => 
       <Background>
         <Header
-          leftPress={() => this.props.navigation.goBack()}
+          leftPress={() => props.navigation.goBack()}
           leftComponent={
             <Icon
-            style={{
-              fontSize: 40,
-              color: colors.lightText
-            }} name="arrow-left"/>
+            size={30}
+            color={colors.lightText}
+            name="arrow-left"/>
           }
-          rightImage={images.OPTIONS}
+          rightComponent={
+            <Icon 
+              size={30}
+              color={colors.lightText}
+              name="user-clock"
+            />
+          }
+          rightPress={() => props.navigation.navigate('HistoryScreen')}
         />
-        <ThemesBox navigation={this.props.navigation}/>
+        <ThemesBox navigation={props.navigation}/>
       </Background>
-    );
-  }
-}
+);
 
 class ThemesBox extends Component{
   constructor(props){

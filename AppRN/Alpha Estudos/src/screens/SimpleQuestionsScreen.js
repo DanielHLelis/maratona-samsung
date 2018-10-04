@@ -34,6 +34,7 @@ class SimpleQuestionsScreen extends Component{
 
         this.state={
             carIndx: 0,
+            startTime: 0,
             questions: {},
             name: props.navigation.getParam('name', 'null'),
             info: props.navigation.getParam('info', 'Error'),
@@ -106,21 +107,28 @@ class SimpleQuestionsScreen extends Component{
     }
 
     _addHistory = (callBack = () => null) => {
-        storage.getStoreItem('history' , (key, val) => {
+        storage.getStoreItem('historyItems' , (key, val) => {
             if(!val)
                 val = [];
             else
                 val = JSON.parse(val);
-            
+            let date = new Date();
             val.push({
-                time: new Date().getTime(),
+                time: {
+                    day: date.getDay(),
+                    month: date.getMonth(),
+                    year: date.getFullYear(),
+                    hour: date.getHours(),
+                    minute: date.getMinutes()
+                },
+                startTime: this.state.startTime,
                 name: this.state.name,
                 done: this._count(this.state.questions, x=>x.correct),
                 total: this.state.info.length,
                 questions: this.state.questions
             });
 
-            storage.setStoreItem('history', JSON.stringify(val), callBack, callBack);
+            storage.setStoreItem('historyItems', JSON.stringify(val), callBack, callBack);
         });
     }
 
@@ -143,6 +151,7 @@ class SimpleQuestionsScreen extends Component{
         this._willBlur = this.props.navigation.addListener('willBlur', payload =>
             BackHandler.removeEventListener('hardwareBackPress', this._backPress)
         );
+        this.setState({startTime: new Date()});
     }
     componentWillUnmount() {
         this._didFocus && this._didFocus.remove();

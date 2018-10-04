@@ -66,11 +66,17 @@ class SelectionScreen extends Component{
                     leftComponent={
                         <Icon
                         style={{
-                          fontSize: 40,
+                          fontSize: 30,
                           color: colors.lightText
                         }} name="arrow-left" onPress={this.props.leftPress}/>
                     }
-                    rightImage={images.OPTIONS}
+                    rightComponent={
+                        <Icon 
+                          size={30}
+                          color={colors.lightText}
+                          name="user-clock"
+                        />
+                    }
                 />
                 <ScrollView>
                     <FlatList
