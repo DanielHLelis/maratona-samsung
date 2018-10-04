@@ -22,13 +22,18 @@ class Header extends Component {
     return (
       <StyledSafeAreaView>
         <ViewStyled>
-          <ImageButton
-            imageHeight={40}
-            imageWidth={32}
-            source={this.props.leftImage}
-            onPress={this.props.leftPress}
-          />
-
+          {(this.props.leftImage)?
+            <ImageButton
+              imageHeight={40}
+              imageWidth={32}
+              source={this.props.leftImage}
+              onPress={this.props.leftPress}
+            />
+            :
+            <TouchableOpacity onPress={this.props.leftPress}>
+              {this.props.leftComponent}
+            </TouchableOpacity>
+          }
           
             {
               (this.props.logged)?
@@ -41,6 +46,7 @@ class Header extends Component {
                     marginRight={4}
                     source={this.props.avatar}
                   />
+
                   <UserInfo>
                     <NickName>{this.props.nick}</NickName>
                     <Level>Nível: {this.props.level}</Level>
@@ -54,24 +60,18 @@ class Header extends Component {
               )
             }
 
-            {
-              !this.props.rightText?
-              (<ImageButton
+            {(this.props.rightImage)?
+            <ImageButton
               imageHeight={40}
-              imageWidth={40}
+              imageWidth={32}
               source={this.props.rightImage}
               onPress={this.props.rightPress}
-              />
-              ):(
-                <TouchableOpacity onPress={this.props.rightPress}>
-                  <TextStyled>
-                    {this.props.rightText}
-                  </TextStyled>
-                </TouchableOpacity>
-                
-              )
-
-            }
+            />
+            :
+            <TouchableOpacity onPress={this.props.rightPress}>
+              {this.props.rightComponent}
+            </TouchableOpacity>
+          }
         </ViewStyled>
       </StyledSafeAreaView>
     );

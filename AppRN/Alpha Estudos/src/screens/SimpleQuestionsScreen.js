@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import {
     Text,
+    BackHandler,
     ScrollView,
     Dimensions,
     Alert
 } from 'react-native';
+
 import styled from 'styled-components'
+import Icon from 'react-native-vector-icons/FontAwesome5'
 import Carousel, {
     Pagination
 } from 'react-native-snap-carousel'
@@ -23,6 +26,9 @@ import TYPOGRAPHY from '@config/typography'//
 import CONSTANTS from '@config/constants' //
 
 class SimpleQuestionsScreen extends Component{
+    _didFocus;
+    _willBlur;
+
     constructor(props){
         super(props);
 
@@ -33,7 +39,28 @@ class SimpleQuestionsScreen extends Component{
             info: props.navigation.getParam('info', 'Error'),
             section: props.navigation.getParam('section', 'null')
         }
+        this._didFocus = props.navigation.addListener('didFocus', payload =>
+            BackHandler.addEventListener('hardwareBackPress', this._backPress)
+        );  
     }
+
+    _backPress = () =>{
+        Alert.alert('Cuidado!', 'Se você sair perderá seu progresso atual, deseja mesmo sair?', [
+            {
+                text: 'Sair',
+                onPress: () => {this.props.navigation.goBack()}
+            },
+            {
+                text: 'Cancelar',
+                style: 'cancel'
+        }],
+        {cancelable: true}
+        );
+        return true;
+        
+    }
+    
+    
 
     get pagination(){
         const { info, carIndx } = this.state;
@@ -112,24 +139,35 @@ class SimpleQuestionsScreen extends Component{
     componentWillMount(){
         this.setState({questions: this._defineQuestions(this.state.info)});
     }
+    componentDidMount(){
+        this._willBlur = this.props.navigation.addListener('willBlur', payload =>
+            BackHandler.removeEventListener('hardwareBackPress', this._backPress)
+        );
+    }
+    componentWillUnmount() {
+        this._didFocus && this._didFocus.remove();
+        this._willBlur && this._willBlur.remove();
+    }
 
     render(){
         return(
             <Background>
                 <Header logged={this.props.logged}
-                    leftPress={() => Alert.alert('Cuidado!', 'Se você sair perderá seu progresso atual, deseja mesmo sair?', [
-                        {
-                            text: 'Sair',
-                            onPress: () => {this.props.navigation.goBack()}
-                        },
-                        {
-                            text: 'Cancelar',
-                            style: 'cancel'
-                    }],
-                    {cancelable: true}
-                    )}
-                    leftImage={images.SETA}
-                    rightText={"Enviar ->"}
+                    leftPress={this._backPress}
+                    leftComponent={
+                        <Icon
+                        style={{
+                          fontSize: 40,
+                          color: COLORS.lightText
+                        }} name="arrow-left" onPress={this.props.leftPress}/>
+                    }
+                    rightComponent={
+                        <Icon 
+                            size={40}
+                            color={COLORS.lightText}
+                            name="check-circle"
+                        />
+                    }
                     rightPress={() => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar?`, [
                         {
                             text: 'Enviar',

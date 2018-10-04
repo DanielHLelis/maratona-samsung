@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/alphaestudos/rn-fetch-blob/unspecified/res/xml/provider_paths.xml"
+    },
+    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/alphaestudos/rn-fetch-blob/unspecified/res/xml/provider_paths.xml"
     },

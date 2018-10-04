@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_overlay_color">#AAFFFFFF</color>
+    <declare-styleable name="PxBlurringView"><attr format="integer" name="blurRadius"/><attr format="integer" name="downsampleFactor"/><attr format="color" name="overlayColor"/></declare-styleable>
+    <integer name="default_blur_radius">15</integer>
+    <integer name="default_downsample_factor">8</integer>
+</resources>

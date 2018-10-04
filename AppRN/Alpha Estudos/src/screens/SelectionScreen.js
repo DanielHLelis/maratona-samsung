@@ -14,6 +14,7 @@ import {
     ThemeTitle,
 } from '@components/ComponentsList'
 import styled from 'styled-components'
+import Icon from 'react-native-vector-icons/FontAwesome5'
 
 import Header from '@components/Header'
 
@@ -62,7 +63,13 @@ class SelectionScreen extends Component{
                         this.props.navigation.getParam('onReturn', ()=>null)();
                         this.props.navigation.goBack();
                     }}
-                    leftImage={images.SETA}
+                    leftComponent={
+                        <Icon
+                        style={{
+                          fontSize: 40,
+                          color: colors.lightText
+                        }} name="arrow-left" onPress={this.props.leftPress}/>
+                    }
                     rightImage={images.OPTIONS}
                 />
                 <ScrollView>

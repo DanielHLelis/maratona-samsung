@@ -1,9 +1,9 @@
 import React from 'react';
-import { Platform, StatusBar } from 'react-native';
+import { Platform, StatusBar, Alert } from 'react-native';
 import styled from 'styled-components';
 
 /* Navigation */
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator, NavigationActions } from 'react-navigation';
 
 /* Componentes - Core - Imports */
 import Label from '@components/core/Label';
@@ -15,7 +15,6 @@ import SPACING from '@config/spacing';
 import StackIntroRoute from '@config/routes';
 import COLORS from '@config/colors';
 
-
 export default class App extends React.Component {
   render() {
     const MainNavigation = createStackNavigator(StackIntroRoute, {
@@ -23,7 +22,6 @@ export default class App extends React.Component {
       mode: Platform.OS === 'ios' ? 'modal' : 'card',
       headerMode: 'none'
     });
-
     return (
         <ViewStyled>
           <StatusBar translucent barStyle='light-content' backgroundColor={'#00000022'}/>
