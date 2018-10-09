@@ -1,0 +1,87 @@
+html{
+    background-color: #25C6D1;
+}
+
+
+.basicLayout{
+    font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    background-color: white;
+    border-radius: 12px;
+}
+#options{
+    margin-top: 30vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+}
+
+
+button{
+    background-color: #22b8c3;
+    color: white;
+    font-size: 16px;
+    padding: 13px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1vh;
+}
+
+button:hover{
+    background-color: #1fa4ad;
+}
+
+#dataRead{
+    float: left;
+    height: 82vh;
+    width: 97vw;
+    margin-right: 1.5vw;
+    margin-left: 1vw;
+}
+
+#header{
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+select{
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
+
+#questions{
+    margin-top:2vh;
+}
+
+#matterData{
+    margin-top:2vh;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#numImgs, #correct{
+    margin-right: 3.75vw;
+}
+
+#imgs{
+    margin-top: 1.75vh;
+}
+
+#matterConclude{
+    display: block;
+}
+
+.imgBttns{
+    padding: 1vh 1vw;
+}

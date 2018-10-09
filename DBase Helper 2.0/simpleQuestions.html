@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="icon" href="imgs/icon.png">
+    <title>Alpha DB Helper</title>
+</head>
+<body>
+    <div class="basicLayout" id="header">
+        <h1>Alpha Estudos DataBase Helper</h1>
+        <h2>Questões Simples</h2>
+    </div>
+
+    <div class="basicLayout" id="dataRead">
+        <h2>Leitura de Dados</h2>    
+        <div id="jsonIn">
+            <Label>Insira o JSON
+                <input id="dbaseJson">
+            </Label>
+        </div>
+        <div id="theme">
+            <h2>THEME</h2>
+            <label id="themeOpts">A partir de...
+                <select id="themeStart">
+                    <option>Selecione</option>
+                    <option value="0">Novo Tema</option>
+                    <option value="1">Tema Existente</option>
+                </select>
+            </label>
+            <div>
+                <label id="themeSelect">Selecione o Tema
+                    <select>
+                        <option>1, 2, 3 Testando</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Nome do Tema
+                    <input id="themeName">
+                </label>
+                <label>Imagem do Tema
+                        <input id="themeImage">
+                </label>
+            </div>
+        </div>
+        <div id="matter">
+            <h2>MATTER</h2>
+            <label>A partir de...
+                <select>
+                    <option>Nova Matéria</option>
+                    <option>Matéria Existente</option>
+                </select>
+            </label>
+            <div>
+                <label>Selecione a Matéria
+                    <select>
+                        <option>Ado Ado Ado...</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Nome da Matéria
+                    <input>
+                </label>
+                <label>Imagem da Matéria
+                    <input>
+                </label>
+                <label>Difficuldade
+                    <select>
+                        <option>Fácil</option>
+                        <option>Médio</option>
+                        <option>Difícil</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div id="question">
+            <h2>QUESTION</h2>
+            <label>A partir de...
+                <select>
+                    <option>Nova Questão</option>
+                    <option>Questão Existente</option>
+                </select>
+            </label>
+            <div>
+                <label>Nome da Questão
+                    <input>
+                </label>
+                <label>Enunciado
+                    <input>
+                </label>
+                <label>Opção Correta
+                    <select>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                    </select>
+                </label>
+                <label>Opção A
+                        <input>
+                </label>
+                <label>Opção B
+                        <input>
+                </label>
+                <label>Opção C
+                        <input>
+                </label>
+                <label>Opção D
+                        <input>
+                </label>
+                <label>Opção E
+                        <input>
+                </label>
+            </div>
+            <div>
+                <h3>IMAGES</h3>
+                <label>Base64
+                    <input>
+                </label>
+                <label>Legenda
+                    <input>
+                </label>
+                <button class="imgBttns">Imagem Anterior</button>
+                <button class="imgBttns">Proxima Imagem</button>
+            </div>
+            <button>Questão Anterior</button>
+            <button>Proxima Questão</button>
+        </div>
+        <div id="jsonOut">
+            <label>JSON
+                <input>
+            </label>
+            <button>Copy to clipboard</button>
+        </div>
+        <div id="save">
+            <button>Salvar</button>
+        </div>
+        <button id="previousStep">Passo Anterior</button>
+        <button id="nextStep">Proximo Passo</button>
+    </div>
+
+    <script type="text/javascript" src="/script/alpha.js"></script>
+</body>
+</html>
