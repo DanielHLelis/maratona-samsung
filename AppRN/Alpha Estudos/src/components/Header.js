@@ -24,13 +24,14 @@ class Header extends Component {
         <ViewStyled>
           {(this.props.leftImage)?
             <ImageButton
+              style={{zIndex: 12}}
               imageHeight={40}
               imageWidth={32}
               source={this.props.leftImage}
               onPress={this.props.leftPress}
             />
             :
-            <TouchableOpacity onPress={this.props.leftPress}>
+            <TouchableOpacity style={{zIndex: 12}} onPress={this.props.leftPress}>
               {this.props.leftComponent}
             </TouchableOpacity>
           }

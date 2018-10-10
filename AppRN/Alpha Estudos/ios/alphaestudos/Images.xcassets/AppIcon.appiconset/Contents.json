@@ -107,12 +107,6 @@
       "idiom" : "ios-marketing",
       "filename" : "Icon-marketing-1024x1024.png",
       "scale" : "1x"
-    },
-    {
-      "size" : "167x167",
-      "idiom" : "ipad",
-      "filename" : "Icon-83.5@2x.png",
-      "scale" : "2x"
     }
   ],
   "info" : {
