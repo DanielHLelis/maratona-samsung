@@ -7,7 +7,7 @@ import {
     TouchableOpacity
 } from 'react-native'
 import styled from 'styled-components'
-import Icon from  'react-native-vector-icons/FontAwesome5'
+import IconSet from '@components/core/IconSet'
 
 import Header from '@components/Header'
 import {
@@ -20,6 +20,11 @@ import TYPOGRAPHY from '@config/typography'
 import storage from '@utils/storage'
 
 import Collapse from 'react-native-collapsible'
+
+/*
+    TODO:
+        - Add supprot for viewing the question on history + the solve content 
+*/
 
 export default class HistoryScreen extends Component{
     constructor(props){
@@ -35,6 +40,23 @@ export default class HistoryScreen extends Component{
                 this.setState({data: (val)?JSON.parse(val):[]});
         })
     }
+    _erase = () => {
+        Alert.alert(
+            'Cuidado!',
+            'Se você apagar o histórico não terá como recuperá-lo!\nTem certeza que deseja limpá-lo?',
+            [
+                {
+                    text:'Apagar',
+                    onPress: () => {storage.resetStoreItem('historyItems', this._update);}
+                },
+                {
+                    text:'Cancelar',
+                    style: 'cancel'
+                }
+            ],
+            {cancelable: true}
+        )
+    }
 
     componentWillMount(){
         this._update();
@@ -45,37 +67,9 @@ export default class HistoryScreen extends Component{
                 <Header 
                     logged={this.props.logged}
                     leftPress={() => this.props.navigation.goBack()}
-                    leftComponent={
-                        <Icon
-                            size={30}
-                            color={COLORS.lightText}
-                            name="arrow-left"
-                        />
-                    }
-                    rightComponent={
-                        <Icon 
-                            size={30}
-                            color={COLORS.lightText}
-                            name="eraser"
-                        />
-                    }
-                    rightPress={ () => {
-                        Alert.alert(
-                            'Cuidado!',
-                            'Se você apagar o histórico não terá como recuperá-lo!\nTem certeza que deseja limpá-lo?',
-                            [
-                                {
-                                    text:'Apagar',
-                                    onPress: () => {storage.resetStoreItem('historyItems', this._update);}
-                                },
-                                {
-                                    text:'Cancelar',
-                                    style: 'cancel'
-                                }
-                            ],
-                            {cancelable: true}
-                        )
-                    } }
+                    leftComponent={IconSet.back}
+                    rightComponent={IconSet.erase}
+                    rightPress={this._erase}
                 />
                 <HistoryBox data={this.state.data} navigation={this.props.navigation} />
             </Background>

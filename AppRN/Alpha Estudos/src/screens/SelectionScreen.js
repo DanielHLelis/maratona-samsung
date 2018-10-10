@@ -14,7 +14,8 @@ import {
     ThemeTitle,
 } from '@components/ComponentsList'
 import styled from 'styled-components'
-import Icon from 'react-native-vector-icons/FontAwesome5'
+
+import IconSet from '@components/core/IconSet'
 
 import Header from '@components/Header'
 
@@ -58,25 +59,13 @@ class SelectionScreen extends Component{
 
         return(
             <Background>
-                <Header  
+                <Header
+                    leftComponent={IconSet.back}  
                     leftPress={() => {
                         this.props.navigation.getParam('onReturn', ()=>null)();
                         this.props.navigation.goBack();
                     }}
-                    leftComponent={
-                        <Icon
-                        style={{
-                          fontSize: 30,
-                          color: colors.lightText
-                        }} name="arrow-left" onPress={this.props.leftPress}/>
-                    }
-                    rightComponent={
-                        <Icon 
-                          size={30}
-                          color={colors.lightText}
-                          name="user-clock"
-                        />
-                    }
+                    rightComponent={IconSet.history}
                     rightPress={() => this.props.navigation.navigate('HistoryScreen')}
                 />
                 <ScrollView>

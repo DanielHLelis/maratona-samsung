@@ -1,4 +1,0 @@
-const STRINGS = {
-  basf: '',
-  errors: {}
-};

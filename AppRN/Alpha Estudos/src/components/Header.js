@@ -12,11 +12,6 @@ import images from "@config/images"
 import COLORS from "@config/colors"
 import TYPOGRAPHY from "@config/typography"
 
-/*
-  TODO
-    - Add support for custom components instead of only ImageButtons
-*/
-
 class Header extends Component {
   render() {
     return (

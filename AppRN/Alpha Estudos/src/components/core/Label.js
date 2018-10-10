@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyledSheet, Text } from 'react-native';
+import { Text } from 'react-native';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 

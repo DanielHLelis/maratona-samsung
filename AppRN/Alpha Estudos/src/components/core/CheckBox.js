@@ -2,14 +2,12 @@ import React, { Component } from 'react'
 import {
     View,
     TouchableOpacity,
-    Text,
-    Dimensions
+    Text
 } from 'react-native'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import COLORS from '@config/colors'
-import TYPOGRAPHY from '@config/typography';
 
  class CheckBox extends Component{
     render(){

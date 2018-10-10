@@ -1,17 +1,19 @@
-import React from 'react'
-import { StyleSheet, Text, View, Image, Dimensions } from 'react-native'
+import React, { Component } from 'react'
+import { Text, View, Image } from 'react-native'
 import styled from 'styled-components'
 
 import storage from '@utils/storage'
 import COLORS from '@config/colors'
 import constants from '@config/constants'
 import IMAGES from '@config/images'
+import TYPOGRAPHY from '@config/typography'
 
 import Button from '@components/core/Button'
 
 let data = require('@tests/test.json');
 
-export default class AppIntroScreen extends React.Component {
+export default class AppIntroScreen extends Component {
+
   componentWillMount(){
     // storage.cleanAll();
     storage.debug();
@@ -20,13 +22,14 @@ export default class AppIntroScreen extends React.Component {
   render() {
     return (
       <Background>
-        <BackgroundImage source={IMAGES.Cato} blurRadius={4} />
+        <BackgroundImage source={IMAGES.BG} blurRadius={4} />
+
         <StyledText>
           Alpha{'\n'}Estudos
         </StyledText>
 
         <View style={{ width: '80%' }}>
-          <Button marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
+          <Button typography={TYPOGRAPHY.mediumText} marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
             Entrar
           </Button>
         </View>
@@ -43,14 +46,13 @@ let StyledText = styled.Text`
 
 let Background = styled.View`
   background-color: ${COLORS.blueBackground};
-  height: ${Dimensions.get('screen').height};
+  height: 100%;
   align-items: center;
   justify-content: center;
 `;
 
 let BackgroundImage = styled.Image`
-  width: ${Dimensions.get('screen').width};
-  height: ${Dimensions.get('screen').height};
-  /* border-radius: ${Dimensions.get('screen').width * 0.4}; */
+  width: 100%;
+  height: 100%;
   position: absolute;
 `;

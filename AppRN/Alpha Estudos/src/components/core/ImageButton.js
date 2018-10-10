@@ -15,13 +15,11 @@ import TYPOGRAPHY from '@config/typography';
     return(
         <View>
                 <StyledTouchableOpacity onPress={props.onPress} {...props}>
-
                     {
                         (props.isLoading)?
                         (<ActivityIndicator size='small' color={COLORS.lightText}/>):
                         (<StyledImage source={props.source} {...props} ></StyledImage>)
                     }
-                    
                 </StyledTouchableOpacity>
         </View>
     );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View, ScrollView, Text, Image, FlatList, Dimensions, TouchableOpacity } from "react-native";
 import styled from 'styled-components';
-import Icon from 'react-native-vector-icons/FontAwesome5'
+import IconSet from '@components/core/IconSet'
 
 import {
   Background,
@@ -27,19 +27,8 @@ export default (MenusScreen = (props) =>
       <Background>
         <Header
           leftPress={() => props.navigation.goBack()}
-          leftComponent={
-            <Icon
-            size={30}
-            color={colors.lightText}
-            name="arrow-left"/>
-          }
-          rightComponent={
-            <Icon 
-              size={30}
-              color={colors.lightText}
-              name="user-clock"
-            />
-          }
+          leftComponent={IconSet.back}
+          rightComponent={IconSet.history}
           rightPress={() => props.navigation.navigate('HistoryScreen')}
         />
         <ThemesBox navigation={props.navigation}/>
@@ -94,15 +83,6 @@ class ThemesBox extends Component{
                 count={this.state[item.name] || 0}
                 length={(item.matters)?(item.matters.length):1}
               />
-              // <ListItem style={(item.disabled)?({opacity: 0.8}):null} onPress={(item.matters)?(() => this.props.navigation.navigate('SelectionScreen', {name: item.name, info: item, onReturn: this._updateState})):(() => null)}>
-              //   {item.image?(<ThemeIcon source={item.image} />):null}
-              //   <ThemeTitle style={(item.disabled)?({textAlign: 'center'}):null} >{item.name}</ThemeTitle>
-              //   <Percentage
-              //   style={(item.matters)?({color:(this.state[item.name]/item.matters.length === 1)?('#00aa00'):((this.state[item.name]/item.matters.length >= 0.4)?('#ffca35'):('#ff5500'))}):null}
-              //   >
-              //     {(item.matters)?Math.floor(this.state[item.name]/item.matters.length*100) +'%':null}
-              //   </Percentage>
-              // </ListItem>
             )}
           />
         </ScrollView>

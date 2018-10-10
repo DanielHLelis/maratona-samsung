@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'react-native'
-import TYPOGRAPHY from '@config/typography'
+
 import COLORS from '@config/colors'
 import styled from 'styled-components'
 
@@ -8,7 +8,8 @@ export default (AppLogoText = props => {return <LogoText {...props}>Alpha{'\n'}E
 
 let LogoText = styled.Text`
     color: ${props => props.color?props.color:COLORS.lightText};
-    ${props => (props.fontFamily && props.fontSize)?(`font-family: ${props.fontFamily};\nfont-size: ${props.fontSize};`):(TYPOGRAPHY.mediumText)};
+    font-family: ${props => props.fontFamily};
+    font-size: ${props => props.fontSize};
     background-color: ${props => props.backgroundColor};
     display: flex;
     justify-content: ${props => props.justifyContent};
@@ -37,6 +38,8 @@ AppLogoText.defaultProps = {
     textColor: COLORS.white,
     fontWeight: '200',
     textAlign: 'left',
+    fontSize: 18,
+    fontFamily: 'Nunito-Regular',
     borderRadius: 6,
     borderWidth: 0,
     borderColor: COLORS.defaultText,
