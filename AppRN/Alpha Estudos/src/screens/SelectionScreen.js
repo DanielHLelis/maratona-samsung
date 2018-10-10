@@ -26,6 +26,8 @@ import constants from '@config/constants'
 
 import storage from '@utils/storage'
 
+import api from '@utils/api'
+
 /*
     TODO: Add activity indicator to the question loading, it's a quite long
 */
@@ -38,13 +40,18 @@ class SelectionScreen extends Component{
 
         this.state = {
             done:{},
-            name: props.navigation.getParam('name', 'null'),
-            info: this.props.navigation.getParam('info', {matters: {name: '404', difficulty: 'Not Found'}})
+            _id: props.navigation.getParam('id', null),
+            data: []
         }
     }
 
+    _getData = () => {
+        if(this.state._id !== null)
+            this.setState({data: api.mattersByID(this.state._id)});
+    }
+
     _done(){
-        storage.getStoreItem('done' + this.state.name, (key, val) => {
+        storage.getStoreItem('done' + this.state._id, (key, val) => {
             if(!val)return;
             val = JSON.parse(val);
             this.setState({done: val});
@@ -53,6 +60,18 @@ class SelectionScreen extends Component{
 
     componentWillMount(){
         this._done();
+        this._getData();
+    }
+
+    _param = (el) => {
+        let obj = {
+            id: el._id,
+            parentId: this.state._id,
+            name: el.name,
+            onSubmit: () => this._done()
+        }
+        console.log(obj);
+        return(obj)
     }
 
     render(){
@@ -71,16 +90,17 @@ class SelectionScreen extends Component{
                 <ScrollView>
                     <FlatList
                         style={{marginBottom: 15}}
-                        data={this.state.info.matters}
+                        data={this.state.data}
                         keyExtractor={(item, index) => toString(index)}
                         renderItem={({ item, index }) => 
-                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen', {section: this.state.name, info: item.questions, name: item.name, onSubmit: () => this._done()})}>
+                            <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen', this._param(item))}>
+                                {console.log(api.questionsByID(this.state._id, item._id))}
                                 <ThemeIcon source={item.image}/>
                                 <InfoContainer>
                                     <ThemeTitle2>{item.name}</ThemeTitle2>
                                     <ThemeSubTitle>{item.difficulty}</ThemeSubTitle>
                                 </InfoContainer>
-                                {(this.state.done[item.name])?(<Done/>):((this.state.done[item.name] === false)?(<Wrong/>):null)}
+                                {(this.state.done[item._id])?(<Done/>):((this.state.done[item._id] === false)?(<Wrong/>):null)}
                             </ListItem>
                         }
                     />

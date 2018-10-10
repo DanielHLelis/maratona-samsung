@@ -18,10 +18,7 @@ import storage from '@utils/storage'
 import Header from "@components/Header";
 import TYPOGRAPHY from "@config/typography";
 
-/*
-  TODO:
-    -Desanexar o código da lista
-*/
+import api from '@utils/api'
 
 export default (MenusScreen = (props) => 
       <Background>
@@ -40,25 +37,25 @@ class ThemesBox extends Component{
     super(props);
 
     this.state = {
-      data: this.props.navigation.getParam('data', 'Error')
+      data: api.themes()
     }
   }
   _updateState = () => {
-    this.state.data.themes.forEach((el) => {
-      storage.getStoreItem('done' + el.name, (key, val) => {
+    this.state.data.forEach((el) => {
+      storage.getStoreItem('done' + el._id, (key, val) => {
         let count = 0;
         val = JSON.parse(val);
         for(let key in val){
           if(val[key])count++;
         }
+        console.log({count, val, id: el._id});
         this.setState({[el.name]: count});
       })
     })
   }
   _onPress = (item) => 
     this.props.navigation.navigate('SelectionScreen',{
-      name: item.name,
-      info: item, 
+      id: item._id,
       onReturn: this._updateState
     });
 
@@ -71,7 +68,7 @@ class ThemesBox extends Component{
       <ScrollView>
           <FlatList
             style={{marginBottom: 15}}
-            data={this.state.data.themes}
+            data={this.state.data}
             keyExtractor={(item, index) => index.toString()}
             renderItem={({ item, index }) => (
               <Theme 

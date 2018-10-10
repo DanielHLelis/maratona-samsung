@@ -18,6 +18,7 @@ import Question from '@components/Question'
 import COLORS from '@config/colors'
 
 import storage from '@utils/storage'
+import api from '@utils/api'
 
 class SimpleQuestionsScreen extends Component{
     _didFocus;
@@ -31,13 +32,21 @@ class SimpleQuestionsScreen extends Component{
             carIndx: 0,
             startTime: 0,
             questions: {},
-            name: props.navigation.getParam('name', 'null'),
-            info: props.navigation.getParam('info', 'Error'),
-            section: props.navigation.getParam('section', 'null')
+            _id: props.navigation.getParam('id', null),
+            _parentId: props.navigation.getParam('parentId', null),
+            data: []
         }
         this._didFocus = props.navigation.addListener('didFocus', payload =>
             BackHandler.addEventListener('hardwareBackPress', this._backPress)
-        );  
+        );
+        console.log(this.state);
+    }
+
+    _getData = () => {
+        if(this.state._id !== null && this.state._parentId !== null)
+            this.setState({data: api.questionsByID(this.state._parentId, this.state._id)}, () => this.setState({questions: this._defineQuestions(this.state.data)}));
+        else
+            this.props.navigation.goBack();
     }
 
     _backPress = () =>{
@@ -58,7 +67,7 @@ class SimpleQuestionsScreen extends Component{
     get pagination(){
         return(
             <Pagination
-                dotsLength={this.state.info.length}
+                dotsLength={this.state.data.length}
                 activeDotIndex={this.state.carIndx}
                 containerStyle={{backgroundColor: COLORS.blueBackground, paddingTop: 0, paddingBottom: 12}}
                 dotStyle={{
@@ -75,8 +84,8 @@ class SimpleQuestionsScreen extends Component{
 
     _setQuestions = (orig, name, val, whitch) => {
         let obj = orig;
-        obj[name].correct = val;
-        obj[name].marked = whitch;
+            obj[name].correct = val;
+            obj[name].marked = whitch;
         return obj;
     }
     _defineQuestions = (options) => {
@@ -84,7 +93,8 @@ class SimpleQuestionsScreen extends Component{
         options.forEach((el) => {
             obj[el.title] = {
                 correct: false,
-                marked: null
+                marked: null,
+                _id: el._id
             }
         });
         return obj;
@@ -105,6 +115,8 @@ class SimpleQuestionsScreen extends Component{
                 val = JSON.parse(val);
             let date = new Date();
             val.unshift({
+                _themeId: this.state._parentId,
+                _matterId: this.state._id,
                 time: {
                     day: date.getDate(),
                     month: date.getMonth() + 1,
@@ -114,10 +126,10 @@ class SimpleQuestionsScreen extends Component{
                     endTime: date.getTime()
                 },
                 startTime: this.state.startTime,
-                name: this.state.name,
+                name: this.props.navigation.getParam('name', 'Unknown'),
                 done: this._count(this.state.questions, x=>x.correct),
-                total: this.state.info.length,
-                questions: this.state.questions
+                total: this.state.data.length,
+                questions: this.state.questions,
             });
             
             val.splice(49, 1);
@@ -127,14 +139,14 @@ class SimpleQuestionsScreen extends Component{
     }
 
     _submit = (callBack) => {
-        storage.getStoreItem('done' + this.state.section, (key, val) => {
+        storage.getStoreItem('done' + this.state._parentId, (key, val) => {
             if(!val)
                 val = {};
             else
                 val = JSON.parse(val);
-            val[this.state.name] = (this.state.info.length === this._count(this.state.questions, x=>x.correct))?true:((val[this.state.name])?(true):(false));
+            val[this.state._id] = (this.state.data.length === this._count(this.state.questions, x=>x.correct))?true:((val[this.state._id])?(true):(false));
 
-            storage.setStoreItem('done' + this.state.section, JSON.stringify(val), callBack, callBack);
+            storage.setStoreItem('done' + this.state._parentId, JSON.stringify(val), callBack, callBack);
         });
     }
 
@@ -159,7 +171,9 @@ class SimpleQuestionsScreen extends Component{
     _updateDimension = (val) => {this.setState({width: val.screen.width}); console.log('change')}
 
     componentWillMount(){
-        this.setState({questions: this._defineQuestions(this.state.info)});
+        this._getData();
+        console.log(api.questionsByID(this.state._parentId, this.state._id));
+        
     }
 
     componentDidMount(){
@@ -188,7 +202,7 @@ class SimpleQuestionsScreen extends Component{
                 />
                 {this.pagination}
                 <Carousel 
-                    data={this.state.info}
+                    data={this.state.data}
                     renderItem={({ item, index }) => 
                         <Question
                             title={item.title}

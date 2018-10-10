@@ -17,7 +17,7 @@ import COLORS from '@config/colors';
 
 /*
   TODO:
-    -Path based question system
+    -Add localstorage to api
 */
 
 export default class App extends React.Component {

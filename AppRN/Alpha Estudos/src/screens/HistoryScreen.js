@@ -137,7 +137,7 @@ const HistoryItem = props => (
                 {props.name}
             </ListTitle>
             <ListDate>
-               {props.time.day + '/' + props.time.month + '/' + props.time.year}  {props.time.hour + ':' + props.time.minute}
+               {props.time.day.toString().padStart(2, '0') + '/' + props.time.month.toString().padStart(2, '0') + '/' + props.time.year.toString().padStart(2, '0')}  {props.time.hour.toString().padStart(2, '0') + ':' + props.time.minute.toString().padStart(2, '0')}
             </ListDate>
         </ColWrapper>
         <ListDone count={props.done} length={props.total}>
