@@ -77,6 +77,7 @@ class SelectionScreen extends Component{
                           name="user-clock"
                         />
                     }
+                    rightPress={() => this.props.navigation.navigate('HistoryScreen')}
                 />
                 <ScrollView>
                     <FlatList
