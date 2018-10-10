@@ -48,13 +48,14 @@
         <div id="matter">
             <h2>MATTER</h2>
             <label>A partir de...
-                <select>
-                    <option>Nova Matéria</option>
-                    <option>Matéria Existente</option>
+                <select id="matterStart">
+                    <option>Selecione</option>
+                    <option value="0">Nova Matéria</option>
+                    <option value="1">Matéria Existente</option>
                 </select>
             </label>
             <div>
-                <label>Selecione a Matéria
+                <label id="matterSelect">Selecione a Matéria
                     <select>
                         <option>Ado Ado Ado...</option>
                     </select>
@@ -80,6 +81,7 @@
             <h2>QUESTION</h2>
             <label>A partir de...
                 <select>
+                    <option>Selecione</option>
                     <option>Nova Questão</option>
                     <option>Questão Existente</option>
                 </select>
