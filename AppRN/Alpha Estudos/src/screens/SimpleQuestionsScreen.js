@@ -118,6 +118,8 @@ class SimpleQuestionsScreen extends Component{
                 total: this.state.info.length,
                 questions: this.state.questions
             });
+            
+            val.splice(49, 1);
 
             storage.setStoreItem('historyItems', JSON.stringify(val), callBack, callBack);
         });
