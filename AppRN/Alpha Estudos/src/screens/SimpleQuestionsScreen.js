@@ -110,7 +110,8 @@ class SimpleQuestionsScreen extends Component{
                     month: date.getMonth() + 1,
                     year: date.getFullYear(),
                     hour: date.getHours(),
-                    minute: date.getMinutes()
+                    minute: date.getMinutes(),
+                    endTime: date.getTime()
                 },
                 startTime: this.state.startTime,
                 name: this.state.name,
@@ -166,7 +167,7 @@ class SimpleQuestionsScreen extends Component{
             BackHandler.removeEventListener('hardwareBackPress', this._backPress)
         );
         this._dimension = Dimensions.addEventListener('change', this._updateDimension);
-        this.setState({startTime: new Date()});
+        this.setState({startTime: new Date().getTime()});
     }
 
     componentWillUnmount() {
