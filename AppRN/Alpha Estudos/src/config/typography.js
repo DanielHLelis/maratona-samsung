@@ -63,6 +63,7 @@ const TYPOGRAPHY = {
   regularTextBold: css`
     font-size: ${FONT_SIZE.regular};
     font-weight: bold;
+    ${FONT_FAMILY.NunitoRegular};
   `,
   mediumText: css`
     font-size: ${FONT_SIZE.medium};
@@ -71,10 +72,12 @@ const TYPOGRAPHY = {
   mediumTextSemibold: css`
     font-size: ${FONT_SIZE.medium};
     font-weight: 700;
+    ${FONT_FAMILY.NunitoRegular};
   `,
   mediumTextBold: css`
     font-size: ${FONT_SIZE.medium};
     font-weight: bold;
+    ${FONT_FAMILY.NunitoRegular};
   `,
   smallText: css`
     font-size: ${FONT_SIZE.small};
@@ -83,11 +86,13 @@ const TYPOGRAPHY = {
   smallTextSemibold: css`
     font-size: ${FONT_SIZE.small};
     font-weight: 700;
+    ${FONT_FAMILY.NunitoRegular};
   `,
   smallTextBold: css`
     font-size: ${FONT_SIZE.small};
     font-weight: bold;
+    ${FONT_FAMILY.NunitoRegular};
   `
 };
-
 export default TYPOGRAPHY;
+

@@ -126,6 +126,11 @@ let UserView = styled.View`
   align-items: center;
   justify-content: center;
   height: 72;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 let UserIco = styled.Image`

@@ -15,6 +15,11 @@ import SPACING from '@config/spacing';
 import StackIntroRoute from '@config/routes';
 import COLORS from '@config/colors';
 
+/*
+  TODO:
+    -Path based question system
+*/
+
 export default class App extends React.Component {
   render() {
     const MainNavigation = createStackNavigator(StackIntroRoute, {

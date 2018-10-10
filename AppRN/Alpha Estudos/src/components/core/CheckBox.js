@@ -49,7 +49,7 @@ let Container = styled.TouchableOpacity`
     border-right-width: ${props => props.boxBorderRightWidth};
     border-bottom-width: ${props => props.boxBorderBottomWidth};
     border-left-width: ${props => props.boxBorderLeftWidth};    
-    width: ${Dimensions.get('screen').width};
+    width: 100%;
 `;
 
 let Box = styled.TouchableOpacity`

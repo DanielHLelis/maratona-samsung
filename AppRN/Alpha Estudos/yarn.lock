@@ -5551,6 +5551,13 @@ react-native-blur@^3.2.2:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-collapsible@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-collapsible/-/react-native-collapsible-1.2.0.tgz#217340f650e9158f0a3f42398fbbe3e60259cf72"
+  integrity sha512-TabKE1lCMMQFePcit9/jnNtotlBLcR18Jcu6Ppjv7c+L8s/ZwcbKttIz9tukYIsnIFDyyWdmmtrv+Zcgv4346g==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-dismiss-keyboard/-/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"

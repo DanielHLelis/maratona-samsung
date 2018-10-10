@@ -33,6 +33,7 @@ class SimpleQuestionsScreen extends Component{
         super(props);
 
         this.state={
+            width: Dimensions.get('screen').width,
             carIndx: 0,
             startTime: 0,
             questions: {},
@@ -115,8 +116,8 @@ class SimpleQuestionsScreen extends Component{
             let date = new Date();
             val.push({
                 time: {
-                    day: date.getDay(),
-                    month: date.getMonth(),
+                    day: date.getDate(),
+                    month: date.getMonth() + 1,
                     year: date.getFullYear(),
                     hour: date.getHours(),
                     minute: date.getMinutes()
@@ -144,6 +145,8 @@ class SimpleQuestionsScreen extends Component{
         });
     }
 
+    _updateDimension = (val) => {this.setState({width: val.screen.width}); console.log('change')}
+
     componentWillMount(){
         this.setState({questions: this._defineQuestions(this.state.info)});
     }
@@ -151,12 +154,15 @@ class SimpleQuestionsScreen extends Component{
         this._willBlur = this.props.navigation.addListener('willBlur', payload =>
             BackHandler.removeEventListener('hardwareBackPress', this._backPress)
         );
+        this._dimension = Dimensions.addEventListener('change', this._updateDimension);
         this.setState({startTime: new Date()});
     }
     componentWillUnmount() {
+        Dimensions.removeEventListener('change', this._updateDimension);
         this._didFocus && this._didFocus.remove();
         this._willBlur && this._willBlur.remove();
     }
+    
 
     render(){
         return(
@@ -165,10 +171,10 @@ class SimpleQuestionsScreen extends Component{
                     leftPress={this._backPress}
                     leftComponent={
                         <Icon
-                        style={{
-                          fontSize: 40,
-                          color: COLORS.lightText
-                        }} name="arrow-left" onPress={this.props.leftPress}/>
+                            size={30}
+                            color={COLORS.lightText}
+                            name="arrow-left"
+                        />
                     }
                     rightComponent={
                         <Icon 
@@ -209,8 +215,8 @@ class SimpleQuestionsScreen extends Component{
                             isCorrect={(val, whitch) => this.setState(this._setQuestions(this.state.questions, item.title, val, whitch))}
                         />  
                     }
-                    sliderWidth={Dimensions.get('screen').width}
-                    itemWidth={Dimensions.get('screen').width}
+                    sliderWidth={this.state.width}
+                    itemWidth={this.state.width}
                     layout='default'
                     onSnapToItem={(index) => this.setState({carIndx: index})}
                 />
@@ -218,12 +224,5 @@ class SimpleQuestionsScreen extends Component{
         );
     }
 }
-
-let Test = styled.View`
-    align-content: center;
-`;
-
-
-
 
 export default SimpleQuestionsScreen;
