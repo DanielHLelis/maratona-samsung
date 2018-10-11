@@ -2,5 +2,9 @@
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

@@ -22,8 +22,8 @@ export default class AppIntroScreen extends Component {
 
   _reset(){
     Alert.alert(
-      'Ousado!!!',
-      'Essa tela é para os devs resetarem os dados do app...\nO senhor DEV gostaria de resetar?',
+      'Audacioso(a)!!!',
+      'Essa tela é para os devs resetarem os dados do app...\nO senhor, DEV, gostaria de resetar?',
       [
         {
           text:'Sim',

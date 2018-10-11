@@ -117,7 +117,7 @@ class HistoryBox extends Component{
                             <Collapse collapsed={!(this.state.collapse === indx)}>
                                 <ContentView>
                                     {this._questionExtractor(el.questions).map((el, indx) => (
-                                        <ColWrapper key={indx.toString()}>
+                                        <ColWrapper style={{width: '33%'}} key={indx.toString()}>
                                             <ListTitle>{el.title}</ListTitle>
                                             <ListTitle style={el.correct?{color: '#00aa00'}:{color: '#ff5500'}}>{el.marked?el.marked:'💨'}</ListTitle>
                                         </ColWrapper>
@@ -161,6 +161,7 @@ const ContentView = styled.View`
     padding-vertical: 10;
     padding-horizontal: 10;
     width: 100%;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -183,6 +184,7 @@ const ListData = styled.View`
 `;
 
 const ColWrapper = styled.View`
+    padding-vertical: 10;
     flex-direction: column;
     align-items: center;
 `;

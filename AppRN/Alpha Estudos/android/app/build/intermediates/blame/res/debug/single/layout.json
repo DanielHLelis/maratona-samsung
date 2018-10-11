@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/home/ymegam/Documentos/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
