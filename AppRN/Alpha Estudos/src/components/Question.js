@@ -17,11 +17,6 @@ import CheckBox from '@components/core/CheckBox'
 
 import ImageSlider from '@components/ImageSlider'
 
-//Test
-import images from '@config/images'
-//Test
-/* PubSub útil para transferir informaçoes das questões e qual a questão atual */
-
 class QuestionBox extends Component{
     constructor(props){
         super(props);
@@ -44,7 +39,7 @@ class QuestionBox extends Component{
     }
 
     componentWillMount(){
-        this.setState({options: this.createOptions(this.props.answers)});
+        this.setState({options: this.props.options?this.props.options:this.createOptions(this.props.answers)});
     }
 
     _keyExtractor = (item, index)=>index;
@@ -60,7 +55,7 @@ class QuestionBox extends Component{
 
                     {this.state.options.map((item, index) => {
                         return(
-                        <CheckBox {...(index)?({boxBorderTopWidth: 1}):(null)} {...QuestionStyle} key={index} label={item.data} checked={item.selected} callBack={(val) => {
+                        <CheckBox {...(index)?({boxBorderTopWidth: 1}):(null)} {...QuestionStyle} key={index} label={item.data} checked={item.selected} callBack={this.props.disabled?() => null:(val) => {
                             let newOptions = this.state.options.map(option => {
                                 option.selected = false;
 
@@ -76,7 +71,8 @@ class QuestionBox extends Component{
                             this.setState({
                                 options: newOptions
                             })
-                        }} />)
+                        }
+                    } />)
                     })}    
                 </StyledView>      
         );

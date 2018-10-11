@@ -48,7 +48,6 @@ class ThemesBox extends Component{
         for(let key in val){
           if(val[key])count++;
         }
-        console.log({count, val, id: el._id});
         this.setState({[el.name]: count});
       })
     })
@@ -78,7 +77,7 @@ class ThemesBox extends Component{
                 onPress={() => this._onPress(item)} 
                 title={item.name} 
                 count={this.state[item.name] || 0}
-                length={(item.matters)?(item.matters.length):1}
+                length={item.length}
               />
             )}
           />

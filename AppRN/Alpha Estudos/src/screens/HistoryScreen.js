@@ -37,6 +37,7 @@ export default class HistoryScreen extends Component{
 
     _update = () => {
         storage.getStoreItem('historyItems', (key, val) => {
+                console.log(val);
                 this.setState({data: (val)?JSON.parse(val):[]});
         })
     }
@@ -60,6 +61,7 @@ export default class HistoryScreen extends Component{
 
     componentWillMount(){
         this._update();
+
     }
     render(){
         return(
@@ -117,7 +119,7 @@ class HistoryBox extends Component{
                                     {this._questionExtractor(el.questions).map((el, indx) => (
                                         <ColWrapper key={indx.toString()}>
                                             <ListTitle>{el.title}</ListTitle>
-                                            <ListTitle style={el.correct?{color: '#00aa00'}:{color: '#ff5500'}}>{el.marked}</ListTitle>
+                                            <ListTitle style={el.correct?{color: '#00aa00'}:{color: '#ff5500'}}>{el.marked?el.marked:'💨'}</ListTitle>
                                         </ColWrapper>
                                     ))}
                                 </ContentView>
@@ -129,15 +131,24 @@ class HistoryBox extends Component{
     }
 }
 
+const formatTime = (d,m,a,h,s) => {
+    d = ((d.toString().length===1) ? `0${d}` : d);
+    m = ((m.toString().length===1) ? `0${m}` : m);
+    a = a.toString();
+    h = ((h.toString().length===1) ? `0${h}` : h);
+    console.log(s.length);
+    s = ((s.toString().length===1) ? `0${s}` : s);
+    return `${d}/${m}/${a}  ${h}:${s}`
+}
 
 const HistoryItem = props => (
     <ListData {...props}>
-        <ColWrapper>
+        <ColWrapper style={{alignItems: 'flex-start'}}>
             <ListTitle>
                 {props.name}
             </ListTitle>
             <ListDate>
-               {props.time.day.toString().padStart(2, '0') + '/' + props.time.month.toString().padStart(2, '0') + '/' + props.time.year.toString().padStart(2, '0')}  {props.time.hour.toString().padStart(2, '0') + ':' + props.time.minute.toString().padStart(2, '0')}
+               {formatTime(props.time.day, props.time.month, props.time.year, props.time.hour, props.time.minute)}
             </ListDate>
         </ColWrapper>
         <ListDone count={props.done} length={props.total}>

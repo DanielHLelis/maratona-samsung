@@ -39,7 +39,6 @@ class SimpleQuestionsScreen extends Component{
         this._didFocus = props.navigation.addListener('didFocus', payload =>
             BackHandler.addEventListener('hardwareBackPress', this._backPress)
         );
-        console.log(this.state);
     }
 
     _getData = () => {
@@ -168,11 +167,10 @@ class SimpleQuestionsScreen extends Component{
     {cancelable: true}
     )
 
-    _updateDimension = (val) => {this.setState({width: val.screen.width}); console.log('change')}
+    _updateDimension = (val) => {this.setState({width: val.screen.width})}
 
     componentWillMount(){
         this._getData();
-        console.log(api.questionsByID(this.state._parentId, this.state._id));
         
     }
 

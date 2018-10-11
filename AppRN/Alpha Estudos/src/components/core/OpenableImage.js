@@ -18,40 +18,16 @@ class OpenableImage extends Component{
 
         this.state = {
             fs: false,
-            ar: 1
         }
     }
 
-    _getDimensions(multiplier){
-        if(!multiplier)multiplier = 1;
-        let obj ={
-            height: null,
-            width: null
-        }
-
-        if(this.state.ar >= 1){
-            obj.width = Dimensions.get('screen').width * multiplier;
-            obj.height = obj.width / this.state.ar;
-        }else{
-            obj.height = Dimensions.get('screen').height * multiplier;
-            obj.width = obj.height * this.state.ar;
-        }
-
-        return obj;
-    }
-
-    componentWillMount(){
-        Image.getSize(this.props.source.uri, (w, h) => {
-            this.setState({ar: w / h});
-        });
-    }
 
     render(){
         return(
                 <View>
                     <Modal visible={this.state.fs} transparent onRequestClose={() => this.setState({fs: false})}>
                         <FullScreener {...this.props} onPress={() => this.setState({fs: !this.state.fs})}>
-                                <FullScreenImage {...this.props} source={this.props.source} resizeMethod='scale' style={this._getDimensions(this.props.fullscreenMultiplier)} />
+                                <FullScreenImage {...this.props} source={this.props.source} resizeMode='contain' resizeMethod='scale' style={{height: '80%', width: '100%'}} />
                                 <SubTitle {...this.props} >{this.props.subtitle}</SubTitle>
                         </FullScreener>
                     </Modal>

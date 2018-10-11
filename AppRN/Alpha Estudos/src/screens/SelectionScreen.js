@@ -64,14 +64,12 @@ class SelectionScreen extends Component{
     }
 
     _param = (el) => {
-        let obj = {
+        return {
             id: el._id,
             parentId: this.state._id,
             name: el.name,
             onSubmit: () => this._done()
         }
-        console.log(obj);
-        return(obj)
     }
 
     render(){
@@ -91,10 +89,9 @@ class SelectionScreen extends Component{
                     <FlatList
                         style={{marginBottom: 15}}
                         data={this.state.data}
-                        keyExtractor={(item, index) => toString(index)}
+                        keyExtractor={(item, index) => index.toString()}
                         renderItem={({ item, index }) => 
                             <ListItem onPress={() => this.props.navigation.navigate('SimpleQuestionsScreen', this._param(item))}>
-                                {console.log(api.questionsByID(this.state._id, item._id))}
                                 <ThemeIcon source={item.image}/>
                                 <InfoContainer>
                                     <ThemeTitle2>{item.name}</ThemeTitle2>

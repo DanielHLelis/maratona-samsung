@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, Image } from 'react-native'
+import { Text, View, Image, Alert } from 'react-native'
 import styled from 'styled-components'
 
 import storage from '@utils/storage'
@@ -7,6 +7,7 @@ import COLORS from '@config/colors'
 import constants from '@config/constants'
 import IMAGES from '@config/images'
 import TYPOGRAPHY from '@config/typography'
+import Openable from '@components/core/OpenableImage'
 
 import Button from '@components/core/Button'
 
@@ -19,17 +20,35 @@ export default class AppIntroScreen extends Component {
     storage.debug();
   }
 
+  _reset(){
+    Alert.alert(
+      'Ousado!!!',
+      'Essa tela é para os devs resetarem os dados do app...\nO senhor DEV gostaria de resetar?',
+      [
+        {
+          text:'Sim',
+          onPress: storage.cleanAll
+        },
+        {
+          text:'Melhor não',
+          style:'cancel'
+        }
+      ],
+      {cancelable: true}
+    )
+  }
+
   render() {
     return (
       <Background>
         <BackgroundImage source={IMAGES.BG} blurRadius={4} />
-
+        
         <StyledText>
           Alpha{'\n'}Estudos
         </StyledText>
 
         <View style={{ width: '80%' }}>
-          <Button typography={TYPOGRAPHY.mediumText} marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
+          <Button typography={TYPOGRAPHY.mediumText} marginTop={30} delayLongPress={2500} onLongPress={this._reset} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
             Entrar
           </Button>
         </View>
