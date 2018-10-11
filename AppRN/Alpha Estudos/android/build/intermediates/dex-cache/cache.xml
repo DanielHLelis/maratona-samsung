@@ -57,21 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ba9c7d445eb6ae2ce8198b5badbddaaf43e3ed29.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/ymegam/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_5bd8c5cdcf11290d9bf350a53accfa9bb2d48748.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ba9c7d445eb6ae2ce8198b5badbddaaf43e3ed29.jar" />
     </item>
     <item
         is-multidex="false"
