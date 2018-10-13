@@ -21,6 +21,7 @@ export let ListItem = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-horizontal: 10;
 `;
 
 export let Background = styled.View`
@@ -30,7 +31,6 @@ export let Background = styled.View`
 `;
 
 export let ThemeIcon = styled.Image`
-  margin-left: 10;
   margin-right: 10;
   height: 75;
   width: 75;

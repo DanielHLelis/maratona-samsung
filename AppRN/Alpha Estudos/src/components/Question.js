@@ -31,7 +31,7 @@ class QuestionBox extends Component{
         for(let a in options){
             obj.push({
                field: a,
-               selected: false,
+               selected: (a===this.props.marked),
                data: options[a] 
             });
         }
@@ -39,7 +39,7 @@ class QuestionBox extends Component{
     }
 
     componentWillMount(){
-        this.setState({options: this.props.options?this.props.options:this.createOptions(this.props.answers)});
+        this.setState({options: this.createOptions(this.props.answers)});
     }
 
     _keyExtractor = (item, index)=>index;
@@ -80,8 +80,11 @@ class QuestionBox extends Component{
 };
 
 QuestionBox.propTypes = {
-    isCorrect: PropTypes.func.isRequired
+    isCorrect: PropTypes.func
 };
+QuestionBox.defaultProps = {
+    isCorrect: () => null
+}
 
 let Enunciado = styled.Text`
     ${TYPOGRAPHY.mediumText};

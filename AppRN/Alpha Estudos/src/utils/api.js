@@ -5,42 +5,65 @@ export default {
     themes: () => {
         return data.map((el, indx) => {
             return {
-                _id: indx,
+                _id: el._id,
                 name: el.name,
                 image: imageData[el.image.uri],
                 length: el.matters.length
             }
     });
     },
-
-    matters: (name) => {
-        for(let i = 0; i < data.length; i++)
-            if(data[i].name === name)return data[i].matters;
-    },
-
     mattersByID: (id) => {
-        return data[id].matters.map((el, indx) => ({
-            _id: indx,
-            _parentId: id,
-            name: el.name,
-            image: imageData[el.image.uri],
-            difficulty: el.difficulty,
-            disbled: (el.disbled)?true:false
-        }));
+        for(let i = 0; i < data.length; i++){
+            if(data[i]._id === id)
+                return data[i].matters.map((el, indx) => ({
+                    _id: el._id,
+                    _parentId: id,
+                    name: el.name,
+                    image: imageData[el.image.uri],
+                    difficulty: el.difficulty,
+                    disbled: (el.disbled)?true:false
+                }));
+        }
     },
 
-    questionsByID: (parentId, id) => {
+    questionsByID: (id, parentId) => {
 
-        return data[parentId].matters[id].questions.map((el, indx) => {
-            let imgs = [];
-            el.images?el.images.forEach((val) => {
-                imgs.push({...val, image: imageData[val.image.uri]});
-            }):null;
-            return {...el, _themeId: parentId, _matterId: id, _id: indx, images: imgs }
-        });
+        for(let i = 0; i < data.length; i++){
+            for(let j = 0; j < data[i].matters.length; j++){
+                if(data[i].matters[j]._id === id){
+                    return data[i].matters[j].questions.map(el => {
+                        let imgs = [];
+                        el.images?el.images.forEach((val) => {
+                            imgs.push({...val, image: imageData[val.image.uri]});
+                        }):null;
+                        return {...el, _themeId: parentId, _matterId: id, images: imgs } 
+                    })
+                }
+            }
+        }
+    },
+
+    question: (id) => {
+        for(let i = 0; i < data.length; i++){
+            for(let j = 0; j < data[i].matters.length; j++){
+                for(let k = 0; k < data[i].matters[j].questions.length; k++){
+                    if(data[i].matters[j].questions[k]._id === id){
+                        let el = data[i].matters[j].questions[k];
+                        let imgs = [];
+                        el.images?el.images.forEach((val) => {
+                            imgs.push({...val, image: imageData[val.image.uri]});
+                        }):null;
+                        return {...el, images: imgs } 
+                    }
+                        
+                }
+            }
+        }
     }
 
 }
+
+    
 
 const imageData = {
     "relacoesEcologicas_Thm.jpg": require('@assets/qstImg/relacoesEcologicas_Thm.jpg'),

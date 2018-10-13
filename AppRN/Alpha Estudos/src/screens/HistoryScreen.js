@@ -9,6 +9,8 @@ import {
 import styled from 'styled-components'
 import IconSet from '@components/core/IconSet'
 
+import Icon from 'react-native-vector-icons/FontAwesome'
+
 import Header from '@components/Header'
 import {
     Background
@@ -37,7 +39,6 @@ export default class HistoryScreen extends Component{
 
     _update = () => {
         storage.getStoreItem('historyItems', (key, val) => {
-                console.log(val);
                 this.setState({data: (val)?JSON.parse(val):[]});
         })
     }
@@ -59,6 +60,12 @@ export default class HistoryScreen extends Component{
         )
     }
 
+    _setData = (data) => {
+        this.setState({data}, () => {
+            storage.setStoreItem('historyItems', JSON.stringify(data));
+        });
+    }
+
     componentWillMount(){
         this._update();
 
@@ -73,7 +80,7 @@ export default class HistoryScreen extends Component{
                     rightComponent={IconSet.erase}
                     rightPress={this._erase}
                 />
-                <HistoryBox data={this.state.data} navigation={this.props.navigation} />
+                <HistoryBox setData={this._setData} data={this.state.data} navigation={this.props.navigation} />
             </Background>
         );
     }
@@ -100,9 +107,30 @@ class HistoryBox extends Component{
     _questionExtractor = (el) => {
         let obj = [];
         for(let a in el){
-            obj.push({title: a, marked: el[a].marked, correct: el[a].correct});
+            obj.push({title: a, marked: el[a].marked, correct: el[a].correct, _id: el[a]._id});
         }
         return obj;
+    }
+
+    _deleteItem = (item) => {
+        Alert.alert(
+            'Cuidado!',
+            'Se você apagar este item do histórico não terá como recuperá-lo!\nTem certeza que deseja limpá-lo?',
+            [
+                {
+                    text:'Apagar',
+                    onPress: () => {
+                        let newObj = this.props.data.filter((el) => el!==item);
+                        this.props.setData(newObj);
+                    }
+                },
+                {
+                    text:'Cancelar',
+                    style: 'cancel'
+                }
+            ],
+            {cancelable: true}
+        )
     }
 
     render(){
@@ -110,17 +138,25 @@ class HistoryBox extends Component{
             <ScrollView>
                     {this.props.data.map( (el, indx) => (
                         <View key={indx.toString()}>
-                            <TouchableOpacity activeOpacity={0.5} onPress={ () => this._collapseHandle(indx) } >
+                            <TouchableOpacity activeOpacity={0.5} onLongPress={()=>this._deleteItem(el)} onPress={ () => this._collapseHandle(indx) } >
                                 <HistoryItem {...el} />
                             </TouchableOpacity>
 
                             <Collapse collapsed={!(this.state.collapse === indx)}>
                                 <ContentView>
                                     {this._questionExtractor(el.questions).map((el, indx) => (
-                                        <ColWrapper style={{width: '33%'}} key={indx.toString()}>
-                                            <ListTitle>{el.title}</ListTitle>
-                                            <ListTitle style={el.correct?{color: '#00aa00'}:{color: '#ff5500'}}>{el.marked?el.marked:'💨'}</ListTitle>
-                                        </ColWrapper>
+                                        <TouchableOpacity key={indx.toString()} style={{width: '33%'}} onPress={() => this.props.navigation.navigate('RevisionScreen', {data: el})}>
+                                            <ColWrapper >
+                                                <ListTitle>{el.title}</ListTitle>
+                                                {el.marked?
+                                                    (el.correct
+                                                        ?(<Icon size={30} color="#00aa00" name="check"/>)
+                                                        :(<Icon size={30} color="#ff5500" name="times"/>)
+                                                    )
+                                                    :(<Icon size={30} color="#adadad" name="window-minimize"/>)
+                                                }
+                                            </ColWrapper>
+                                        </TouchableOpacity>
                                     ))}
                                 </ContentView>
                             </Collapse>    
@@ -136,7 +172,6 @@ const formatTime = (d,m,a,h,s) => {
     m = ((m.toString().length===1) ? `0${m}` : m);
     a = a.toString();
     h = ((h.toString().length===1) ? `0${h}` : h);
-    console.log(s.length);
     s = ((s.toString().length===1) ? `0${s}` : s);
     return `${d}/${m}/${a}  ${h}:${s}`
 }

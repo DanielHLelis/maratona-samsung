@@ -43,7 +43,7 @@ class SimpleQuestionsScreen extends Component{
 
     _getData = () => {
         if(this.state._id !== null && this.state._parentId !== null)
-            this.setState({data: api.questionsByID(this.state._parentId, this.state._id)}, () => this.setState({questions: this._defineQuestions(this.state.data)}));
+            this.setState({data: api.questionsByID(this.state._id, this.state._parentId, )}, () => this.setState({questions: this._defineQuestions(this.state.data)}));
         else
             this.props.navigation.goBack();
     }

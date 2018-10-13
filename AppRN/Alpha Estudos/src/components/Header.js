@@ -51,7 +51,7 @@ class Header extends Component {
               ):(
                 <UserView>
                   {/* <Logo source={images.LOGO}/> */}
-                  <LogoText marginLeft={5}/>
+                  <LogoText fontWeight={Platform.OS==='ios'?'500':'normal'} marginLeft={5}/>
                 </UserView>
               )
             }

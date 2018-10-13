@@ -5,7 +5,7 @@ import {
     Text,
     Image,
     FlatList,
-    Dimensions
+    ActivityIndicator
 } from 'react-native'
 import {
     Background,
@@ -20,9 +20,9 @@ import IconSet from '@components/core/IconSet'
 import Header from '@components/Header'
 
 import colors from '@config/colors'
-import TYPOGRAPHY from '@config/typography'
-import images from '@config/images'
 import constants from '@config/constants'
+
+import Icon from 'react-native-vector-icons/FontAwesome5'
 
 import storage from '@utils/storage'
 
@@ -108,8 +108,8 @@ class SelectionScreen extends Component{
     }
 }
 
-let Done = () => <DoneText color="#00aa00">Feito ✅</DoneText>;
-let Wrong = () => <DoneText color="#ff5500">❌</DoneText>
+let Done = () => <Icon size={30} color="#00aa00" name="check"/>
+let Wrong = () => <Icon size={30} color="#ff5500" name="times"/>
 
 let InfoContainer = styled.View`
     flex: 1;
@@ -130,13 +130,6 @@ let ThemeSubTitle = styled.Text`
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
-`;
-let DoneText = styled.Text`
-    color: ${props => props.color};
-    font-size: ${constants.FONT_SIZE.medium};
-    font-weight: 400;
-    text-align: left;
-    margin-right: 10;
 `;
 
 export default SelectionScreen;

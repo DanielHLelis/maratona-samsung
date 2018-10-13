@@ -1,331 +1,385 @@
 {
-    "themes":[
-        {
-            "name": "Relações Ecológicas",
-            "image": {"uri":"relacoesEcologicas_Thm.jpg"},
-            "matters":[
-                {
-                    "name": "Teias e Cadeias Alimentares",
-                    "image": {"uri":"teiasECadeias_Mttr.jpg"},
-                    "difficulty": "Fácil",
-                    "questions": [
-                        {
-                        "title": "Questão 1",
-                        "text": "(G1 - cftmg 2017) Tartarugas com acúmulo de algas em seu casco nadam até os recifes de corais para terem esse peso extra removido pelos peixes que se aproveitam do alimento farto e abundante. Depois que o peso extra é eliminado, o animal deixa o recife. Nas cadeias alimentares desse ecossistema, o alimento dos peixes está desempenhando o papel de",
-                        "correct": "b",
-                        "solve":"As algas são seres vivos produtores dentro de uma cadeia alimentar.",
-                        "options": {
-                            "a": "parasita.",
-                            "b": "produtor.",
-                            "c": "consumidor.",
-                            "d": "decompositor."
-                        }
-                        },
-                        {
-                        "title": "Questão 2",
-                        "text": "(G1 - ifsp 2016) Recentemente, divulgou-se a existência de contaminação por mercúrio nas águas e na população do distrito Madre de Dios, na Amazônia peruana. O mercúrio é um metal tóxico que não pode ser degradado pelos organismos e acumula-se ao longo dos níveis tróficos, em um processo chamado de bioacumulação. Tendo como base a cadeia alimentar hipotética, descrita abaixo, que estaria presente em um ambiente contaminado por mercúrio, assinale a alternativa que apresenta em quais níveis tróficos podem ser encontrados, respectivamente, mais mercúrio e mais energia.",
-                        "correct": "a",
-                        "solve":"Os poluentes passam pela cadeia alimentar, acumulando-se através dos níveis tróficos, por seres que não degradam estes compostos, portanto, serão encontrados em grande quantidade nos consumidores terciários. A energia é captada e transformada e a cada transferência, de um nível trófico para outro, há perda, sendo maior a quantidade disponível nos produtores.",
-                        "images": [
-                            {
-                                "image": {"uri":"mercurio_Qst.png"}
-                            }
-                        ],
-                        "options": {
-                            "a": "Consumidor terciário e produtor.",
-                            "b": "Consumidor primário e produtor.",
-                            "c": "Produtor e consumidor primário.",
-                            "d": "Produtor e consumidor terciário.",
-                            "e": "Consumidor primário e consumidor terciário."
-                        }
-                        },
-                        {
-                        "title":"Questão 3",
-                        "text": "(G1 - ifsp 2016 - Adaptado) Levando em conta a cadeia alimentar de um ecossistema aquático representada na imagem, selecione o nível trófico ocupado por microcrustáceos.",
-                        "correct": "a",
-                        "solve": "Ao se alimentar de algas (produtores), os microcrustáceos se comportam, na cadeia alimentar, como consumidores primários (segundo nível trófico).",
-                        "images": [
-                            {
-                                "image": {"uri":"ecossistemaAquatico_Qst.png"}
-                            }
-                        ],
-                        "options": {
-                            "a": "consumidor primário.",
-                            "b": "consumidor secundário.",
-                            "c": "produtores.",
-                            "d": "decompositores.",
-                            "e": "consumidor terciário."
-                        }
-                        },
-                        {
-                        "title":"Questão 4",
-                        "text": "(G1 - cps 2015 - Adaptado) A introdução de espécies exóticas em ambientes naturais nos quais elas não existiam é, geralmente, mediada pela atividade humana e pode afetar tanto a biodiversidade quanto as atividades econômicas. O peixe-leão (Pterois volitans), por exemplo, nativo dos oceanos Pacífico e Índico, introduzido no litoral leste dos Estados Unidos, chegou à América Central e à América do Sul. Essa espécie se reproduz facilmente, não tem predadores nessas novas regiões e se alimenta vorazmente. A presença do peixe-leão no Caribe é muito preocupante, pois ele reduziu a população do peixe-papagaio (Sparisoma abilgardi), um herbívoro fundamental para o controle da quantidade das algas, as quais em excesso podem invadir os espaços dos corais, causando um desequilíbrio ecológico nessa região. Na cadeia alimentar descrita no texto, o peixe-leão comporta-se como",
-                        "correct": "d",
-                        "solve": "O peixe-leão se comporta na cadeia alimentar como um consumidor secundário (carnívoro), pois alimenta-se do peixe papagaio, um consumidor primário.",
-                        "images": [
-                            {
-                                "image": {"uri":"peixeLeão_Qst.jpg"},
-                                "subtitle": "Peixe-leão"
-                            }
-                        ],
-                        "options": {
-                            "a": "produtor.",
-                            "b": "decompositor.",
-                            "c": "consumidor primário.",
-                            "d": "consumidor secundário.",
-                            "e": "consumidor primário e secundário."
-                        }
-                        },
-                        {
-                        "title":"Questão 5",
-                        "text": "(G1 - ifsp 2017 - Adaptado) Num campo agrícola hipotético, um agricultor utilizou um agrotóxico que contém metais pesados e contaminou o sistema de cadeia alimentar representado pela pirâmide de biomassa na imagem, a partir dos produtores.",
-                        "correct": "d",
-                        "solve": "As corujas (consumidores terciários) estão no topo da cadeia alimentar e reterão maior quantidade do metal pesado, incorporando-o através dos tróficos anteriores.",
-                        "images": [
-                            {
-                                "image": {"uri":"agrotoxico.jpg"}
-                            }
-                        ],
-                        "options": {
-                            "a": "A grama (Produtores).",
-                            "b": "Os insetos (Consumidores Primários).",
-                            "c": "Os anfíbios (Consumidores Secundários).",
-                            "d": "As corujas (Consumidores Terciários).",
-                            "e": "A grama (Produtores) e os insetos (Consumidores Primários)."
-                        }
-                        },
-                        {
-                        "title":"Questão 6",
-                        "text": "(G1 - utfpr 2014) Os materiais orgânicos na natureza passam por um processo de reaproveitamento chamado de reciclagem que é fundamental para a manutenção do equilíbrio do meio ambiente. Para que a reciclagem ocorra de forma satisfatória são necessários os seguintes agentes biológicos:",
-                        "correct": "c",
-                        "solve": "Os principais agentes responsáveis pela reciclagem dos materiais orgânicos presentes nos organismos mortos são as bactérias e os fungos, presentes nos ecossistemas terrestres e aquáticos.",
-                        "options": {
-                            "a": "insetos carnívoros e plantas aquáticas.",
-                            "b": "fungos e vegetais.",
-                            "c": "bactérias e fungos.",
-                            "d": "protozoários e minhocas.",
-                            "e": "bactérias e plantas."
-                        }
-                        },
-                        {
-                        "title":"Questão 7",
-                        "text": "(G1 - cftmg 2006 - Adaptado) De acordo com a teia alimentar na imagem o único consumidor de primeira, segunda e terceira orndens é o(a)",
-                        "correct": "b",
-                        "images": [
-                            {
-                                "image": {"uri":"teiaConsumidor3_Qst.png"}
-                            }
-                        ],
-                        "options": {
-                            "a": "pássaro.",
-                            "b": "homem.",
-                            "c": "lesma.",
-                            "d": "cobra."
-                        }
-                        },
-                        {
-                        "title":"Questão 8",
-                        "text":"(G1 - cftmg 2012 - Adaptado)Na cadeia alimentar presente na imagem os insetos classificam-se em",
-                        "correct":"c",
-                        "solve":"Os insetos que se alimentam de plantas são consumidores primários, ocupando o segundo nível na cadeia trófica (alimentar) apresentada.",
-                        "images":[
-                            {
-                                "image": {"uri":"insetos_Qst.png"}
-                            }
-                        ],
-                        "options":{
-                            "a":"produtores.",
-                            "b":"decompositores.",
-                            "c":"consumidores primários.",
-                            "d":"consumidores secundários."
-                        }
-                        },
-                        {
-                        "title":"Questão 9",
-                        "text":"(G1 - ifsc 2014 - Adaptado) Observe e analise a teia alimentar na imagem e assinale a alternativa correta.",
-                        "correct":"e",
-                        "solve":"Na teia alimentar, a galinha se comporta como consumidora de primeira ordem ao se alimentar de plantas e frutos; como consumidora de segunda ordem ao se alimentar de embuás e consumidora de terceira ordem ao comer aranhas que se alimentaram de cupins.",
-                        "images":[
-                            {
-                                "image":{"uri":"teiaGalinha_Qst.png"}
-                            }   
-                        ],
-                        "options":{
-                            "a":"O cupim desempenha o papel de produtor, já que se alimenta da madeira.",
-                            "b":"O gambá é consumidor apenas de primeira ordem.",
-                            "c":"A onça é consumidora de primeira, segunda, terceira, quarta e quinta ordens.",
-                            "d":"A madeira é consumidora de terceira ordem.",
-                            "e":"A galinha é consumidora de primeira, segunda e terceira ordens."
-                        }
-                        },
-                        {
-                        "title":"Questão 10",
-                        "text":"(G1 - cps 2006 - Adaptado) Os gaviões, caçadores por natureza, tanto no solo como no ar, alimentam-se principalmente de outras aves (perdizes, garças, tucanos, papagaios e araras), mamíferos (pequenos e médios macacos, esquilos e roedores) e répteis (iguanas, lagartos teiú e diversas espécies de serpentes). No Brasil, algumas espécies desses hábeis caçadores estão em perigo de extinção. Segundo as relações alimentares mantidas pelo gavião, é possível classificá-lo como:",   
-                        "correct":"d",
-                        "options":{
-                            "a":"Produtor, por obter alimento no solo e no ar, e consumidor de primeira ordem, por se alimentar de esquilos.",
-                            "b":"Produtor, por se alimentar de peixes, e consumidor de segunda ordem, por se alimentar de mamíferos.",
-                            "c":"Consumidor de segunda ordem, por se alimentar de vegetais, e consumidor de primeira ordem, por se alimentar de ratos.",
-                            "d":"Carnívoro, ocupando normalmente os últimos níveis tróficos das cadeias alimentares.",
-                            "e":"Hervívoro, ocupando geralmente os primeiros níveis tróficos das cadeias alimentares."
-                        }
-                        },
-                        {
-                        "title":"Questão 11",
-                        "text":"(G1 1996) Numa cadeia alimentar, os decompositores são representados por:",
-                        "correct":"c",
-                        "options":{
-                            "a":"insetos e ratos.",
-                            "b":"urubus e vermes.",
-                            "c":"bactérias e fungos.",
-                            "d":"parasitas e larvas.",
-                            "e":"roedores e pragas."
-                        }
-                        },
-                        {
-                        "title":"Questão 12",
-                        "text":"(G1 1996) Em uma região existem os seguintes seres:  I-árvores; II-preás; III-corujas; IV-gaviões; V-capim; VI-camundongos. Assinale a alternativa que classifica corretamente estes seres",
-                        "correct":"a",
-                        "options":{
-                            "a":"produtores: I e V; consumidores primários: II e VI; consumidores secundários: III e IV",
-                            "b":"produtores: I e V; consumidores primários: II e III; consumidores secundários: IV e VI",
-                            "c":"produtores: I; consumidores primários: II, III e VI; consumidores secundários: IV e V",
-                            "d":"produtores: V; consumidores primários: I, II e III; consumidores secundários: IV e VI",
-                            "e":"produtores: I e V; consumidores primários: II; consumidores secundários: III, IV e VI"    
-                        }
-                        },
-                        {
-                        "title":"Questão 13",
-                        "text":"(G1 1996 - Adaptado) Na teia alimentar representada na figura, rato, pássaro e esquilo são",
-                        "correct":"e",
-                        "images":[
-                            {
-                                "image":{"uri":"ratoPassaroEsquilo_Qst.png"}
-                            }
-                        ],
-                        "options":{
-                            "a":"produtores.",
-                            "b":"decompositores.",
-                            "c":"carnívoros.",
-                            "d":"parasitas.",
-                            "e":"herbívoros."
-                        }
-                        }
-                    ]
-                },
-                {
-                    "name": "Comunidades e Populações",
-                    "done": false,
-                    "image": {"uri":"comunidadesEPopulacoes_Mttr.jpg"},
-                    "difficulty": "Fácil",
-                    "questions": [
-                        {
-                        "title":"Questão 1",
-                        "text": "(G1 - cps 2016) Os vegetais precisam respirar. Para tanto, eles absorvem gás oxigênio do ambiente. Essa absorção ocorre principalmente através de suas folhas e de suas raízes. Assim, o solo precisa ter certa quantidade de ar para que as raízes possam absorver o gás oxigênio. Considerando esse aspecto, podemos afirmar que as minhocas prestam um importante serviço ecológico, pois contribuem para o arejamento do solo. As minhocas estão sempre cavando túneis e revolvendo a terra a procura de restos orgânicos, dos quais se alimentam, deixando a terra fofa e arejada. Além disso, esses túneis facilitam a drenagem das águas das chuvas. Em solos muito duros, normalmente não há minhocas, principalmente porque ali elas não conseguem cavar as suas galerias. Não existindo esses animais, a terra terá menos húmus e menos gás oxigênio e, portanto, oferecerá menos recursos para a vida vegetal.",
-                        "correct": "e",
-                        "solve":"As minhocas são anelídeos que possuem o corpo cilíndrico e segmentado. Elas se locomovem por rastejamento, pela atividade de contração e distensão coordenada de sua musculatura voluntária. Através do mecanismo “estica-encolhe”, elas cavam túneis que arejam o solo e distribuem detritos vegetais que, entrando em decomposição, contribuem para fertilizar os terrenos onde vivem.",
-                        "options": {
-                            "a": "são invertebrados, de vida parasitária, como as lombrigas e as sanguessugas.",
-                            "b": "possuem corpo cilíndrico, não segmentado e respiram por meio de brânquias.",
-                            "c": "favorecem a agricultura, pois produzem o gás oxigênio necessário à respiração das raízes dos vegetais.",
-                            "d": "sintetizam a matéria orgânica de que necessitam para sobreviver a partir dos minerais que absorvem do solo.",
-                            "e": "rastejam e cavam túneis graças à contração e distensão coordenadas dos músculos de cada segmento do corpo."
-                        }
-                        },
-                        {
-                        "title":"Questão 2",
-                        "text": "(G1 - ifsp 2014 - Adaptado) O gráfico na imagem representa o crescimento de duas populações de animais encontrados em um mesmo ecossistema brasileiro, sem que ocorra a interferência humana. Analise-o e assinale a alternativa correta:",
-                        "correct": "d",
-                        "solve": "Os gambás se alimentam de galinhas e de seus filhotes. Dessa forma, se o número de aves (presas) diminuir, o número de gambás (predadores) também diminuirá.",
-                        "images": [
-                            {
-                                "image": {"uri":"graficoGambaGalinha_Qst.png"}
-                            }
-                        ],
-                        "options": {
-                            "a": "Há uma relação de competição entre gambás e galinhas.",
-                            "b": "O pico para a população de galinhas é sempre atingido após o pico de gambás.",
-                            "c": "Se o número de gambás cresce, o número de galinhas também cresce.",
-                            "d": "Se o número de galinhas diminui, o número de gambás também diminuirá após algum tempo.",
-                            "e": "Caso os gambás deixassem de existir, o número de galinhas continuaria a crescer indefinidamente."
-                        }  
-                        }    
-                    ]
-                },
-                {
-                    "name": "Fluxo de Energia",
-                    "done": false,
-                    "image": {"uri":"fluxoDeEnergia_Mttr.jpg"},
-                    "difficulty": "Médio",
-                    "questions": [
-                        {
-                        "title":"Questão 1",
-                        "text":"(G1 - ifsp 2012) Após um longo período realizando um trabalho na faculdade, um estudante chega em sua casa com muita fome e coloca alguns alimentos no seu prato. Além do tradicional arroz e feijão, não podem faltar a carne, o omelete e a salada. Em relação ao fluxo de energia ao longo de uma cadeia alimentar, o estudante consegue obter mais energia quando ingere",
-                        "correct":"d",
-                        "solve":"Os produtores de uma cadeia alimentar, representados pela salada, arroz e feijão, contêm mais energia armazenada em seus tecidos. Ao longo de uma cadeia alimentar, a energia vai diminuindo dos produtores em direção aos consumidores, devido às perdas na forma de calor e detritos eliminados pelos organismos consumidores, componentes da cadeia.",
-                        "options":{
-                            "a":"carne e omelete, porque são provenientes de consumidores primários, nível trófico que armazena mais energia que os produtores.",
-                            "b":"carne e arroz, porque são ricos em carboidratos e proteínas, que são substâncias que armazenam muita energia.",
-                            "c":"feijão e carne, porque apresentam muito ferro que irá compor a molécula de hemoglobina, responsável pelo transporte de gás oxigênio.",
-                            "d":"salada, arroz e feijão, porque são os produtores da cadeia alimentar e contêm mais energia armazenada em seus tecidos.",
-                            "e":"carne, omelete e feijão, porque possuem maior quantidade de carboidratos, que são moléculas orgânicas com muitas ligações químicas."
-                        }
-                        },
-                        {
-                        "title":"Questão 2",
-                        "text":"(G1 - col. naval 2011 - Adaptadado) A partir da observação da imagem, assinale a opção que utiliza os elementos ilustrados (I- árvore, II- sol, III- fungo e IV- borboleta) para fornecer informações corretas sobre o fluxo de energia na natureza.",
-                        "correct":"a",
-                        "solve":"O fluxo de energia no ecossistema é unidirecional. A energia é proveniente do sol e fixada na forma de matéria orgânica pelos produtores. Flui dos produtores em direção aos consumidores em quantidades cada vez menores devido às perdas, na forma de calor, em cada nível trófico das cadeias alimentares.",
-                        "images":[
-                            {
-                                "image":{"uri": "energia1a4_Qst.png"}
-                            }
-                        ],
-                        "options":{
-                            "a":"Introduzida na comunidade biótica (seres vivos) por I, sendo transferida, sob a forma química (alimento), aos demais seres vivos.",
-                            "b":"Obtida do ambiente físico e passa de ser vivo a ser vivo, retornando integralmente ao ecossistema,",
-                            "c":"Originada em II, sendo fixada, sob a forma química, diretamente por IV.",
-                            "d":"Utilizada por III, a partir de compostos orgânicos, quando ele realiza a fotossíntese.",
-                            "e":"Ampliada em III e IV, pois aumenta nos últimos níveis tróficos."
-                        }
-                        }
-                    ]
-                },
-                {
-                    "name": "Níveis Tróficos",
-                    "done": false,
-                    "image": {"uri":"niveisTroficos_Mttr.jpg"},
-                    "difficulty": "Difícil",
-                    "questions": [
-                        {
-                        "title":"Questão 1",
-                        "text":"(Pucsp 2015) Suponha que se queira manter animais aquáticos herbívoros em um aquário. Para garantir a sobrevivência desses animais durante certo tempo, seria aconselhável adicionar ao ambiente",
-                        "correct":"a",
-                        "solve":"Os animais herbívoros de um aquário são consumidores primários e se alimentam de plantas aquáticas e algas. Além disso, os organismos autótrofos realizam a fotossíntese e produzem o gás oxigênio, enquanto o aquário estiver iluminado.",
-                        "options":{
-                            "a":"plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, caso esse fosse iluminado.",
-                            "b":"plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, mesmo que esse não fosse iluminado.",
-                            "c":"fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, caso esse fosse iluminado.",
-                            "d":"fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, mesmo que esse não fosse iluminado.",
-                            "e":"zooplâncton que, além de servir de alimento para os animais, forneceria oxigênio ao meio, caso esse fosse iluminado."
-                        }
-                        },
-                        {
-                        "title":"Questão 2",
-                        "text":"(G2 1996) Nas cadeias alimentares que ocorrem nos ecossistemas aquáticos, o nível trófico dos produtores é ocupado por:",
-                        "correct":"d",
-                        "solve":"Os principais produtores dos ecossistemas aquáticos são as algas e bactérias fotossintetizantes constituintes do fitoplâncton.",
-                        "options":{
-                            "a":"zooplâncton.",
-                            "b":"microcrustáceos.",
-                            "c":"protozoários.",
-                            "d":"fitoplâncton.",
-                            "e":"peixes pequenos."
-                        }
-                        }
-                    ]
+    "themes": [
+      {
+        "_id": "5bc134ea5edb1a8b799eef56",
+        "name": "Relações Ecológicas",
+        "image": {
+          "uri": "relacoesEcologicas_Thm.jpg"
+        },
+        "matters": [
+          {
+            "_id": "5bc134ea7cc4e3e342595db8",
+            "name": "Teias e Cadeias Alimentares",
+            "image": {
+              "uri": "teiasECadeias_Mttr.jpg"
+            },
+            "difficulty": "Fácil",
+            "questions": [
+              {
+                "_id": "5bc134ea243169197606f0c0",
+                "title": "Questão 1",
+                "text": "(G1 - cftmg 2017) Tartarugas com acúmulo de algas em seu casco nadam até os recifes de corais para terem esse peso extra removido pelos peixes que se aproveitam do alimento farto e abundante. Depois que o peso extra é eliminado, o animal deixa o recife. Nas cadeias alimentares desse ecossistema, o alimento dos peixes está desempenhando o papel de",
+                "correct": "b",
+                "solve": "As algas são seres vivos produtores dentro de uma cadeia alimentar.",
+                "options": {
+                  "a": "parasita.",
+                  "b": "produtor.",
+                  "c": "consumidor.",
+                  "d": "decompositor."
                 }
+              },
+              {
+                "_id": "5bc134ea7d84af6f6b6092a5",
+                "title": "Questão 2",
+                "text": "(G1 - ifsp 2016) Recentemente, divulgou-se a existência de contaminação por mercúrio nas águas e na população do distrito Madre de Dios, na Amazônia peruana. O mercúrio é um metal tóxico que não pode ser degradado pelos organismos e acumula-se ao longo dos níveis tróficos, em um processo chamado de bioacumulação. Tendo como base a cadeia alimentar hipotética, descrita abaixo, que estaria presente em um ambiente contaminado por mercúrio, assinale a alternativa que apresenta em quais níveis tróficos podem ser encontrados, respectivamente, mais mercúrio e mais energia.",
+                "correct": "a",
+                "solve": "Os poluentes passam pela cadeia alimentar, acumulando-se através dos níveis tróficos, por seres que não degradam estes compostos, portanto, serão encontrados em grande quantidade nos consumidores terciários. A energia é captada e transformada e a cada transferência, de um nível trófico para outro, há perda, sendo maior a quantidade disponível nos produtores.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "mercurio_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "Consumidor terciário e produtor.",
+                  "b": "Consumidor primário e produtor.",
+                  "c": "Produtor e consumidor primário.",
+                  "d": "Produtor e consumidor terciário.",
+                  "e": "Consumidor primário e consumidor terciário."
+                }
+              },
+              {
+                "_id": "5bc134ea189650b0d98e1bf9",
+                "title": "Questão 3",
+                "text": "(G1 - ifsp 2016 - Adaptado) Levando em conta a cadeia alimentar de um ecossistema aquático representada na imagem, selecione o nível trófico ocupado por microcrustáceos.",
+                "correct": "a",
+                "solve": "Ao se alimentar de algas (produtores), os microcrustáceos se comportam, na cadeia alimentar, como consumidores primários (segundo nível trófico).",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "ecossistemaAquatico_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "consumidor primário.",
+                  "b": "consumidor secundário.",
+                  "c": "produtores.",
+                  "d": "decompositores.",
+                  "e": "consumidor terciário."
+                }
+              },
+              {
+                "_id": "5bc134ea0f5124ab0a3f692d",
+                "title": "Questão 4",
+                "text": "(G1 - cps 2015 - Adaptado) A introdução de espécies exóticas em ambientes naturais nos quais elas não existiam é, geralmente, mediada pela atividade humana e pode afetar tanto a biodiversidade quanto as atividades econômicas. O peixe-leão (Pterois volitans), por exemplo, nativo dos oceanos Pacífico e Índico, introduzido no litoral leste dos Estados Unidos, chegou à América Central e à América do Sul. Essa espécie se reproduz facilmente, não tem predadores nessas novas regiões e se alimenta vorazmente. A presença do peixe-leão no Caribe é muito preocupante, pois ele reduziu a população do peixe-papagaio (Sparisoma abilgardi), um herbívoro fundamental para o controle da quantidade das algas, as quais em excesso podem invadir os espaços dos corais, causando um desequilíbrio ecológico nessa região. Na cadeia alimentar descrita no texto, o peixe-leão comporta-se como",
+                "correct": "d",
+                "solve": "O peixe-leão se comporta na cadeia alimentar como um consumidor secundário (carnívoro), pois alimenta-se do peixe papagaio, um consumidor primário.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "peixeLeão_Qst.jpg"
+                    },
+                    "subtitle": "Peixe-leão"
+                  }
+                ],
+                "options": {
+                  "a": "produtor.",
+                  "b": "decompositor.",
+                  "c": "consumidor primário.",
+                  "d": "consumidor secundário.",
+                  "e": "consumidor primário e secundário."
+                }
+              },
+              {
+                "_id": "5bc134eacd6b2c90d7e8fce1",
+                "title": "Questão 5",
+                "text": "(G1 - ifsp 2017 - Adaptado) Num campo agrícola hipotético, um agricultor utilizou um agrotóxico que contém metais pesados e contaminou o sistema de cadeia alimentar representado pela pirâmide de biomassa na imagem, a partir dos produtores.",
+                "correct": "d",
+                "solve": "As corujas (consumidores terciários) estão no topo da cadeia alimentar e reterão maior quantidade do metal pesado, incorporando-o através dos tróficos anteriores.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "agrotoxico.jpg"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "A grama (Produtores).",
+                  "b": "Os insetos (Consumidores Primários).",
+                  "c": "Os anfíbios (Consumidores Secundários).",
+                  "d": "As corujas (Consumidores Terciários).",
+                  "e": "A grama (Produtores) e os insetos (Consumidores Primários)."
+                }
+              },
+              {
+                "_id": "5bc134ea5dbdfb843d390493",
+                "title": "Questão 6",
+                "text": "(G1 - utfpr 2014) Os materiais orgânicos na natureza passam por um processo de reaproveitamento chamado de reciclagem que é fundamental para a manutenção do equilíbrio do meio ambiente. Para que a reciclagem ocorra de forma satisfatória são necessários os seguintes agentes biológicos:",
+                "correct": "c",
+                "solve": "Os principais agentes responsáveis pela reciclagem dos materiais orgânicos presentes nos organismos mortos são as bactérias e os fungos, presentes nos ecossistemas terrestres e aquáticos.",
+                "options": {
+                  "a": "insetos carnívoros e plantas aquáticas.",
+                  "b": "fungos e vegetais.",
+                  "c": "bactérias e fungos.",
+                  "d": "protozoários e minhocas.",
+                  "e": "bactérias e plantas."
+                }
+              },
+              {
+                "_id": "5bc134ea702478043a3b682c",
+                "title": "Questão 7",
+                "text": "(G1 - cftmg 2006 - Adaptado) De acordo com a teia alimentar na imagem o único consumidor de primeira, segunda e terceira orndens é o(a)",
+                "correct": "b",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "teiaConsumidor3_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "pássaro.",
+                  "b": "homem.",
+                  "c": "lesma.",
+                  "d": "cobra."
+                }
+              },
+              {
+                "_id": "5bc134eac41e3b972817aa9e",
+                "title": "Questão 8",
+                "text": "(G1 - cftmg 2012 - Adaptado)Na cadeia alimentar presente na imagem os insetos classificam-se em",
+                "correct": "c",
+                "solve": "Os insetos que se alimentam de plantas são consumidores primários, ocupando o segundo nível na cadeia trófica (alimentar) apresentada.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "insetos_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "produtores.",
+                  "b": "decompositores.",
+                  "c": "consumidores primários.",
+                  "d": "consumidores secundários."
+                }
+              },
+              {
+                "_id": "5bc134eae9046ef734e8838b",
+                "title": "Questão 9",
+                "text": "(G1 - ifsc 2014 - Adaptado) Observe e analise a teia alimentar na imagem e assinale a alternativa correta.",
+                "correct": "e",
+                "solve": "Na teia alimentar, a galinha se comporta como consumidora de primeira ordem ao se alimentar de plantas e frutos; como consumidora de segunda ordem ao se alimentar de embuás e consumidora de terceira ordem ao comer aranhas que se alimentaram de cupins.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "teiaGalinha_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "O cupim desempenha o papel de produtor, já que se alimenta da madeira.",
+                  "b": "O gambá é consumidor apenas de primeira ordem.",
+                  "c": "A onça é consumidora de primeira, segunda, terceira, quarta e quinta ordens.",
+                  "d": "A madeira é consumidora de terceira ordem.",
+                  "e": "A galinha é consumidora de primeira, segunda e terceira ordens."
+                }
+              },
+              {
+                "_id": "5bc134ea4cf3539ea9481f24",
+                "title": "Questão 10",
+                "text": "(G1 - cps 2006 - Adaptado) Os gaviões, caçadores por natureza, tanto no solo como no ar, alimentam-se principalmente de outras aves (perdizes, garças, tucanos, papagaios e araras), mamíferos (pequenos e médios macacos, esquilos e roedores) e répteis (iguanas, lagartos teiú e diversas espécies de serpentes). No Brasil, algumas espécies desses hábeis caçadores estão em perigo de extinção. Segundo as relações alimentares mantidas pelo gavião, é possível classificá-lo como:",
+                "correct": "d",
+                "options": {
+                  "a": "Produtor, por obter alimento no solo e no ar, e consumidor de primeira ordem, por se alimentar de esquilos.",
+                  "b": "Produtor, por se alimentar de peixes, e consumidor de segunda ordem, por se alimentar de mamíferos.",
+                  "c": "Consumidor de segunda ordem, por se alimentar de vegetais, e consumidor de primeira ordem, por se alimentar de ratos.",
+                  "d": "Carnívoro, ocupando normalmente os últimos níveis tróficos das cadeias alimentares.",
+                  "e": "Hervívoro, ocupando geralmente os primeiros níveis tróficos das cadeias alimentares."
+                }
+              },
+              {
+                "_id": "2ac134ea4cf3539ea9481f24",
+                "title": "Questão 11",
+                "text": "(G1 1996) Numa cadeia alimentar, os decompositores são representados por:",
+                "correct": "c",
+                "options": {
+                  "a": "insetos e ratos.",
+                  "b": "urubus e vermes.",
+                  "c": "bactérias e fungos.",
+                  "d": "parasitas e larvas.",
+                  "e": "roedores e pragas."
+                }
+              },
+              {
+                "_id": "5bc134ea6ada8e1876381d9b",
+                "title": "Questão 12",
+                "text": "(G1 1996) Em uma região existem os seguintes seres:  I-árvores; II-preás; III-corujas; IV-gaviões; V-capim; VI-camundongos. Assinale a alternativa que classifica corretamente estes seres",
+                "correct": "a",
+                "options": {
+                  "a": "produtores: I e V; consumidores primários: II e VI; consumidores secundários: III e IV",
+                  "b": "produtores: I e V; consumidores primários: II e III; consumidores secundários: IV e VI",
+                  "c": "produtores: I; consumidores primários: II, III e VI; consumidores secundários: IV e V",
+                  "d": "produtores: V; consumidores primários: I, II e III; consumidores secundários: IV e VI",
+                  "e": "produtores: I e V; consumidores primários: II; consumidores secundários: III, IV e VI"
+                }
+              },
+              {
+                "_id": "5bc134ea3de14f4ecf13fb9b",
+                "title": "Questão 13",
+                "text": "(G1 1996 - Adaptado) Na teia alimentar representada na figura, rato, pássaro e esquilo são",
+                "correct": "e",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "ratoPassaroEsquilo_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "produtores.",
+                  "b": "decompositores.",
+                  "c": "carnívoros.",
+                  "d": "parasitas.",
+                  "e": "herbívoros."
+                }
+              }
             ]
-        }
+          },
+          {
+            "_id": "5bc134ead6aad5b5364d9497",
+            "name": "Comunidades e Populações",
+            "done": false,
+            "image": {
+              "uri": "comunidadesEPopulacoes_Mttr.jpg"
+            },
+            "difficulty": "Fácil",
+            "questions": [
+              {
+                "_id": "5bc134ea269e273967fc889e",
+                "title": "Questão 1",
+                "text": "(G1 - cps 2016) Os vegetais precisam respirar. Para tanto, eles absorvem gás oxigênio do ambiente. Essa absorção ocorre principalmente através de suas folhas e de suas raízes. Assim, o solo precisa ter certa quantidade de ar para que as raízes possam absorver o gás oxigênio. Considerando esse aspecto, podemos afirmar que as minhocas prestam um importante serviço ecológico, pois contribuem para o arejamento do solo. As minhocas estão sempre cavando túneis e revolvendo a terra a procura de restos orgânicos, dos quais se alimentam, deixando a terra fofa e arejada. Além disso, esses túneis facilitam a drenagem das águas das chuvas. Em solos muito duros, normalmente não há minhocas, principalmente porque ali elas não conseguem cavar as suas galerias. Não existindo esses animais, a terra terá menos húmus e menos gás oxigênio e, portanto, oferecerá menos recursos para a vida vegetal.",
+                "correct": "e",
+                "solve": "As minhocas são anelídeos que possuem o corpo cilíndrico e segmentado. Elas se locomovem por rastejamento, pela atividade de contração e distensão coordenada de sua musculatura voluntária. Através do mecanismo “estica-encolhe”, elas cavam túneis que arejam o solo e distribuem detritos vegetais que, entrando em decomposição, contribuem para fertilizar os terrenos onde vivem.",
+                "options": {
+                  "a": "são invertebrados, de vida parasitária, como as lombrigas e as sanguessugas.",
+                  "b": "possuem corpo cilíndrico, não segmentado e respiram por meio de brânquias.",
+                  "c": "favorecem a agricultura, pois produzem o gás oxigênio necessário à respiração das raízes dos vegetais.",
+                  "d": "sintetizam a matéria orgânica de que necessitam para sobreviver a partir dos minerais que absorvem do solo.",
+                  "e": "rastejam e cavam túneis graças à contração e distensão coordenadas dos músculos de cada segmento do corpo."
+                }
+              },
+              {
+                "_id": "5bc134ea8e1f4bd33387d652",
+                "title": "Questão 2",
+                "text": "(G1 - ifsp 2014 - Adaptado) O gráfico na imagem representa o crescimento de duas populações de animais encontrados em um mesmo ecossistema brasileiro, sem que ocorra a interferência humana. Analise-o e assinale a alternativa correta:",
+                "correct": "d",
+                "solve": "Os gambás se alimentam de galinhas e de seus filhotes. Dessa forma, se o número de aves (presas) diminuir, o número de gambás (predadores) também diminuirá.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "graficoGambaGalinha_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "Há uma relação de competição entre gambás e galinhas.",
+                  "b": "O pico para a população de galinhas é sempre atingido após o pico de gambás.",
+                  "c": "Se o número de gambás cresce, o número de galinhas também cresce.",
+                  "d": "Se o número de galinhas diminui, o número de gambás também diminuirá após algum tempo.",
+                  "e": "Caso os gambás deixassem de existir, o número de galinhas continuaria a crescer indefinidamente."
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5bc134ea582ea18976528cf0",
+            "name": "Fluxo de Energia",
+            "done": false,
+            "image": {
+              "uri": "fluxoDeEnergia_Mttr.jpg"
+            },
+            "difficulty": "Médio",
+            "questions": [
+              {
+                "_id": "5bc134ea3dcfa79ea48cfe38",
+                "title": "Questão 1",
+                "text": "(G1 - ifsp 2012) Após um longo período realizando um trabalho na faculdade, um estudante chega em sua casa com muita fome e coloca alguns alimentos no seu prato. Além do tradicional arroz e feijão, não podem faltar a carne, o omelete e a salada. Em relação ao fluxo de energia ao longo de uma cadeia alimentar, o estudante consegue obter mais energia quando ingere",
+                "correct": "d",
+                "solve": "Os produtores de uma cadeia alimentar, representados pela salada, arroz e feijão, contêm mais energia armazenada em seus tecidos. Ao longo de uma cadeia alimentar, a energia vai diminuindo dos produtores em direção aos consumidores, devido às perdas na forma de calor e detritos eliminados pelos organismos consumidores, componentes da cadeia.",
+                "options": {
+                  "a": "carne e omelete, porque são provenientes de consumidores primários, nível trófico que armazena mais energia que os produtores.",
+                  "b": "carne e arroz, porque são ricos em carboidratos e proteínas, que são substâncias que armazenam muita energia.",
+                  "c": "feijão e carne, porque apresentam muito ferro que irá compor a molécula de hemoglobina, responsável pelo transporte de gás oxigênio.",
+                  "d": "salada, arroz e feijão, porque são os produtores da cadeia alimentar e contêm mais energia armazenada em seus tecidos.",
+                  "e": "carne, omelete e feijão, porque possuem maior quantidade de carboidratos, que são moléculas orgânicas com muitas ligações químicas."
+                }
+              },
+              {
+                "_id": "5bc134ea1126c02081f8924f",
+                "title": "Questão 2",
+                "text": "(G1 - col. naval 2011 - Adaptadado) A partir da observação da imagem, assinale a opção que utiliza os elementos ilustrados (I- árvore, II- sol, III- fungo e IV- borboleta) para fornecer informações corretas sobre o fluxo de energia na natureza.",
+                "correct": "a",
+                "solve": "O fluxo de energia no ecossistema é unidirecional. A energia é proveniente do sol e fixada na forma de matéria orgânica pelos produtores. Flui dos produtores em direção aos consumidores em quantidades cada vez menores devido às perdas, na forma de calor, em cada nível trófico das cadeias alimentares.",
+                "images": [
+                  {
+                    "image": {
+                      "uri": "energia1a4_Qst.png"
+                    }
+                  }
+                ],
+                "options": {
+                  "a": "Introduzida na comunidade biótica (seres vivos) por I, sendo transferida, sob a forma química (alimento), aos demais seres vivos.",
+                  "b": "Obtida do ambiente físico e passa de ser vivo a ser vivo, retornando integralmente ao ecossistema,",
+                  "c": "Originada em II, sendo fixada, sob a forma química, diretamente por IV.",
+                  "d": "Utilizada por III, a partir de compostos orgânicos, quando ele realiza a fotossíntese.",
+                  "e": "Ampliada em III e IV, pois aumenta nos últimos níveis tróficos."
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5bc134ea7822f494fc24f0ae",
+            "name": "Níveis Tróficos",
+            "done": false,
+            "image": {
+              "uri": "niveisTroficos_Mttr.jpg"
+            },
+            "difficulty": "Difícil",
+            "questions": [
+              {
+                "_id": "5bc134eabc67f7ecb154ccbd",
+                "title": "Questão 1",
+                "text": "(Pucsp 2015) Suponha que se queira manter animais aquáticos herbívoros em um aquário. Para garantir a sobrevivência desses animais durante certo tempo, seria aconselhável adicionar ao ambiente",
+                "correct": "a",
+                "solve": "Os animais herbívoros de um aquário são consumidores primários e se alimentam de plantas aquáticas e algas. Além disso, os organismos autótrofos realizam a fotossíntese e produzem o gás oxigênio, enquanto o aquário estiver iluminado.",
+                "options": {
+                  "a": "plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, caso esse fosse iluminado.",
+                  "b": "plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, mesmo que esse não fosse iluminado.",
+                  "c": "fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, caso esse fosse iluminado.",
+                  "d": "fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, mesmo que esse não fosse iluminado.",
+                  "e": "zooplâncton que, além de servir de alimento para os animais, forneceria oxigênio ao meio, caso esse fosse iluminado."
+                }
+              },
+              {
+                "_id": "5bc134ea944b822e98ef70b6",
+                "title": "Questão 2",
+                "text": "(G2 1996) Nas cadeias alimentares que ocorrem nos ecossistemas aquáticos, o nível trófico dos produtores é ocupado por:",
+                "correct": "d",
+                "solve": "Os principais produtores dos ecossistemas aquáticos são as algas e bactérias fotossintetizantes constituintes do fitoplâncton.",
+                "options": {
+                  "a": "zooplâncton.",
+                  "b": "microcrustáceos.",
+                  "c": "protozoários.",
+                  "d": "fitoplâncton.",
+                  "e": "peixes pequenos."
+                }
+              }
+            ]
+          }
+        ]
+      }
     ]
-}
+  }

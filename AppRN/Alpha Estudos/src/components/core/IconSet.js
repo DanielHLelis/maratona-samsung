@@ -3,7 +3,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5'
 
 import COLORS from '@config/colors'
 
-const size = 30;
+const size = 35;
 
 const Icons = {
     back: (
@@ -32,6 +32,13 @@ const Icons = {
             size={size}
             color={COLORS.lightText}
             name="check-circle"
+        />
+    ),
+    tip: (
+        <Icon 
+            size={size}
+            color={COLORS.lightText}
+            name="lightbulb"
         />
     )
 }

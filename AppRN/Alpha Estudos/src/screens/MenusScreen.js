@@ -106,5 +106,4 @@ let Percentage = styled.Text`
   color: ${colors.defaultText};
   font-size: 18;
   font-weight: 400;
-  margin-right: 10;
 `;

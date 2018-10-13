@@ -42,7 +42,7 @@ class OpenableImage extends Component{
 
 const FullScreener = styled.TouchableOpacity`
     background-color: ${props => props.fullscreenBackgroundColor};
-    height: ${Dimensions.get('screen').height};
+    height: 100%;
     flex: 1;
     align-items: center;
     justify-content: center;
