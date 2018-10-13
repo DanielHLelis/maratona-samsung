@@ -23,11 +23,6 @@ import storage from '@utils/storage'
 
 import Collapse from 'react-native-collapsible'
 
-/*
-    TODO:
-        - Add supprot for viewing the question on history + the solve content 
-*/
-
 export default class HistoryScreen extends Component{
     constructor(props){
         super(props);
