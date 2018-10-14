@@ -31,7 +31,7 @@
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
                BuildableName = "alphaestudos-tvOS.app"
                BlueprintName = "alphaestudos-tvOS"
-               ReferencedContainer = "container:alphaestudos.xcodeproj">
+               ReferencedContainer = "container:Alpha Estudos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
                BuildableName = "alphaestudos-tvOSTests.xctest"
                BlueprintName = "alphaestudos-tvOSTests"
-               ReferencedContainer = "container:alphaestudos.xcodeproj">
+               ReferencedContainer = "container:Alpha Estudos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -63,7 +63,7 @@
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
                BuildableName = "alphaestudos-tvOSTests.xctest"
                BlueprintName = "alphaestudos-tvOSTests"
-               ReferencedContainer = "container:alphaestudos.xcodeproj">
+               ReferencedContainer = "container:Alpha Estudos.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,7 +73,7 @@
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
             BuildableName = "alphaestudos-tvOS.app"
             BlueprintName = "alphaestudos-tvOS"
-            ReferencedContainer = "container:alphaestudos.xcodeproj">
+            ReferencedContainer = "container:Alpha Estudos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -96,7 +96,7 @@
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
             BuildableName = "alphaestudos-tvOS.app"
             BlueprintName = "alphaestudos-tvOS"
-            ReferencedContainer = "container:alphaestudos.xcodeproj">
+            ReferencedContainer = "container:Alpha Estudos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -115,7 +115,7 @@
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
             BuildableName = "alphaestudos-tvOS.app"
             BlueprintName = "alphaestudos-tvOS"
-            ReferencedContainer = "container:alphaestudos.xcodeproj">
+            ReferencedContainer = "container:Alpha Estudos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
