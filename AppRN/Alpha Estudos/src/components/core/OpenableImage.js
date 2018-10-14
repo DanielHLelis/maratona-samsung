@@ -5,9 +5,13 @@ import {
    Image,
    View,
    Text,
-   ScrollView,
+   SafeAreaView,
    TouchableOpacity 
 } from 'react-native'
+import PhotoView from 'react-native-photo-view'
+
+import Icon from 'react-native-vector-icons/FontAwesome5'
+
 import PropTypes from 'prop-types'
 
 import styled from 'styled-components'
@@ -18,16 +22,78 @@ class OpenableImage extends Component{
 
         this.state = {
             fs: false,
+            width: Dimensions.get('screen').width
         }
     }
 
+    handleWidth = (val) => {
+        this.setState({width: val.screen.width});
+    }
+
+    componentWillMount(){
+        Dimensions.addEventListener('change', this.handleWidth);
+    }
+    componentWillUnmount(){
+        Dimensions.removeEventListener('change', this.handleWidth);
+    }
+
+    _getImageHeight = (image, wid) => {
+        let ar = 1;
+        if(image.uri){
+            Image.getSize(image.uri, (w, h) => {
+                ar = h / w;
+            }, () => null);
+        }else {
+            let {width, height} = Image.resolveAssetSource(image);
+            if(height && width) ar = height / width
+        }
+
+        return (ar * wid);
+    }
+
+    FullScreenImage = (props) => ({
+        borderRadius: props.fullscreenBorderRadius,
+        borderTopWidth: props.fullscreenBorderTopWidth,
+        borderRightWidth: props.fullscreenBorderRightWidth,
+        borderBottomWidth: props.fullscreenBorderBottomWidth,
+        borderLeftWidth: props.fullscreenBorderLeftWidth,
+        borderWidth: props.fullscreenBorderWidth,
+        borderColor: props.fullscreenBorderColor,
+        zIndex: 8
+    })
 
     render(){
         return(
                 <View>
                     <Modal visible={this.state.fs} transparent onRequestClose={() => this.setState({fs: false})}>
-                        <FullScreener {...this.props} onPress={() => this.setState({fs: !this.state.fs})}>
-                                <FullScreenImage {...this.props} source={this.props.source} resizeMode='contain' resizeMethod='scale' style={{height: '80%', width: '100%'}} />
+                        <SafeAreaView style={{backgroundColor: this.props.fullscreenBackgroundColor}}>
+                            <TouchableOpacity style={{marginTop: 10, marginLeft: 10}} onPress={() => this.setState({fs: !this.state.fs})}>
+                                    <Icon 
+                                        size={50}
+                                        color="#fff"
+                                        name="arrow-left"
+                                        style={{
+                                            textShadowColor: '#0008',
+                                            textShadowRadius: 4
+                                        }}
+                                    />
+                                </TouchableOpacity>    
+                        </SafeAreaView>
+                        
+                        <FullScreener {...this.props} >
+                                <PhotoView 
+                                    {...this.props}
+                                    style={[
+                                        this.FullScreenImage(this.props),
+                                        {height: this._getImageHeight(this.props.source, this.state.width), width: this.state.width}
+                                    ]}
+                                    showsHorizontalScrollIndicator={false}
+                                    showsVerticalScrollIndicator={false}
+                                    minimumZoomScale={1} 
+                                    maximumZoomScale={5} 
+                                    androidScaletype='center'
+                                    source={this.props.source}
+                                />
                                 <SubTitle {...this.props} >{this.props.subtitle}</SubTitle>
                         </FullScreener>
                     </Modal>
@@ -40,22 +106,13 @@ class OpenableImage extends Component{
     };
 }
 
-const FullScreener = styled.TouchableOpacity`
+const FullScreener = styled.View`
     background-color: ${props => props.fullscreenBackgroundColor};
     height: 100%;
     flex: 1;
+    z-index: 6;
     align-items: center;
     justify-content: center;
-`;
-
-const FullScreenImage = styled.Image`
-    border-radius: ${props => props.fullscreenBorderRadius};
-    border-top-width: ${props => props.fullscreenBorderTopWidth};
-    border-right-width: ${props => props.fullscreenBorderRightWidth};
-    border-bottom-width: ${props => props.fullscreenBorderBottomWidth};
-    border-left-width: ${props => props.fullscreenBorderLeftWidth};
-    border-width: ${props => props.fullscreenBorderWidth};
-    border-color: ${props => props.fullscreenBorderColor};
 `;
 
 const SubTitle = styled.Text`

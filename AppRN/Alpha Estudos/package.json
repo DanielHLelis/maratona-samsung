@@ -26,6 +26,7 @@
         "react-native-collapsible": "^1.2.0",
         "react-native-lightbox": "^0.8.0",
         "react-native-paper": "^2.0.1",
+        "react-native-photo-view": "^1.5.2",
         "react-native-snap-carousel": "^3.7.4",
         "react-native-vector-icons": "^5.0.0",
         "react-navigation": "^2.11.2",
