@@ -15,28 +15,29 @@ let data = require('@tests/test.json');
 
 export default class AppIntroScreen extends Component {
 
-  componentWillMount(){
-    // storage.cleanAll();
-    storage.debug();
-  }
+  // componentWillMount(){
+  //   // storage.cleanAll();
+  //   storage.debug();
+  // }
 
-  _reset(){
-    Alert.alert(
-      'Audacioso(a)!!!',
-      'Essa tela é para os devs resetarem os dados do app...\nO senhor, DEV, gostaria de resetar?',
-      [
-        {
-          text:'Sim',
-          onPress: storage.cleanAll
-        },
-        {
-          text:'Melhor não',
-          style:'cancel'
-        }
-      ],
-      {cancelable: true}
-    )
-  }
+  // _reset(){
+  //   Alert.alert(
+  //     'Audacioso(a)!!!',
+  //     'Essa tela é para os devs resetarem os dados do app...\nO senhor, DEV, gostaria de resetar?',
+  //     [
+  //       {
+  //         text:'Sim',
+  //         onPress: storage.cleanAll
+  //       },
+  //       {
+  //         text:'Melhor não',
+  //         style:'cancel'
+  //       }
+  //     ],
+  //     {cancelable: true}
+  //   )
+  // }
+  // delayLongPress={2500} onLongPress={this._reset}
 
   render() {
     return (
@@ -48,7 +49,7 @@ export default class AppIntroScreen extends Component {
         </StyledText>
 
         <View style={{ width: '80%' }}>
-          <Button typography={TYPOGRAPHY.mediumText} marginTop={30} delayLongPress={2500} onLongPress={this._reset} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
+          <Button typography={TYPOGRAPHY.mediumText} marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
             Entrar
           </Button>
         </View>

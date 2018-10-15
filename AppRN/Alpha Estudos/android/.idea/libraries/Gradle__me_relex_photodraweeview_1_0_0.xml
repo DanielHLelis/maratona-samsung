@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: me.relex:photodraweeview-1.0.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../node_modules/react-native-photo-view/android/build/intermediates/exploded-aar/me.relex/photodraweeview/1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../node_modules/react-native-photo-view/android/build/intermediates/exploded-aar/me.relex/photodraweeview/1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.relex/photodraweeview/1.0.0/1322bab6656c697017b5b298662c864eeb08cfc2/photodraweeview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
