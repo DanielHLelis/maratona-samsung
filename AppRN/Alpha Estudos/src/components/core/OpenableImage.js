@@ -66,21 +66,8 @@ class OpenableImage extends Component{
         return(
                 <View>
                     <Modal visible={this.state.fs} transparent onRequestClose={() => this.setState({fs: false})}>
-                        <SafeAreaView style={{backgroundColor: this.props.fullscreenBackgroundColor}}>
-                            <TouchableOpacity style={{marginTop: 10, marginLeft: 10}} onPress={() => this.setState({fs: !this.state.fs})}>
-                                    <Icon 
-                                        size={50}
-                                        color="#fff"
-                                        name="arrow-left"
-                                        style={{
-                                            textShadowColor: '#0008',
-                                            textShadowRadius: 4
-                                        }}
-                                    />
-                                </TouchableOpacity>    
-                        </SafeAreaView>
-                        
                         <FullScreener {...this.props} >
+                                <AH {...this.props} activeOpacity={1} onPress={() => this.setState({fs: false})} />
                                 <PhotoView 
                                     {...this.props}
                                     style={[
@@ -106,8 +93,15 @@ class OpenableImage extends Component{
     };
 }
 
-const FullScreener = styled.View`
+const AH = styled.TouchableOpacity`
+    position: absolute;
     background-color: ${props => props.fullscreenBackgroundColor};
+    height: 100%;
+    width: 100%;
+`;
+
+const FullScreener = styled.View`
+    background-color: transparent;
     height: 100%;
     flex: 1;
     z-index: 6;

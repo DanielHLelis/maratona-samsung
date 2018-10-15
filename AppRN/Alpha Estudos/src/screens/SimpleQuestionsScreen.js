@@ -2,9 +2,11 @@ import React, { Component } from 'react'
 import {
     BackHandler,
     Dimensions,
-    Alert
-} from 'react-native';
-import Carousel, { Pagination } from 'react-native-snap-carousel'
+    Alert,
+    View,
+    ScrollView
+} from 'react-native'
+import styled from 'styled-components'
 
 import IconSet from '@components/core/IconSet'
 
@@ -65,19 +67,15 @@ class SimpleQuestionsScreen extends Component{
 
     get pagination(){
         return(
-            <Pagination
-                dotsLength={this.state.data.length}
-                activeDotIndex={this.state.carIndx}
-                containerStyle={{backgroundColor: COLORS.blueBackground, paddingTop: 0, paddingBottom: 12}}
-                dotStyle={{
-                    width: 10,
-                    height: 10,
-                    borderRadius: 5,
-                    backgroundColor: '#ffffff'
-                }}
-                inactiveDotOpacity={0.4}
-                inactiveDotScale={0.6}
-            />
+            <View
+                style={{backgroundColor: COLORS.blueBackground, paddingTop: 0, paddingBottom: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}
+            >
+                {
+                    this.state.data.map((item, index) => (
+                        <Dot key={index.toString()} size={index===this.state.carIndx ? 10 : 8} opacity={index===this.state.carIndx ? 1 : .8} />
+                    ))
+                }
+            </View>
         );
     }
 
@@ -188,6 +186,10 @@ class SimpleQuestionsScreen extends Component{
         this._willBlur && this._willBlur.remove();
     }
 
+    pagina = (e) => {
+        this.setState({carIndx: Math.round(e.nativeEvent.contentOffset.x / this.state.width)});
+    }
+
     render(){
         return(
             <Background>
@@ -199,26 +201,43 @@ class SimpleQuestionsScreen extends Component{
                     rightPress={this._send}
                 />
                 {this.pagination}
-                <Carousel 
-                    data={this.state.data}
-                    renderItem={({ item, index }) => 
-                        <Question
-                            title={item.title}
-                            enunciado={item.text}
-                            answers={item.options}
-                            imageList={item.images}
-                            correct={item.correct}
-                            isCorrect={(val, whitch) => this.setState(this._setQuestions(this.state.questions, item.title, val, whitch))}
-                        />  
-                    }
-                    sliderWidth={this.state.width}
-                    itemWidth={this.state.width}
-                    layout='default'
-                    onSnapToItem={(index) => this.setState({carIndx: index})}
-                />
+                <ScrollView
+                    decelerationRate={0}
+                    snapToInterval={this.state.width}
+                    snapToAlignment="center"
+                    onScroll={this.pagina}
+                    horizontal
+                    pagingEnabled
+                >
+                {
+                    this.state.data.map((item, index) => (
+                        <View key={index.toString()} style={{width: this.state.width}} >
+                            <Question
+                                title={item.title}
+                                enunciado={item.text}
+                                answers={item.options}
+                                imageList={item.images}
+                                correct={item.correct}
+                                isCorrect={(val, whitch) => this.setState(this._setQuestions(this.state.questions, item.title, val, whitch))}
+                            />
+                        </View>
+                          
+                    ))
+                }
+
+                </ScrollView>
             </Background>
         );
     }
 }
+
+const Dot = styled.View`
+    height: ${props => props.size};
+    width: ${props => props.size};
+    border-radius: ${props => props.size / 2};
+    opacity: ${props => props.opacity};
+    background-color: #fff;
+    margin-horizontal: ${props => props.size / 2};
+`;
 
 export default SimpleQuestionsScreen;
