@@ -147,7 +147,7 @@ class SimpleQuestionsScreen extends Component{
         });
     }
 
-    _send = () => Alert.alert('Alerta!', `Uma vez enviado não terá como voltar atrás, deseja mesmo enviar?`, [
+    _send = () => Alert.alert('Alerta!', this._submitStr(), [
         {
             text: 'Enviar',
             onPress: () => {
@@ -165,11 +165,19 @@ class SimpleQuestionsScreen extends Component{
     {cancelable: true}
     )
 
+    _submitStr(){
+        let count = this._count(this.state.questions, el => el.marked === null);
+        return(
+            count === 0
+            ? 'Uma vez enviado não terá como voltar atrás, deseja mesmo enviar?'
+            : `Você não fez ${count} questões!\nUma vez enviado não terá como voltar atrás, deseja mesmo enviar?`
+        )
+    }
+
     _updateDimension = (val) => {this.setState({width: val.screen.width})}
 
     componentWillMount(){
         this._getData();
-        
     }
 
     componentDidMount(){
@@ -203,8 +211,6 @@ class SimpleQuestionsScreen extends Component{
                 {this.pagination}
                 <ScrollView
                     decelerationRate={0}
-                    snapToInterval={this.state.width}
-                    snapToAlignment="center"
                     onScroll={this.pagina}
                     horizontal
                     pagingEnabled

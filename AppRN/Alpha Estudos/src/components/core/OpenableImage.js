@@ -6,7 +6,9 @@ import {
    View,
    Text,
    SafeAreaView,
-   TouchableOpacity 
+   TouchableOpacity,
+   Animated,
+   PanResponder
 } from 'react-native'
 import PhotoView from 'react-native-photo-view'
 
@@ -22,8 +24,60 @@ class OpenableImage extends Component{
 
         this.state = {
             fs: false,
-            width: Dimensions.get('screen').width
+            width: Dimensions.get('screen').width,
+            animation: {
+                pos: new Animated.Value(-120),
+                opacity: new Animated.Value(0)
+            }
         }
+
+        this._panResponder = PanResponder.create({
+            onStartShouldSetPanResponder: (e, et) => true,
+            onStartShouldSetPanResponderCapture: (e, et) => true,
+            onMoveShouldSetPanResponder: (e, et) => true,
+            onMoveShouldSetPanResponderCapture: (e, et) => true,
+
+            onPanResponderMove: (e, et) => {
+                let abs = Math.abs(et.dy);
+                Animated.timing(
+                    this.state.animation.pos,
+                    {
+                        toValue: et.dy,
+                        duration: 0
+                    }
+                ).start();
+                Animated.timing(
+                    this.state.animation.opacity,
+                    {
+                        toValue: (abs > 120) ? 0 : Math.abs(abs - 120) / 120,
+                        duration: 0
+                    }
+                ).start();
+            },
+
+            onPanResponderRelease: (e, et) => {
+                if(et.dy < -80)
+                    this.close();
+                else if(et.dy > 80)
+                    this.disappearDown(() => this.setState({fs: false}))
+                else {
+                    Animated.timing(
+                        this.state.animation.pos,
+                        {
+                            toValue: 0,
+                            duration: 100
+                        }
+                    ).start();
+                    Animated.timing(
+                        this.state.animation.opacity,
+                        {
+                            toValue: 1,
+                            duration: 100
+                        }
+                    ).start();
+                }
+            }
+        })
     }
 
     handleWidth = (val) => {
@@ -35,6 +89,66 @@ class OpenableImage extends Component{
     }
     componentWillUnmount(){
         Dimensions.removeEventListener('change', this.handleWidth);
+    }
+
+
+    appear = (cb = () => null) => {
+        Animated.timing(
+            this.state.animation.pos,
+            {
+                toValue: 0,
+                duration: 300
+            }
+        ).start()
+        Animated.timing(
+            this.state.animation.opacity,
+            {
+                toValue: 1,
+                duration: 300
+            }
+        ).start()
+    }
+
+    disappear = (cb = () => null) => {
+        Animated.timing(
+            this.state.animation.pos,
+            {
+                toValue: -120,
+                duration: 300
+            }
+        ).start()
+        Animated.timing(
+            this.state.animation.opacity,
+            {
+                toValue: 0,
+                duration: 300
+            }
+        ).start(cb)
+    }
+    disappearDown = (cb = () => null) => {
+        Animated.timing(
+            this.state.animation.pos,
+            {
+                toValue: 120,
+                duration: 300
+            }
+        ).start()
+        Animated.timing(
+            this.state.animation.opacity,
+            {
+                toValue: 0,
+                duration: 300
+            }
+        ).start(cb)
+    }
+
+    close = () => {
+        this.disappear(() => this.setState({fs: false}));
+    }
+
+    open = () => {
+        this.setState({fs: true});
+        this.appear();
     }
 
     _getImageHeight = (image, wid) => {
@@ -62,35 +176,43 @@ class OpenableImage extends Component{
         zIndex: 8
     })
 
+    AHnimated = Animated.createAnimatedComponent(AH);
+
+
+
     render(){
         return(
                 <View>
-                    <Modal visible={this.state.fs} transparent onRequestClose={() => this.setState({fs: false})}>
+                    <Modal visible={this.state.fs} transparent onRequestClose={this.close}>
                         <FullScreener {...this.props} >
-                                <AH {...this.props} activeOpacity={1} onPress={() => this.setState({fs: false})} />
-                                <PhotoView 
-                                    {...this.props}
-                                    style={[
-                                        this.FullScreenImage(this.props),
-                                        {height: this._getImageHeight(this.props.source, this.state.width), width: this.state.width}
-                                    ]}
-                                    showsHorizontalScrollIndicator={false}
-                                    showsVerticalScrollIndicator={false}
-                                    minimumZoomScale={1} 
-                                    maximumZoomScale={5} 
-                                    androidScaletype='center'
-                                    source={this.props.source}
-                                />
-                                <SubTitle {...this.props} >{this.props.subtitle}</SubTitle>
+                                <this.AHnimated {...this.props} style={{opacity: this.state.animation.opacity}} activeOpacity={1} onPress={this.close} />
+                                <View {...this._panResponder.panHandlers}>
+                                    <Animated.View style={{opacity: this.state.animation.opacity, transform: [{translateY: this.state.animation.pos}]}} >
+                                        <PhotoView 
+                                            {...this.props}
+                                            style={[
+                                                this.FullScreenImage(this.props),
+                                                {height: this._getImageHeight(this.props.source, this.state.width), width: this.state.width}
+                                            ]}
+                                            showsHorizontalScrollIndicator={false}
+                                            showsVerticalScrollIndicator={false}
+                                            minimumZoomScale={1} 
+                                            maximumZoomScale={5} 
+                                            androidScaletype='center'
+                                            source={this.props.source}
+                                        />
+                                        <SubTitle {...this.props} >{this.props.subtitle}</SubTitle>
+                                    </Animated.View>
+                                </View>
                         </FullScreener>
                     </Modal>
 
-                    <TouchableOpacity onPress={() => this.setState({fs: !this.state.fs})}>
+                    <TouchableOpacity onPress={this.open}>
                         <Miniatura {...this.props} source={this.props.source} resizeMethod='scale'/>
                     </TouchableOpacity>
                 </View>
         );
-    };
+    }
 }
 
 const AH = styled.TouchableOpacity`
