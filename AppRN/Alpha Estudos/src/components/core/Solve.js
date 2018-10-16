@@ -163,7 +163,7 @@ const Title = styled.Text`
     color: ${colors.blueBackground};
     ${TYPOGRAPHY.largeTextBold}
     text-align: center;
-    padding-vertical: 15;
+    padding-top: 15;
     padding-horizontal: 10;
 `;
 
@@ -204,5 +204,6 @@ const Content = styled.Text`
     color: ${colors.defaultText};
     text-align: center;
     padding-horizontal: 10;
-    padding-vertical: 10;
+    padding-top: 10;
+    padding-bottom: 15;
 `;
