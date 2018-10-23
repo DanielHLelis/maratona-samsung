@@ -88,15 +88,7 @@ class HistoryBox extends Component{
         super();
 
         this.state = {
-            collapse: null
         }
-    }
-
-    _collapseHandle = (indx) => {
-        if(this.state.collapse === indx)
-            this.setState({collapse: null});
-        else
-            this.setState({collapse: indx});
     }
 
     _questionExtractor = (el) => {
@@ -133,28 +125,9 @@ class HistoryBox extends Component{
             <ScrollView>
                     {this.props.data.map( (el, indx) => (
                         <View key={indx.toString()}>
-                            <TouchableOpacity activeOpacity={0.5} onLongPress={()=>this._deleteItem(el)} onPress={ () => this._collapseHandle(indx) } >
+                            <TouchableOpacity activeOpacity={0.5} onLongPress={()=>this._deleteItem(el)} onPress={()=>this.props.navigation.navigate('FinishScreen', {data: el})} >
                                 <HistoryItem {...el} />
                             </TouchableOpacity>
-
-                            <Collapse collapsed={!(this.state.collapse === indx)}>
-                                <ContentView>
-                                    {this._questionExtractor(el.questions).map((el, indx) => (
-                                        <TouchableOpacity key={indx.toString()} style={{width: '33%'}} onPress={() => this.props.navigation.navigate('RevisionScreen', {data: el})}>
-                                            <ColWrapper >
-                                                <ListTitle>{el.title}</ListTitle>
-                                                {el.marked?
-                                                    (el.correct
-                                                        ?(<Icon size={30} color="#00aa00" name="check"/>)
-                                                        :(<Icon size={30} color="#ff5500" name="times"/>)
-                                                    )
-                                                    :(<Icon size={30} color="#adadad" name="window-minimize"/>)
-                                                }
-                                            </ColWrapper>
-                                        </TouchableOpacity>
-                                    ))}
-                                </ContentView>
-                            </Collapse>    
                         </View>
                     ) )}
             </ScrollView>

@@ -8,6 +8,7 @@ import SelectionScreen from '@screens/SelectionScreen';
 import SimpleQuestionsScreen from '@screens/SimpleQuestionsScreen'
 import HistoryScreen from '@screens/HistoryScreen'
 import RevisionScreen from '@screens/RevisionScreen'
+import FinishScreen from '@screens/FinishScreen'
 
 /* Config imports */
 import COLORS from '@config/colors';
@@ -16,9 +17,10 @@ const StackIntroRoute = {
     AppIntro: { screen: AppIntroScreen },
     MenusScreen: { screen: MenusScreen },
     SelectionScreen: { screen: SelectionScreen },
-    SimpleQuestionsScreen: { screen: SimpleQuestionsScreen, navigationOptions:{ gesturesEnabled: false } },
+    SimpleQuestionsScreen: { screen: SimpleQuestionsScreen, navigationOptions: { gesturesEnabled: false } },
     HistoryScreen: { screen: HistoryScreen },
-    RevisionScreen: { screen: RevisionScreen }
+    RevisionScreen: { screen: RevisionScreen },
+    FinishScreen: { screen: FinishScreen }
 };
 
 export default StackIntroRoute;
