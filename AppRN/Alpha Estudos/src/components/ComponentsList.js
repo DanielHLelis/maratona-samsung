@@ -46,3 +46,21 @@ export let ThemeTitle = styled.Text`
   margin-top: 0;
   margin-bottom: 0;
 `;
+
+export const ProgressBar = ({...props, style}) => (
+  <View style={[style, {flexDirection: 'row'}]} >
+          <View style={{
+              height: '100%',
+              width: `${props.val*100}%`,
+              backgroundColor: props.mainColor || '#00cc00',
+              zIndex: 2,
+              borderRadius: 4
+          }} />
+          <View style={{
+              height: '100%',
+              width: `100%`,
+              position: "absolute",
+              backgroundColor: props.secondColor || '#ff3300'
+          }} />
+  </View>
+);
