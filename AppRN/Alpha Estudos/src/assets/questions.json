@@ -1,385 +1,740 @@
 {
-    "themes": [
-      {
-        "_id": "5bc134ea5edb1a8b799eef56",
-        "name": "Relações Ecológicas",
-        "image": {
-          "uri": "relacoesEcologicas_Thm.jpg"
+  "themes": [
+    {
+      "_id": "5bc134ea5edb1a8b799eef56",
+      "name": "Relações Ecológicas",
+      "image": {
+        "uri": "relacoesEcologicas_Thm.jpg"
+      },
+      "matters": [
+        {
+          "_id": "5bc134ea7cc4e3e342595db8",
+          "name": "Teias e Cadeias Alimentares",
+          "image": {
+            "uri": "teiasECadeias_Mttr.jpg"
+          },
+          "difficulty": "Fácil",
+          "questions": [
+            {
+              "_id": "5bc134ea243169197606f0c0",
+              "title": "Questão 1",
+              "text": "(G1 - cftmg 2017) Tartarugas com acúmulo de algas em seu casco nadam até os recifes de corais para terem esse peso extra removido pelos peixes que se aproveitam do alimento farto e abundante. Depois que o peso extra é eliminado, o animal deixa o recife. Nas cadeias alimentares desse ecossistema, o alimento dos peixes está desempenhando o papel de",
+              "correct": "b",
+              "solve": "As algas são seres vivos produtores dentro de uma cadeia alimentar.",
+              "options": {
+                "a": "parasita.",
+                "b": "produtor.",
+                "c": "consumidor.",
+                "d": "decompositor."
+              }
+            },
+            {
+              "_id": "5bc134ea7d84af6f6b6092a5",
+              "title": "Questão 2",
+              "text": "(G1 - ifsp 2016) Recentemente, divulgou-se a existência de contaminação por mercúrio nas águas e na população do distrito Madre de Dios, na Amazônia peruana. O mercúrio é um metal tóxico que não pode ser degradado pelos organismos e acumula-se ao longo dos níveis tróficos, em um processo chamado de bioacumulação. Tendo como base a cadeia alimentar hipotética, descrita abaixo, que estaria presente em um ambiente contaminado por mercúrio, assinale a alternativa que apresenta em quais níveis tróficos podem ser encontrados, respectivamente, mais mercúrio e mais energia.",
+              "correct": "a",
+              "solve": "Os poluentes passam pela cadeia alimentar, acumulando-se através dos níveis tróficos, por seres que não degradam estes compostos, portanto, serão encontrados em grande quantidade nos consumidores terciários. A energia é captada e transformada e a cada transferência, de um nível trófico para outro, há perda, sendo maior a quantidade disponível nos produtores.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "mercurio_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "Consumidor terciário e produtor.",
+                "b": "Consumidor primário e produtor.",
+                "c": "Produtor e consumidor primário.",
+                "d": "Produtor e consumidor terciário.",
+                "e": "Consumidor primário e consumidor terciário."
+              }
+            },
+            {
+              "_id": "5bc134ea189650b0d98e1bf9",
+              "title": "Questão 3",
+              "text": "(G1 - ifsp 2016 - Adaptado) Levando em conta a cadeia alimentar de um ecossistema aquático representada na imagem, selecione o nível trófico ocupado por microcrustáceos.",
+              "correct": "a",
+              "solve": "Ao se alimentar de algas (produtores), os microcrustáceos se comportam, na cadeia alimentar, como consumidores primários (segundo nível trófico).",
+              "images": [
+                {
+                  "image": {
+                    "uri": "ecossistemaAquatico_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "consumidor primário.",
+                "b": "consumidor secundário.",
+                "c": "produtores.",
+                "d": "decompositores.",
+                "e": "consumidor terciário."
+              }
+            },
+            {
+              "_id": "5bc134ea0f5124ab0a3f692d",
+              "title": "Questão 4",
+              "text": "(G1 - cps 2015 - Adaptado) A introdução de espécies exóticas em ambientes naturais nos quais elas não existiam é, geralmente, mediada pela atividade humana e pode afetar tanto a biodiversidade quanto as atividades econômicas. O peixe-leão (Pterois volitans), por exemplo, nativo dos oceanos Pacífico e Índico, introduzido no litoral leste dos Estados Unidos, chegou à América Central e à América do Sul. Essa espécie se reproduz facilmente, não tem predadores nessas novas regiões e se alimenta vorazmente. A presença do peixe-leão no Caribe é muito preocupante, pois ele reduziu a população do peixe-papagaio (Sparisoma abilgardi), um herbívoro fundamental para o controle da quantidade das algas, as quais em excesso podem invadir os espaços dos corais, causando um desequilíbrio ecológico nessa região. Na cadeia alimentar descrita no texto, o peixe-leão comporta-se como",
+              "correct": "d",
+              "solve": "O peixe-leão se comporta na cadeia alimentar como um consumidor secundário (carnívoro), pois alimenta-se do peixe papagaio, um consumidor primário.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "peixeLeão_Qst.jpg"
+                  },
+                  "subtitle": "Peixe-leão"
+                }
+              ],
+              "options": {
+                "a": "produtor.",
+                "b": "decompositor.",
+                "c": "consumidor primário.",
+                "d": "consumidor secundário.",
+                "e": "consumidor primário e secundário."
+              }
+            },
+            {
+              "_id": "5bc134eacd6b2c90d7e8fce1",
+              "title": "Questão 5",
+              "text": "(G1 - ifsp 2017 - Adaptado) Num campo agrícola hipotético, um agricultor utilizou um agrotóxico que contém metais pesados e contaminou o sistema de cadeia alimentar representado pela pirâmide de biomassa na imagem, a partir dos produtores.",
+              "correct": "d",
+              "solve": "As corujas (consumidores terciários) estão no topo da cadeia alimentar e reterão maior quantidade do metal pesado, incorporando-o através dos tróficos anteriores.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "agrotoxico.jpg"
+                  }
+                }
+              ],
+              "options": {
+                "a": "A grama (Produtores).",
+                "b": "Os insetos (Consumidores Primários).",
+                "c": "Os anfíbios (Consumidores Secundários).",
+                "d": "As corujas (Consumidores Terciários).",
+                "e": "A grama (Produtores) e os insetos (Consumidores Primários)."
+              }
+            },
+            {
+              "_id": "5bc134ea5dbdfb843d390493",
+              "title": "Questão 6",
+              "text": "(G1 - utfpr 2014) Os materiais orgânicos na natureza passam por um processo de reaproveitamento chamado de reciclagem que é fundamental para a manutenção do equilíbrio do meio ambiente. Para que a reciclagem ocorra de forma satisfatória são necessários os seguintes agentes biológicos:",
+              "correct": "c",
+              "solve": "Os principais agentes responsáveis pela reciclagem dos materiais orgânicos presentes nos organismos mortos são as bactérias e os fungos, presentes nos ecossistemas terrestres e aquáticos.",
+              "options": {
+                "a": "insetos carnívoros e plantas aquáticas.",
+                "b": "fungos e vegetais.",
+                "c": "bactérias e fungos.",
+                "d": "protozoários e minhocas.",
+                "e": "bactérias e plantas."
+              }
+            },
+            {
+              "_id": "5bc134ea702478043a3b682c",
+              "title": "Questão 7",
+              "text": "(G1 - cftmg 2006 - Adaptado) De acordo com a teia alimentar na imagem o único consumidor de primeira, segunda e terceira orndens é o(a)",
+              "correct": "b",
+              "images": [
+                {
+                  "image": {
+                    "uri": "teiaConsumidor3_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "pássaro.",
+                "b": "homem.",
+                "c": "lesma.",
+                "d": "cobra."
+              }
+            },
+            {
+              "_id": "5bc134eac41e3b972817aa9e",
+              "title": "Questão 8",
+              "text": "(G1 - cftmg 2012 - Adaptado)Na cadeia alimentar presente na imagem os insetos classificam-se em",
+              "correct": "c",
+              "solve": "Os insetos que se alimentam de plantas são consumidores primários, ocupando o segundo nível na cadeia trófica (alimentar) apresentada.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "insetos_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "produtores.",
+                "b": "decompositores.",
+                "c": "consumidores primários.",
+                "d": "consumidores secundários."
+              }
+            },
+            {
+              "_id": "5bc134eae9046ef734e8838b",
+              "title": "Questão 9",
+              "text": "(G1 - ifsc 2014 - Adaptado) Observe e analise a teia alimentar na imagem e assinale a alternativa correta.",
+              "correct": "e",
+              "solve": "Na teia alimentar, a galinha se comporta como consumidora de primeira ordem ao se alimentar de plantas e frutos; como consumidora de segunda ordem ao se alimentar de embuás e consumidora de terceira ordem ao comer aranhas que se alimentaram de cupins.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "teiaGalinha_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "O cupim desempenha o papel de produtor, já que se alimenta da madeira.",
+                "b": "O gambá é consumidor apenas de primeira ordem.",
+                "c": "A onça é consumidora de primeira, segunda, terceira, quarta e quinta ordens.",
+                "d": "A madeira é consumidora de terceira ordem.",
+                "e": "A galinha é consumidora de primeira, segunda e terceira ordens."
+              }
+            },
+            {
+              "_id": "5bc134ea4cf3539ea9481f24",
+              "title": "Questão 10",
+              "text": "(G1 - cps 2006 - Adaptado) Os gaviões, caçadores por natureza, tanto no solo como no ar, alimentam-se principalmente de outras aves (perdizes, garças, tucanos, papagaios e araras), mamíferos (pequenos e médios macacos, esquilos e roedores) e répteis (iguanas, lagartos teiú e diversas espécies de serpentes). No Brasil, algumas espécies desses hábeis caçadores estão em perigo de extinção. Segundo as relações alimentares mantidas pelo gavião, é possível classificá-lo como:",
+              "correct": "d",
+              "options": {
+                "a": "Produtor, por obter alimento no solo e no ar, e consumidor de primeira ordem, por se alimentar de esquilos.",
+                "b": "Produtor, por se alimentar de peixes, e consumidor de segunda ordem, por se alimentar de mamíferos.",
+                "c": "Consumidor de segunda ordem, por se alimentar de vegetais, e consumidor de primeira ordem, por se alimentar de ratos.",
+                "d": "Carnívoro, ocupando normalmente os últimos níveis tróficos das cadeias alimentares.",
+                "e": "Hervívoro, ocupando geralmente os primeiros níveis tróficos das cadeias alimentares."
+              }
+            },
+            {
+              "_id": "2ac134ea4cf3539ea9481f24",
+              "title": "Questão 11",
+              "text": "(G1 1996) Numa cadeia alimentar, os decompositores são representados por:",
+              "correct": "c",
+              "options": {
+                "a": "insetos e ratos.",
+                "b": "urubus e vermes.",
+                "c": "bactérias e fungos.",
+                "d": "parasitas e larvas.",
+                "e": "roedores e pragas."
+              }
+            },
+            {
+              "_id": "5bc134ea6ada8e1876381d9b",
+              "title": "Questão 12",
+              "text": "(G1 1996) Em uma região existem os seguintes seres:  I-árvores; II-preás; III-corujas; IV-gaviões; V-capim; VI-camundongos. Assinale a alternativa que classifica corretamente estes seres",
+              "correct": "a",
+              "options": {
+                "a": "produtores: I e V; consumidores primários: II e VI; consumidores secundários: III e IV",
+                "b": "produtores: I e V; consumidores primários: II e III; consumidores secundários: IV e VI",
+                "c": "produtores: I; consumidores primários: II, III e VI; consumidores secundários: IV e V",
+                "d": "produtores: V; consumidores primários: I, II e III; consumidores secundários: IV e VI",
+                "e": "produtores: I e V; consumidores primários: II; consumidores secundários: III, IV e VI"
+              }
+            },
+            {
+              "_id": "5bc134ea3de14f4ecf13fb9b",
+              "title": "Questão 13",
+              "text": "(G1 1996 - Adaptado) Na teia alimentar representada na figura, rato, pássaro e esquilo são",
+              "correct": "e",
+              "images": [
+                {
+                  "image": {
+                    "uri": "ratoPassaroEsquilo_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "produtores.",
+                "b": "decompositores.",
+                "c": "carnívoros.",
+                "d": "parasitas.",
+                "e": "herbívoros."
+              }
+            }
+          ]
         },
-        "matters": [
-          {
-            "_id": "5bc134ea7cc4e3e342595db8",
-            "name": "Teias e Cadeias Alimentares",
-            "image": {
-              "uri": "teiasECadeias_Mttr.jpg"
-            },
-            "difficulty": "Fácil",
-            "questions": [
-              {
-                "_id": "5bc134ea243169197606f0c0",
-                "title": "Questão 1",
-                "text": "(G1 - cftmg 2017) Tartarugas com acúmulo de algas em seu casco nadam até os recifes de corais para terem esse peso extra removido pelos peixes que se aproveitam do alimento farto e abundante. Depois que o peso extra é eliminado, o animal deixa o recife. Nas cadeias alimentares desse ecossistema, o alimento dos peixes está desempenhando o papel de",
-                "correct": "b",
-                "solve": "As algas são seres vivos produtores dentro de uma cadeia alimentar.",
-                "options": {
-                  "a": "parasita.",
-                  "b": "produtor.",
-                  "c": "consumidor.",
-                  "d": "decompositor."
-                }
-              },
-              {
-                "_id": "5bc134ea7d84af6f6b6092a5",
-                "title": "Questão 2",
-                "text": "(G1 - ifsp 2016) Recentemente, divulgou-se a existência de contaminação por mercúrio nas águas e na população do distrito Madre de Dios, na Amazônia peruana. O mercúrio é um metal tóxico que não pode ser degradado pelos organismos e acumula-se ao longo dos níveis tróficos, em um processo chamado de bioacumulação. Tendo como base a cadeia alimentar hipotética, descrita abaixo, que estaria presente em um ambiente contaminado por mercúrio, assinale a alternativa que apresenta em quais níveis tróficos podem ser encontrados, respectivamente, mais mercúrio e mais energia.",
-                "correct": "a",
-                "solve": "Os poluentes passam pela cadeia alimentar, acumulando-se através dos níveis tróficos, por seres que não degradam estes compostos, portanto, serão encontrados em grande quantidade nos consumidores terciários. A energia é captada e transformada e a cada transferência, de um nível trófico para outro, há perda, sendo maior a quantidade disponível nos produtores.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "mercurio_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "Consumidor terciário e produtor.",
-                  "b": "Consumidor primário e produtor.",
-                  "c": "Produtor e consumidor primário.",
-                  "d": "Produtor e consumidor terciário.",
-                  "e": "Consumidor primário e consumidor terciário."
-                }
-              },
-              {
-                "_id": "5bc134ea189650b0d98e1bf9",
-                "title": "Questão 3",
-                "text": "(G1 - ifsp 2016 - Adaptado) Levando em conta a cadeia alimentar de um ecossistema aquático representada na imagem, selecione o nível trófico ocupado por microcrustáceos.",
-                "correct": "a",
-                "solve": "Ao se alimentar de algas (produtores), os microcrustáceos se comportam, na cadeia alimentar, como consumidores primários (segundo nível trófico).",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "ecossistemaAquatico_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "consumidor primário.",
-                  "b": "consumidor secundário.",
-                  "c": "produtores.",
-                  "d": "decompositores.",
-                  "e": "consumidor terciário."
-                }
-              },
-              {
-                "_id": "5bc134ea0f5124ab0a3f692d",
-                "title": "Questão 4",
-                "text": "(G1 - cps 2015 - Adaptado) A introdução de espécies exóticas em ambientes naturais nos quais elas não existiam é, geralmente, mediada pela atividade humana e pode afetar tanto a biodiversidade quanto as atividades econômicas. O peixe-leão (Pterois volitans), por exemplo, nativo dos oceanos Pacífico e Índico, introduzido no litoral leste dos Estados Unidos, chegou à América Central e à América do Sul. Essa espécie se reproduz facilmente, não tem predadores nessas novas regiões e se alimenta vorazmente. A presença do peixe-leão no Caribe é muito preocupante, pois ele reduziu a população do peixe-papagaio (Sparisoma abilgardi), um herbívoro fundamental para o controle da quantidade das algas, as quais em excesso podem invadir os espaços dos corais, causando um desequilíbrio ecológico nessa região. Na cadeia alimentar descrita no texto, o peixe-leão comporta-se como",
-                "correct": "d",
-                "solve": "O peixe-leão se comporta na cadeia alimentar como um consumidor secundário (carnívoro), pois alimenta-se do peixe papagaio, um consumidor primário.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "peixeLeão_Qst.jpg"
-                    },
-                    "subtitle": "Peixe-leão"
-                  }
-                ],
-                "options": {
-                  "a": "produtor.",
-                  "b": "decompositor.",
-                  "c": "consumidor primário.",
-                  "d": "consumidor secundário.",
-                  "e": "consumidor primário e secundário."
-                }
-              },
-              {
-                "_id": "5bc134eacd6b2c90d7e8fce1",
-                "title": "Questão 5",
-                "text": "(G1 - ifsp 2017 - Adaptado) Num campo agrícola hipotético, um agricultor utilizou um agrotóxico que contém metais pesados e contaminou o sistema de cadeia alimentar representado pela pirâmide de biomassa na imagem, a partir dos produtores.",
-                "correct": "d",
-                "solve": "As corujas (consumidores terciários) estão no topo da cadeia alimentar e reterão maior quantidade do metal pesado, incorporando-o através dos tróficos anteriores.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "agrotoxico.jpg"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "A grama (Produtores).",
-                  "b": "Os insetos (Consumidores Primários).",
-                  "c": "Os anfíbios (Consumidores Secundários).",
-                  "d": "As corujas (Consumidores Terciários).",
-                  "e": "A grama (Produtores) e os insetos (Consumidores Primários)."
-                }
-              },
-              {
-                "_id": "5bc134ea5dbdfb843d390493",
-                "title": "Questão 6",
-                "text": "(G1 - utfpr 2014) Os materiais orgânicos na natureza passam por um processo de reaproveitamento chamado de reciclagem que é fundamental para a manutenção do equilíbrio do meio ambiente. Para que a reciclagem ocorra de forma satisfatória são necessários os seguintes agentes biológicos:",
-                "correct": "c",
-                "solve": "Os principais agentes responsáveis pela reciclagem dos materiais orgânicos presentes nos organismos mortos são as bactérias e os fungos, presentes nos ecossistemas terrestres e aquáticos.",
-                "options": {
-                  "a": "insetos carnívoros e plantas aquáticas.",
-                  "b": "fungos e vegetais.",
-                  "c": "bactérias e fungos.",
-                  "d": "protozoários e minhocas.",
-                  "e": "bactérias e plantas."
-                }
-              },
-              {
-                "_id": "5bc134ea702478043a3b682c",
-                "title": "Questão 7",
-                "text": "(G1 - cftmg 2006 - Adaptado) De acordo com a teia alimentar na imagem o único consumidor de primeira, segunda e terceira orndens é o(a)",
-                "correct": "b",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "teiaConsumidor3_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "pássaro.",
-                  "b": "homem.",
-                  "c": "lesma.",
-                  "d": "cobra."
-                }
-              },
-              {
-                "_id": "5bc134eac41e3b972817aa9e",
-                "title": "Questão 8",
-                "text": "(G1 - cftmg 2012 - Adaptado)Na cadeia alimentar presente na imagem os insetos classificam-se em",
-                "correct": "c",
-                "solve": "Os insetos que se alimentam de plantas são consumidores primários, ocupando o segundo nível na cadeia trófica (alimentar) apresentada.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "insetos_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "produtores.",
-                  "b": "decompositores.",
-                  "c": "consumidores primários.",
-                  "d": "consumidores secundários."
-                }
-              },
-              {
-                "_id": "5bc134eae9046ef734e8838b",
-                "title": "Questão 9",
-                "text": "(G1 - ifsc 2014 - Adaptado) Observe e analise a teia alimentar na imagem e assinale a alternativa correta.",
-                "correct": "e",
-                "solve": "Na teia alimentar, a galinha se comporta como consumidora de primeira ordem ao se alimentar de plantas e frutos; como consumidora de segunda ordem ao se alimentar de embuás e consumidora de terceira ordem ao comer aranhas que se alimentaram de cupins.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "teiaGalinha_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "O cupim desempenha o papel de produtor, já que se alimenta da madeira.",
-                  "b": "O gambá é consumidor apenas de primeira ordem.",
-                  "c": "A onça é consumidora de primeira, segunda, terceira, quarta e quinta ordens.",
-                  "d": "A madeira é consumidora de terceira ordem.",
-                  "e": "A galinha é consumidora de primeira, segunda e terceira ordens."
-                }
-              },
-              {
-                "_id": "5bc134ea4cf3539ea9481f24",
-                "title": "Questão 10",
-                "text": "(G1 - cps 2006 - Adaptado) Os gaviões, caçadores por natureza, tanto no solo como no ar, alimentam-se principalmente de outras aves (perdizes, garças, tucanos, papagaios e araras), mamíferos (pequenos e médios macacos, esquilos e roedores) e répteis (iguanas, lagartos teiú e diversas espécies de serpentes). No Brasil, algumas espécies desses hábeis caçadores estão em perigo de extinção. Segundo as relações alimentares mantidas pelo gavião, é possível classificá-lo como:",
-                "correct": "d",
-                "options": {
-                  "a": "Produtor, por obter alimento no solo e no ar, e consumidor de primeira ordem, por se alimentar de esquilos.",
-                  "b": "Produtor, por se alimentar de peixes, e consumidor de segunda ordem, por se alimentar de mamíferos.",
-                  "c": "Consumidor de segunda ordem, por se alimentar de vegetais, e consumidor de primeira ordem, por se alimentar de ratos.",
-                  "d": "Carnívoro, ocupando normalmente os últimos níveis tróficos das cadeias alimentares.",
-                  "e": "Hervívoro, ocupando geralmente os primeiros níveis tróficos das cadeias alimentares."
-                }
-              },
-              {
-                "_id": "2ac134ea4cf3539ea9481f24",
-                "title": "Questão 11",
-                "text": "(G1 1996) Numa cadeia alimentar, os decompositores são representados por:",
-                "correct": "c",
-                "options": {
-                  "a": "insetos e ratos.",
-                  "b": "urubus e vermes.",
-                  "c": "bactérias e fungos.",
-                  "d": "parasitas e larvas.",
-                  "e": "roedores e pragas."
-                }
-              },
-              {
-                "_id": "5bc134ea6ada8e1876381d9b",
-                "title": "Questão 12",
-                "text": "(G1 1996) Em uma região existem os seguintes seres:  I-árvores; II-preás; III-corujas; IV-gaviões; V-capim; VI-camundongos. Assinale a alternativa que classifica corretamente estes seres",
-                "correct": "a",
-                "options": {
-                  "a": "produtores: I e V; consumidores primários: II e VI; consumidores secundários: III e IV",
-                  "b": "produtores: I e V; consumidores primários: II e III; consumidores secundários: IV e VI",
-                  "c": "produtores: I; consumidores primários: II, III e VI; consumidores secundários: IV e V",
-                  "d": "produtores: V; consumidores primários: I, II e III; consumidores secundários: IV e VI",
-                  "e": "produtores: I e V; consumidores primários: II; consumidores secundários: III, IV e VI"
-                }
-              },
-              {
-                "_id": "5bc134ea3de14f4ecf13fb9b",
-                "title": "Questão 13",
-                "text": "(G1 1996 - Adaptado) Na teia alimentar representada na figura, rato, pássaro e esquilo são",
-                "correct": "e",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "ratoPassaroEsquilo_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "produtores.",
-                  "b": "decompositores.",
-                  "c": "carnívoros.",
-                  "d": "parasitas.",
-                  "e": "herbívoros."
-                }
+        {
+          "_id": "5bc134ead6aad5b5364d9497",
+          "name": "Comunidades e Populações",
+          "done": false,
+          "image": {
+            "uri": "comunidadesEPopulacoes_Mttr.jpg"
+          },
+          "difficulty": "Fácil",
+          "questions": [
+            {
+              "_id": "5bc134ea269e273967fc889e",
+              "title": "Questão 1",
+              "text": "(G1 - cps 2016) Os vegetais precisam respirar. Para tanto, eles absorvem gás oxigênio do ambiente. Essa absorção ocorre principalmente através de suas folhas e de suas raízes. Assim, o solo precisa ter certa quantidade de ar para que as raízes possam absorver o gás oxigênio. Considerando esse aspecto, podemos afirmar que as minhocas prestam um importante serviço ecológico, pois contribuem para o arejamento do solo. As minhocas estão sempre cavando túneis e revolvendo a terra a procura de restos orgânicos, dos quais se alimentam, deixando a terra fofa e arejada. Além disso, esses túneis facilitam a drenagem das águas das chuvas. Em solos muito duros, normalmente não há minhocas, principalmente porque ali elas não conseguem cavar as suas galerias. Não existindo esses animais, a terra terá menos húmus e menos gás oxigênio e, portanto, oferecerá menos recursos para a vida vegetal.",
+              "correct": "e",
+              "solve": "As minhocas são anelídeos que possuem o corpo cilíndrico e segmentado. Elas se locomovem por rastejamento, pela atividade de contração e distensão coordenada de sua musculatura voluntária. Através do mecanismo “estica-encolhe”, elas cavam túneis que arejam o solo e distribuem detritos vegetais que, entrando em decomposição, contribuem para fertilizar os terrenos onde vivem.",
+              "options": {
+                "a": "são invertebrados, de vida parasitária, como as lombrigas e as sanguessugas.",
+                "b": "possuem corpo cilíndrico, não segmentado e respiram por meio de brânquias.",
+                "c": "favorecem a agricultura, pois produzem o gás oxigênio necessário à respiração das raízes dos vegetais.",
+                "d": "sintetizam a matéria orgânica de que necessitam para sobreviver a partir dos minerais que absorvem do solo.",
+                "e": "rastejam e cavam túneis graças à contração e distensão coordenadas dos músculos de cada segmento do corpo."
               }
-            ]
+            },
+            {
+              "_id": "5bc134ea8e1f4bd33387d652",
+              "title": "Questão 2",
+              "text": "(G1 - ifsp 2014 - Adaptado) O gráfico na imagem representa o crescimento de duas populações de animais encontrados em um mesmo ecossistema brasileiro, sem que ocorra a interferência humana. Analise-o e assinale a alternativa correta:",
+              "correct": "d",
+              "solve": "Os gambás se alimentam de galinhas e de seus filhotes. Dessa forma, se o número de aves (presas) diminuir, o número de gambás (predadores) também diminuirá.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "graficoGambaGalinha_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "Há uma relação de competição entre gambás e galinhas.",
+                "b": "O pico para a população de galinhas é sempre atingido após o pico de gambás.",
+                "c": "Se o número de gambás cresce, o número de galinhas também cresce.",
+                "d": "Se o número de galinhas diminui, o número de gambás também diminuirá após algum tempo.",
+                "e": "Caso os gambás deixassem de existir, o número de galinhas continuaria a crescer indefinidamente."
+              }
+            }
+          ]
+        },
+        {
+          "_id": "5bc134ea582ea18976528cf0",
+          "name": "Fluxo de Energia",
+          "done": false,
+          "image": {
+            "uri": "fluxoDeEnergia_Mttr.jpg"
+          },
+          "difficulty": "Médio",
+          "questions": [
+            {
+              "_id": "5bc134ea3dcfa79ea48cfe38",
+              "title": "Questão 1",
+              "text": "(G1 - ifsp 2012) Após um longo período realizando um trabalho na faculdade, um estudante chega em sua casa com muita fome e coloca alguns alimentos no seu prato. Além do tradicional arroz e feijão, não podem faltar a carne, o omelete e a salada. Em relação ao fluxo de energia ao longo de uma cadeia alimentar, o estudante consegue obter mais energia quando ingere",
+              "correct": "d",
+              "solve": "Os produtores de uma cadeia alimentar, representados pela salada, arroz e feijão, contêm mais energia armazenada em seus tecidos. Ao longo de uma cadeia alimentar, a energia vai diminuindo dos produtores em direção aos consumidores, devido às perdas na forma de calor e detritos eliminados pelos organismos consumidores, componentes da cadeia.",
+              "options": {
+                "a": "carne e omelete, porque são provenientes de consumidores primários, nível trófico que armazena mais energia que os produtores.",
+                "b": "carne e arroz, porque são ricos em carboidratos e proteínas, que são substâncias que armazenam muita energia.",
+                "c": "feijão e carne, porque apresentam muito ferro que irá compor a molécula de hemoglobina, responsável pelo transporte de gás oxigênio.",
+                "d": "salada, arroz e feijão, porque são os produtores da cadeia alimentar e contêm mais energia armazenada em seus tecidos.",
+                "e": "carne, omelete e feijão, porque possuem maior quantidade de carboidratos, que são moléculas orgânicas com muitas ligações químicas."
+              }
+            },
+            {
+              "_id": "5bc134ea1126c02081f8924f",
+              "title": "Questão 2",
+              "text": "(G1 - col. naval 2011 - Adaptado) A partir da observação da imagem, assinale a opção que utiliza os elementos ilustrados (I- árvore, II- sol, III- fungo e IV- borboleta) para fornecer informações corretas sobre o fluxo de energia na natureza.",
+              "correct": "a",
+              "solve": "O fluxo de energia no ecossistema é unidirecional. A energia é proveniente do sol e fixada na forma de matéria orgânica pelos produtores. Flui dos produtores em direção aos consumidores em quantidades cada vez menores devido às perdas, na forma de calor, em cada nível trófico das cadeias alimentares.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "energia1a4_Qst.png"
+                  }
+                }
+              ],
+              "options": {
+                "a": "Introduzida na comunidade biótica (seres vivos) por I, sendo transferida, sob a forma química (alimento), aos demais seres vivos.",
+                "b": "Obtida do ambiente físico e passa de ser vivo a ser vivo, retornando integralmente ao ecossistema,",
+                "c": "Originada em II, sendo fixada, sob a forma química, diretamente por IV.",
+                "d": "Utilizada por III, a partir de compostos orgânicos, quando ele realiza a fotossíntese.",
+                "e": "Ampliada em III e IV, pois aumenta nos últimos níveis tróficos."
+              }
+            }
+          ]
+        },
+        {
+          "_id": "5bc134ea7822f494fc24f0ae",
+          "name": "Níveis Tróficos",
+          "done": false,
+          "image": {
+            "uri": "niveisTroficos_Mttr.jpg"
+          },
+          "difficulty": "Difícil",
+          "questions": [
+            {
+              "_id": "5bc134eabc67f7ecb154ccbd",
+              "title": "Questão 1",
+              "text": "(Pucsp 2015) Suponha que se queira manter animais aquáticos herbívoros em um aquário. Para garantir a sobrevivência desses animais durante certo tempo, seria aconselhável adicionar ao ambiente",
+              "correct": "a",
+              "solve": "Os animais herbívoros de um aquário são consumidores primários e se alimentam de plantas aquáticas e algas. Além disso, os organismos autótrofos realizam a fotossíntese e produzem o gás oxigênio, enquanto o aquário estiver iluminado.",
+              "options": {
+                "a": "plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, caso esse fosse iluminado.",
+                "b": "plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, mesmo que esse não fosse iluminado.",
+                "c": "fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, caso esse fosse iluminado.",
+                "d": "fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, mesmo que esse não fosse iluminado.",
+                "e": "zooplâncton que, além de servir de alimento para os animais, forneceria oxigênio ao meio, caso esse fosse iluminado."
+              }
+            },
+            {
+              "_id": "5bc134ea944b822e98ef70b6",
+              "title": "Questão 2",
+              "text": "(G2 1996) Nas cadeias alimentares que ocorrem nos ecossistemas aquáticos, o nível trófico dos produtores é ocupado por:",
+              "correct": "d",
+              "solve": "Os principais produtores dos ecossistemas aquáticos são as algas e bactérias fotossintetizantes constituintes do fitoplâncton.",
+              "options": {
+                "a": "zooplâncton.",
+                "b": "microcrustáceos.",
+                "c": "protozoários.",
+                "d": "fitoplâncton.",
+                "e": "peixes pequenos."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id":"5bce79eb1d747b7e4593677f",
+      "name":"Biomas",
+      "image":{
+        "uri": "biomas_Thm.jpg"
+      },
+      "matters":[
+        {
+          "_id": "5bce7fce46ea933f63a861f3",
+          "name": "Adaptações Vegetais",
+          "image": {
+            "uri": "adaptacoesVegetais_Mttr.jpg"
+          },
+          "difficulty": "Fácil",
+          "questions":[
+            {
+              "_id":"5bce80d29be5182ce35e321b",
+              "title":"Questão 1",
+              "text":"(G1 - cftmg 2010 - Adaptado)O vegetal representado na figura possui várias características que permitem sua sobrevivência em um ambiente específico. É comum encontrar em plantas desse tipo",
+              "correct":"d",
+              "solve":"O vegetal apresentado possui características xeromórficas, ou seja, possui características que lhe permite a sobrevivência em climas semiárido a desértico, ou em regiões úmidas, mas salinas, como as restingas. Essas características incluem caules carnudos com armazenamento de água e coberto de cera, folhas transformadas em espinhos para diminuir a transpiração e proteger contra predadores herbívoros e raízes longas para alcançarem o lençol freático.",
+              "images": [
+                {
+                  "image": {
+                    "uri": "cactus_Qst.png"
+                  },
+                  "subtitle":"Disponivel em: <http://www.livefoods.co.uk>. Acesso em 29 ago. 2009."
+                }
+              ],
+              "options":{
+                "a":"folhas largas.",
+                "b":"caules delgados.",
+                "c":"frutos venenosos.",
+                "d":"raízes profundas."
+              }
+            },
+            {
+              "_id":"5bce8671e9f7c1f5a87d673a",
+              "title":"Questão 2",
+              "text":"(G1 - ifce 2016) Característico de áreas onde o clima tem duas estações bem distintas, uma seca e outra chuvosa, apresenta dois tipos de vegetação: arbóreo-arbustivo, nas quais as espécies são tortuosas e têm os caules geralmente revestidos por uma casca espessa e herbácea, disposta em tufos. A descrição refere-se ao bioma",
+              "correct":"e",
+              "solve":"O Cerrado é uma formação vegetal complexa. Está associada ao clima tropical (verão chuvoso e inverno seco) e solos pobres e ácidos. O Cerrado savânico apresenta predomínio dos estratos herbáceo e arbustivo, além de árvores esparsas com troncos tortuosos.",
+              "options":{
+                "a":"floresta tropical.",
+                "b":"pantanal.",
+                "c":"mata semiúmida",
+                "d":"caatinga",
+                "e":"cerrado."
+              }
+            },
+            {
+              "_id":"5bce87dd1dabdd9899ca1e68",
+              "title":"Questão 3",
+              "text":"(Enem PPL 2014) Determinado bioma brasileiro apresenta vegetação conhecida por perder as folhas e ficar apenas com galhos esbranquiçados, ao passar por até nove meses de seca. As plantas podem acumular água no caule e na raiz, além de apresentarem folhas pequenas, que em algumas espécies assumem a forma de espinhos.",
+              "correct":"c",
+              "solve":"Como mencionado corretamente na alternativa [C], a descrição da vegetação decídua e xerófita refere-se à caatinga, cujas características fitogeográficas são influenciadas pelo clima semiárido. Estão incorretas as alternativas: [A] e [B], porque o cerrado e a vegetação do pantanal estão associados ao clima tropical semiúmido com verões (seis meses) secos; [D] e [E], porque a mata Atlântica e a Floresta Amazônica estão associadas aos climas quentes e úmidos.",
+              "options":{
+                "a":"Cerrado.",
+                "b":"Pantanal.",
+                "c":"Caatinga.",
+                "d":"Mata Atlântica.",
+                "e":"Floresta Amazônica."
+              }
+            },
+            {
+              "_id":"5bce8971428e9062d5f23aee",
+              "title":"Questão 4",
+              "text":"(G1 - cftmg 2013 - Adaptado) Observe a fotografia abaixo.",
+              "correct":"c",
+              "solve":"A foto representa o bioma Cerrado com fisionomia de savana, isto é, apresenta vários estratos, herbáceo (gramíneas e ervas), arbustivo e arbóreo (diversas espécies, incluindo palmeiras). Trata-se de um ecossistema com alta biodiversidade e caracterizado por plantas esclerófilas, ou seja, que apresentam troncos grossos, tortuosidade de galhos, além de folhas duras e coriáceas.",
+              "images":[
+                {
+                  "image":{
+                      "uri":"cerrado_Qst.jpg"
+                  }
+                }
+              ],
+              "options":{
+                "a":"folhas largas e solos úmidos.",
+                "b":"vegetação densa e relevo de planícies.",
+                "c":"estratos variados e grande biodiversidade.",
+                "d":"rios intermitentes e vegetação xerófita."
+              }
+            }
+          ]
+        },
+        {
+          "_id": "5bce90608795087ea6f66d9e",
+          "name": "Biomas Brasileiros",
+          "image": {
+            "uri": "biomasBrasileiros_Mttr.jpg"
+          },
+          "difficulty": "Fácil",
+          "questions":[
+              {
+                  "_id":"5bce90f5572d793c272259d4",
+                  "title":"Questão 1",
+                  "text":"(G1 - cftmg 2014) As características a seguir são típicas de um bioma brasileiro: - baixa pluviosidade anual; - elevadas temperaturas anuais; - pequena umidade relativa do ar; - espécies vegetais e animais bem adaptadas.",
+                  "correct":"a",
+                  "solve":"O bioma brasileiro Caatinga apresenta todas as características citadas no enunciado da questão.",
+                  "options":{
+                      "a":"Caatinga.",
+                      "b":"Cerrado",
+                      "c":"Pantanal.",
+                      "d":"Floresta Atlântica."
+                  }
+              },
+              {
+                  "_id":"5bce921bc476d8842ca839ec",
+                  "title":"Questão 2",
+                  "text":"(G1 - col. naval 2014 - Adaptado) Assinale o bioma ao qual o texto se refere. “Próprio de regiões tropicais, caracteriza-se como um ponto de ligação entre os ambientes de água doce, marinha e terrestre. Nesse bioma ocorre uma intensa deposição de detritos orgânicos e inorgânicos que, misturados água doce e à água salgada, formam um solo movediço e lamacento. O solo é pobre em oxigênio, apresenta alta salinidade e abriga plantas que se desenvolvem bem em terrenos salgados.”",
+                  "correct":"d",
+                  "solve":"O bioma manguezal apresenta as características descritas no texto.",
+                  "options":{
+                      "a":"O pantanal.",
+                      "b":"O pampa.",
+                      "c":"O cerrado.",
+                      "d":"O manguezal.",
+                      "e":"A restinga."
+                  }
+              },
+              {
+                  "_id":"5bce947c751ab7e08399f4be",
+                  "title":"Questão 3",
+                  "text":"(G1 - ifpe 2017 - Adaptado)Após a leitura do texto, assinale o bioma ao qual ele se refere. “Bioma predominante no Nordeste brasileiro, ocupando uma área equivalente a 11% do território nacional. Caracteriza-se por apresentar baixo índice de chuvas, presença de vegetação espinhosa com galhos retorcidos. Na época da seca, os arbustos costumam perder, quase que totalmente, as folhas. Apesar da sua importância, o bioma tem sofrido desmatamento que chega a 46% da sua área, segundo dados do Ministério do Meio Ambiente (MMA).” MINISTÉRIO DO MEIO AMBIENTE. Disponível em: <http://www.mma.gov.br/biomas/>. Acesso em: 10 maio 2017.",
+                  "correct":"a",
+                  "solve":"A alternativa [A] está correta porque a caatinga é uma formação xerófita adaptada à semiaridez do interior do Nordeste. As alternativas incorretas são: [B], porque manguezais são formações pneumatóforas de áreas salobras; [C], porque Mata dos Cocais é uma floresta ombrófila aberta; [D], porque Mata de Araucárias são formações aciculifoliadas de clima subtropical; [E], porque Cerrado é uma formação arbóreo-arbustiva e tropófita, típica de clima tropical semiúmido.",
+                  "options":{
+                      "a":"Caatinga.",
+                      "b":"Manguezais.",
+                      "c":"Mata de Cocais.",
+                      "d":"Mata de Araucárias.",
+                      "e":"Cerrado."
+                  }
+              },
+              {
+                  "_id":"5bce97c6ebf1175870ac0557",
+                  "title":"Questão 4",
+                  "text":"10. (G1 - utfpr 2017) Esta paisagem natural brasileira formou-se a partir do clima tropical úmido de inverno seco, em um solo relativamente pobre e, na sua origem, caracterizava-se pela vegetação herbácea com matas galerias. Transformada pela agricultura empresarial, encontra-se bastante reduzida em sua forma original. No Brasil essa paisagem caracteriza apenas:",
+                  "correct":"a",
+                  "solve":"O Cerrado é uma vegetação complexa. O tipo savânico apresenta predomínio dos estratos herbáceo e arbustivo com árvores tortuosas. A vegetação ocupa planaltos com chapadas caracterizados por solos pobres e ácidos. O clima é tropical, ou seja, quente, com verão chuvoso e inverno seco. Cerca de 50% da vegetação foi devastada pela agropecuária na região central do Brasil.",
+                  "options":{
+                      "a":"o Cerrado.",
+                      "b":"a Caatinga.",
+                      "c":"a Mata Atlântica.",
+                      "d":"a Mata de Coqueiros.",
+                      "e":"o Agreste."
+                  }
+              },
+              {
+                  "_id":"5bce98f78aefce986e383ee1",
+                  "title":"Questão 5",
+                  "text":"(G1 - ifpe 2017) Ecossistema costeiro, de transição entre os ambientes terrestre e marinho, sujeito ao regime das marés, formado por uma série de vegetais resistentes ao fluxo das marés e, portanto, ao sal. Ocupa quase todo o litoral brasileiro e funciona como um berçário para os recursos pesqueiros, sustentando direta ou indiretamente mais de 1 milhão de pessoas. MINISTÉRIO DO MEIO AMBIENTE. Disponível em: http://www.mma.gov.br/biodiversidade/biodiversidadeaquatica/zona-costeira-e-marinha.Acesso em 09 de maio2017.",
+                  "correct":"a",
+                  "solve":"A alternativa [A] está correta porque o texto descreve a formação fitogeográfica dos manguezais, vegetação halófita e de raízes pneumatóforas típica de áreas salobras. As alternativas incorretas são: [B], porque a Mata Atlântica é uma formação arbórea; [C], porque a Mata dos Cocais é uma transição entre Floresta Amazônica e caatinga; [D], porque o Pampa é uma formação herbácea; [E], porque a caatinga é uma formação complexa.",
+                  "options":{
+                      "a":"Manguezal.",
+                      "b":"Mata Atlântica.",
+                      "c":"Mata de Cocais.",
+                      "d":"Pampa",
+                      "e":"Caatinga."
+                  }
+              },
+              {
+                  "_id":"5bce9a9786afbd1f5f2eb1ae",
+                  "title":"Questão 6",
+                  "text":"(Unesp 2014) Mata de terra firme, mata de várzea e igapó são formações vegetais típicas deste bioma. Em razão do processo de uso e ocupação do território brasileiro e das ações dirigidas à preservação dos recursos naturais realizadas nas últimas décadas, este bioma constitui-se também naquele que guarda as maiores extensões de floresta nativa no Brasil, ainda que seu desmatamento não tenha sido completamente cessado. O texto refere-se ao bioma",
+                  "correct":"e",
+                  "solve":"A Floresta Amazônica ocupa a porção norte do Brasil, sendo equatorial, latifoliada, perenefólia, estratificada, densa e repleta de plantas higrófilas e hidrófilas. Existem vários tipos de floresta: mata de terra firme (áreas de planalto e depressão não alagadas por água de rio), mata de várzea (planícies com inundação periódica por rio) e mata de igapó (planícies com inundação permanente por rio). Também existem matas montana e alto montana, além das campinaranas.",
+                  "options":{
+                      "a":"Cerrado.",
+                      "b":"Mata Atlântica.",
+                      "c":"Pampa.",
+                      "d":"Caatinga.",
+                      "e":"Amazônico"
+                  }
+              },
+              {
+                  "_id":"5bce9be818d54bfc4a53fb78",
+                  "title":"Questão 7",
+                  "text":"(G1 - utfpr 2013) Na maior parte do Paraná e nos estados de Santa Catarina e Rio Grande do Sul ocorre o clima subtropical, que apresenta temperaturas médias anuais inferiores às da zona tropical e sofre maior influência das massas de ar frias. A região também era ocupada em grande parte pelas matas ou floresta:",
+                  "correct":"a",
+                  "solve":"Como mencionado corretamente na alternativa [A], os estados da região sul inseridos em sua quase totalidade na zona temperada, caracterizam-se por apresentar verões quentes e invernos amenos, cuja associação se faz com a mata de araucárias, formação aciculifoliada típica de climas mais frios. Estão incorretas as alternativas: [B], porque a Floresta Amazônica, presente em grande parte do território setentrional do país, associa-se ao clima equatorial sob o domínio de massas equatoriais; [C], porque Floresta de Coníferas encontra-se em áreas de clima  frio; [D], porque o cerrado se encontra em áreas de clima tropical semiúmido nas áreas centrais do Brasil; [E], porque a caatinga é uma vegetação típica do nordeste brasileiro cujo clima semiárido, é marcado pela escassez de chuvas.",
+                  "options":{
+                      "a":"de araucárias.",
+                      "b":"amazônica.",
+                      "c":"de coníferas.",
+                      "d":"de cerrado.",
+                      "e":"de caatinga."
+                  }
+              }
+          ]
+        },
+        {
+          "_id": "5bc134ea7cc4e3e342595db8",
+          "name": "Desastres Naturais",
+          "image": {
+            "uri": "desastreNatural_Mttr.jpg"
+           },
+          "difficulty": "Fácil",
+          "questions": [
+              {
+                  "_id": "5bce84dd932a059f82e305ae",
+                  "title": "Questão 1",
+                  "text": "(G1 - cps 2016 - Adaptado) As matas ciliares são tão importantes para os rios e lagos, como são os cílios para a proteção dos nossos olhos. (...) Sem as matas ciliares, as nascentes secam, as margens dos rios e riachos solapam, o escoamento superficial aumenta e a infiltração da água no solo diminui, reduzindo as reservas de água do solo e do lençol freático. As consequências são dramáticas para o meio ambiente: a poluição alcança facilmente os mananciais e a vida aquática é prejudicada, rios e reservatórios transformam-se em grandes esgotos ou lixões. De acordo com o texto, podemos afirmar que:",
+                  "correct": "e",
+                  "solve": " O Código Florestal brasileiro protege as Matas Ciliares (de Galeria ou Ripárias). A finalidade é a conservação dos recursos hídricos (nascentes e mananciais), da biodiversidade e do solo, visto que reduz a erosão e o assoreamento dos rios.",
+                  "options": {
+                    "a": " os lençóis freáticos são os responsáveis pela seca das nascentes.",
+                    "b": " o excesso de água nos rios e lagos prejudica o lençol freático, causando a erosão.",
+                    "c": " as margens de rios e lagos solapam por causa dos lixos orgânicos neles despejados.",
+                    "d": " as reduções das infiltrações da água no solo evitam que a poluição alcance os mananciais.",
+                    "e": " as matas ciliares atuam na preservação de nascentes, das margens dos rios e de mananciais."
+                  }
+              },
+              {
+                  "_id": "5bce89e40166230aed32fcbf",
+                  "title": "Questão 2",
+                  "text": "(Fgvrj 2013 - Adaptado)  Considere os seguintes processos de degradação ambiental descritos: \"A desertificação resulta da expansão de práticas agropecuárias predatórias e do desmatamento das espécies nativas, usadas para a produção de lenha.\" e \"A arenização é causada pela ação dos processos erosivos sobre depósitos arenosos pouco consolidados em ambiente de clima úmido, e agravada pelo manejo inadequado dos solos.\". Os biomas brasileiros em que esses processos ocorrem são, respectivamente, ",
+                  "correct": "a",
+                  "solve": " As práticas inadequadas do solo como o cultivo excessivo e o sobrepasto, o desmatamento, a utilização inadequada dos recursos hídricos e as secas periódicas, resultam no processo de desertificação no sertão nordestino cuja localização está associada ao bioma da caatinga; e a arenização, cuja ocorrência no Brasil se dá na área dos pampas gaúchos, resulta da combinação de clima úmido com chuvas constantes, solos arenosos e a retirada da cobertura vegetal que potencializa a deposição de sedimentos impedindo o crescimento de nova vegetação.",
+                  "options": {
+                    "a": " Caatinga e Campos Sulinos.",
+                    "b": " Caatinga e Cerrado.",
+                    "c": " Cerrado e Mata Atlântica.",
+                    "d": " Pantanal e Mata de Araucária.",
+                    "e": " Cerrado e Mata de Araucária."
+                      }
+              }
+          ]
+      },
+      {
+          "_id": "5bce8d25bce5f2525a05996f",
+          "name": "Interferência Humana",
+          "image": {
+          "uri": "interferenciaHumana_Mttr.jpg"
+          },
+          "difficulty": "Fácil",
+          "questions": [
+              {
+              "_id": "5bce8e6ebb08ea07d9fa130d",
+              "title": "Questão 1",
+              "text": " (Upe-ssa 1 2018 - Adaptado) Atualmente, a maior parte das espécies ameaçadas da fauna brasileira, sejam elas aquáticas ou terrestres, estão em situação de risco por causa da perda do habitat florestal. \"São 1.051 espécies ameaçadas. Todas estão assim em função do desmatamento\", afirmou a coordenadora de Avaliação do Estado de Conservação da Biodiversidade (Coabio/ICMBio), Rosana Subirá. Fonte: http://www.brasil.gov.br/meio-ambiente/2014/07. Sobre os principais prejuízos ambientais, decorrentes do desmatamento em áreas tropicais, analise os itens a seguir e indique os corretos: 1) Degradação dos mananciais; 2) Perda da biodiversidade; 3) Alteração pluviométrica; 4) Diminuição da quantidade de carbono; 5) Aumento do efeito estufa; 6) Acréscimo dos valores da umidade relativa do ar",
+              "correct": "c",
+              "solve": " O desmatamento resulta em aumento da quantidade de carbono e redução da umidade. O desmatamento também leva à redução da umidade do ar alterando o ciclo hidrológico que, por sua vez, impacta também sobre as chuvas, o banco genético e à temperatura.",
+              "images":[
+                  {
+                     "image":{
+                         "uri": "desmatamento_Qst.png"
+                     }
+                  }
+              ],
+              "options": {
+                  "a": " 1, 4 e 5.",
+                  "b": " 2, 3 e 4.",
+                  "c": " 1, 2, 3 e 5.",
+                  "d": " 3, 4, 5 e 6.",
+                  "e": " 1, 2, 4, 5 e 6."
+                 }
           },
           {
-            "_id": "5bc134ead6aad5b5364d9497",
-            "name": "Comunidades e Populações",
-            "done": false,
-            "image": {
-              "uri": "comunidadesEPopulacoes_Mttr.jpg"
-            },
-            "difficulty": "Fácil",
-            "questions": [
-              {
-                "_id": "5bc134ea269e273967fc889e",
-                "title": "Questão 1",
-                "text": "(G1 - cps 2016) Os vegetais precisam respirar. Para tanto, eles absorvem gás oxigênio do ambiente. Essa absorção ocorre principalmente através de suas folhas e de suas raízes. Assim, o solo precisa ter certa quantidade de ar para que as raízes possam absorver o gás oxigênio. Considerando esse aspecto, podemos afirmar que as minhocas prestam um importante serviço ecológico, pois contribuem para o arejamento do solo. As minhocas estão sempre cavando túneis e revolvendo a terra a procura de restos orgânicos, dos quais se alimentam, deixando a terra fofa e arejada. Além disso, esses túneis facilitam a drenagem das águas das chuvas. Em solos muito duros, normalmente não há minhocas, principalmente porque ali elas não conseguem cavar as suas galerias. Não existindo esses animais, a terra terá menos húmus e menos gás oxigênio e, portanto, oferecerá menos recursos para a vida vegetal.",
-                "correct": "e",
-                "solve": "As minhocas são anelídeos que possuem o corpo cilíndrico e segmentado. Elas se locomovem por rastejamento, pela atividade de contração e distensão coordenada de sua musculatura voluntária. Através do mecanismo “estica-encolhe”, elas cavam túneis que arejam o solo e distribuem detritos vegetais que, entrando em decomposição, contribuem para fertilizar os terrenos onde vivem.",
-                "options": {
-                  "a": "são invertebrados, de vida parasitária, como as lombrigas e as sanguessugas.",
-                  "b": "possuem corpo cilíndrico, não segmentado e respiram por meio de brânquias.",
-                  "c": "favorecem a agricultura, pois produzem o gás oxigênio necessário à respiração das raízes dos vegetais.",
-                  "d": "sintetizam a matéria orgânica de que necessitam para sobreviver a partir dos minerais que absorvem do solo.",
-                  "e": "rastejam e cavam túneis graças à contração e distensão coordenadas dos músculos de cada segmento do corpo."
-                }
-              },
-              {
-                "_id": "5bc134ea8e1f4bd33387d652",
-                "title": "Questão 2",
-                "text": "(G1 - ifsp 2014 - Adaptado) O gráfico na imagem representa o crescimento de duas populações de animais encontrados em um mesmo ecossistema brasileiro, sem que ocorra a interferência humana. Analise-o e assinale a alternativa correta:",
-                "correct": "d",
-                "solve": "Os gambás se alimentam de galinhas e de seus filhotes. Dessa forma, se o número de aves (presas) diminuir, o número de gambás (predadores) também diminuirá.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "graficoGambaGalinha_Qst.png"
-                    }
+              "_id": "5bce93ebb4b956cf92c6793b",
+              "title": "Questão 2",
+              "text": " (Enem 2016)  O bioma Cerrado foi considerado recentemente um dos 25 hotspots de biodiversidade do mundo, segundo uma análise em escala mundial das regiões biogeográficas sobre áreas globais prioritárias para conservação. O conceito de hotspot foi criado tendo em vista a escassez de recursos direcionados para conservação, como objetivo de apresentar os chamados “pontos quentes”, ou seja, locais para os quais existe maior necessidade de direcionamento de esforços, buscando evitar a extinção de muitas espécies que estão altamente ameaçadas por ações antrópicas. PINTO, P.P.; DINIZ-FILHO, J. A. F. In: ALMEIDA, M. G. (Org.). Tantos cerrados: múltiplas abordagens sobre a biogeodiversidade e singularidade cultural. Goiânia: Vieira. 2005 (adaptado).   A necessidade desse tipo de ação na área mencionada tem como causa a ",
+              "correct": "e",
+              "solve": " O Cerrado é um bioma complexo e com alta biodiversidade. O tipo de Cerrado com fisionomia de savana apresenta os estratos herbáceo e arbustivo dominantes, além de árvores com troncos tortuosos. Cerca de 49% do ecossistema foi devastado pelo avanço da agropecuária nos últimos anos, a exemplo da soja e da pecuária bovina.",
+              "options": {
+                  "a": " intensificação da atividade turística.",
+                  "b": " implantação de parques ecológicos.",
+                  "c": " exploração dos recursos minerais.",
+                    "d": " elevação do extrativismo vegetal.",
+                    "e": " expansão da fronteira agrícola."
                   }
-                ],
-                "options": {
-                  "a": "Há uma relação de competição entre gambás e galinhas.",
-                  "b": "O pico para a população de galinhas é sempre atingido após o pico de gambás.",
-                  "c": "Se o número de gambás cresce, o número de galinhas também cresce.",
-                  "d": "Se o número de galinhas diminui, o número de gambás também diminuirá após algum tempo.",
-                  "e": "Caso os gambás deixassem de existir, o número de galinhas continuaria a crescer indefinidamente."
-                }
-              }
-            ]
           },
           {
-            "_id": "5bc134ea582ea18976528cf0",
-            "name": "Fluxo de Energia",
-            "done": false,
-            "image": {
-              "uri": "fluxoDeEnergia_Mttr.jpg"
-            },
-            "difficulty": "Médio",
-            "questions": [
-              {
-                "_id": "5bc134ea3dcfa79ea48cfe38",
-                "title": "Questão 1",
-                "text": "(G1 - ifsp 2012) Após um longo período realizando um trabalho na faculdade, um estudante chega em sua casa com muita fome e coloca alguns alimentos no seu prato. Além do tradicional arroz e feijão, não podem faltar a carne, o omelete e a salada. Em relação ao fluxo de energia ao longo de uma cadeia alimentar, o estudante consegue obter mais energia quando ingere",
-                "correct": "d",
-                "solve": "Os produtores de uma cadeia alimentar, representados pela salada, arroz e feijão, contêm mais energia armazenada em seus tecidos. Ao longo de uma cadeia alimentar, a energia vai diminuindo dos produtores em direção aos consumidores, devido às perdas na forma de calor e detritos eliminados pelos organismos consumidores, componentes da cadeia.",
-                "options": {
-                  "a": "carne e omelete, porque são provenientes de consumidores primários, nível trófico que armazena mais energia que os produtores.",
-                  "b": "carne e arroz, porque são ricos em carboidratos e proteínas, que são substâncias que armazenam muita energia.",
-                  "c": "feijão e carne, porque apresentam muito ferro que irá compor a molécula de hemoglobina, responsável pelo transporte de gás oxigênio.",
-                  "d": "salada, arroz e feijão, porque são os produtores da cadeia alimentar e contêm mais energia armazenada em seus tecidos.",
-                  "e": "carne, omelete e feijão, porque possuem maior quantidade de carboidratos, que são moléculas orgânicas com muitas ligações químicas."
-                }
-              },
-              {
-                "_id": "5bc134ea1126c02081f8924f",
-                "title": "Questão 2",
-                "text": "(G1 - col. naval 2011 - Adaptadado) A partir da observação da imagem, assinale a opção que utiliza os elementos ilustrados (I- árvore, II- sol, III- fungo e IV- borboleta) para fornecer informações corretas sobre o fluxo de energia na natureza.",
-                "correct": "a",
-                "solve": "O fluxo de energia no ecossistema é unidirecional. A energia é proveniente do sol e fixada na forma de matéria orgânica pelos produtores. Flui dos produtores em direção aos consumidores em quantidades cada vez menores devido às perdas, na forma de calor, em cada nível trófico das cadeias alimentares.",
-                "images": [
-                  {
-                    "image": {
-                      "uri": "energia1a4_Qst.png"
-                    }
-                  }
-                ],
-                "options": {
-                  "a": "Introduzida na comunidade biótica (seres vivos) por I, sendo transferida, sob a forma química (alimento), aos demais seres vivos.",
-                  "b": "Obtida do ambiente físico e passa de ser vivo a ser vivo, retornando integralmente ao ecossistema,",
-                  "c": "Originada em II, sendo fixada, sob a forma química, diretamente por IV.",
-                  "d": "Utilizada por III, a partir de compostos orgânicos, quando ele realiza a fotossíntese.",
-                  "e": "Ampliada em III e IV, pois aumenta nos últimos níveis tróficos."
-                }
+              "_id": "5bce97902d513a0257552eb3",
+              "title": "Questão 3",
+              "text": " (Unesp 2014)  A extração de madeira, especialmente do pau-brasil, os ciclos do açúcar e café e o desmatamento para instalação de indústrias são eventos de nossa história que contribuíram para a degradação desse bioma. O texto refere-se ao bioma ",
+              "correct": "a",
+              "solve": " A Mata Atlântica foi o bioma mais devastado do país em razão de sua historicidade, que se deu inicialmente com a ocupação do litoral resultando na retirada do pau-brasil e na monocultura canavieira, no desenvolvimento da cafeicultura a partir do século XIX e na atual ocupação urbano-industrial.",
+              "options": {
+                "a": " Mata Atlântica.",
+                "b": " Caatinga.",
+                "c": " Cerrado.",
+                "d": " Pantanal.",
+                "e": " Floresta Amazônica."
               }
-            ]
           },
           {
-            "_id": "5bc134ea7822f494fc24f0ae",
-            "name": "Níveis Tróficos",
-            "done": false,
-            "image": {
-              "uri": "niveisTroficos_Mttr.jpg"
-            },
-            "difficulty": "Difícil",
-            "questions": [
-              {
-                "_id": "5bc134eabc67f7ecb154ccbd",
-                "title": "Questão 1",
-                "text": "(Pucsp 2015) Suponha que se queira manter animais aquáticos herbívoros em um aquário. Para garantir a sobrevivência desses animais durante certo tempo, seria aconselhável adicionar ao ambiente",
-                "correct": "a",
-                "solve": "Os animais herbívoros de um aquário são consumidores primários e se alimentam de plantas aquáticas e algas. Além disso, os organismos autótrofos realizam a fotossíntese e produzem o gás oxigênio, enquanto o aquário estiver iluminado.",
-                "options": {
-                  "a": "plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, caso esse fosse iluminado.",
-                  "b": "plantas aquáticas e algas que, além de servirem de alimento para os animais, forneceriam oxigênio ao meio, mesmo que esse não fosse iluminado.",
-                  "c": "fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, caso esse fosse iluminado.",
-                  "d": "fungos e bactérias que, além de servirem de alimento para os animais, forneceriam gás carbônico ao meio, mesmo que esse não fosse iluminado.",
-                  "e": "zooplâncton que, além de servir de alimento para os animais, forneceria oxigênio ao meio, caso esse fosse iluminado."
-                }
-              },
-              {
-                "_id": "5bc134ea944b822e98ef70b6",
-                "title": "Questão 2",
-                "text": "(G2 1996) Nas cadeias alimentares que ocorrem nos ecossistemas aquáticos, o nível trófico dos produtores é ocupado por:",
-                "correct": "d",
-                "solve": "Os principais produtores dos ecossistemas aquáticos são as algas e bactérias fotossintetizantes constituintes do fitoplâncton.",
-                "options": {
-                  "a": "zooplâncton.",
-                  "b": "microcrustáceos.",
-                  "c": "protozoários.",
-                  "d": "fitoplâncton.",
-                  "e": "peixes pequenos."
-                }
+              "_id": "5bce986e3fe4e8881cd4e5aa",
+              "title": "Questão 4",
+              "text": " (Unifor 2014)  Se a exploração descontrolada e predatória de madeira verificada atualmente continuar por mais alguns anos, pode-se antecipar a extinção de diversas espécies de árvores nativas da floresta amazônica. Tal espécie de vegetação já desapareceu de extensas áreas do Pará, de Mato Grosso, de Rondônia, e há indícios de que a diversidade e o número de indivíduos existentes podem não ser suficientes para garantir a sustentabilidade de trechos da floresta. A diversidade é um elemento fundamental na sobrevivência de qualquer ecossistema. Com relação ao problema descrito no texto, assinale a alternativa correta. ",
+              "correct": "d",
+              "solve": " O desmatamento predatório reduz a biodiversidade e, consequentemente, o banco genético. Existe um grande mercado para a madeira da Amazônia; O avanço das pastagens ampliou o ritmo do desmatamento; O maior peso do desmatamento recai sobre o avanço do capital sobre a área das florestas; A redução do número de arvores é diretamente proporcional à redução da biodiversidade.",
+              "options": {
+                "a": " O desinteresse do mercado madeireiro internacional pela madeira contribuiu para a redução da exploração predatória de diversas espécies de árvores da floresta amazônica.",
+                "b": " O surgimento de áreas destinadas à pastagem de animais contribuiu para a redução do ritmo de desmatamento da floresta amazônica.",
+                "c": " As causas naturais decorrentes das mudanças climáticas globais contribuem mais para a extinção das árvores da floresta do que a interferência humana.",
+                "d": " A extração predatória de madeira pode reduzir o número de espécies de árvores nativas da floresta amazônica e prejudicar sua diversidade genética.",
+                "e": " A redução do número de árvores ocorre na mesma medida em que aumenta a diversidade biológica da floresta região amazônica."
               }
-            ]
+          },
+          {
+              "_id": "5bce99f76653befb4076fc75",
+              "title": "Questão 5",
+              "text": " (Espcex (Aman) 2014)  Imagens mostram que 57% da área original desse domínio morfoclimático brasileiro já estão desmatados. Sua biodiversidade também está ameaçada, fato que o aponta como um dos dois “hotspots” (MYERS, 1988, apud TERRA; ARAÚJO; GUIMARAES, 2009, p.186) identificados no País. A utilização de tecnologias modernas para corrigir os solos ácidos possibilitou a intensificação da produção agrícola, o que vem acelerando a devastação desse domínio. O texto acima refere-se ao domínio morfoclimático do(a) ",
+              "correct": "b",
+              "solve": " O domínio morfoclimático do Cerrado é caracterizado por planaltos com chapadas, clima tropical, vegetação de Cerrado e solos pobres e ácidos. O ecossistema do Cerrado já foi desmatado em cerca de 49% conforme o IBGE, sendo um dos hotspots, isto é, bioma com grande diversidade e muito ameaçado pelo avanço da devastação. O avanço do agronegócio sobre o domínio do Cerrado deveu-se à biotecnologia, mecanização e aplicação de fertilizantes e calagem (correção da acidez) nos solos.",
+              "options": {
+                  "a": " Amazônia.",
+                  "b": " Cerrado.",
+                  "c": " Caatinga.",
+                  "d": " Araucária.",
+                  "e": " Mata Atlântica."
+                  }
+          },
+          {
+              "_id": "5bce9b9f5827e9459e5ed9ed",
+              "title": "Questão 6",
+              "text": " (Enem 2011) A imagem retrata a araucária, árvore que faz parte de um importante bioma brasileiro que, no entanto, já foi bastante degradado pela ocupação humana. Uma das formas de intervenção humana relacionada à degradação desse bioma foi ",
+              "correct": "d",
+              "solve": " A Mata de Araucária ocupava originalmente extensões de terra na região Sul e parte do Sudeste e foi muito alterada ao longo do tempo pela ação humana. A produção de pasta de celulose, para atender a indústria papeleira, está entre as principais formas de uso intensivo da espécie. A expansão agropecuária, o uso da madeira para construção civil e indústria moveleira também ajudaram em sua alteração. As áreas de araucária no Sudeste são limitadas às regiões serranas não utilizadas em exploração mineral. A região Centro-Oeste não apresenta araucárias em seu território. A região Nordeste não apresenta araucárias em seu território. A Serra do Mar no Sudeste não possui araucárias em seu território.",
+              "images":[
+                  {
+                  "image":{
+                      "uri": "araucarias_Qst.png"
+                  }
+                  }
+              ],
+              "options": {
+                  "a": " o avanço do extrativismo de minerais metálicos voltados para a exportação na região Sudeste.",
+                  "b": " a contínua ocupação agrícola intensiva de grãos na região Centro-Oeste do Brasil.",
+                  "c": " o processo de desmatamento motivado pela expansão da atividade canavieira no Nordeste brasileiro.",
+                  "d": " o avanço da indústria de papel e celulose a partir da exploração da madeira, extraída principalmente no Sul do Brasil.",
+                  "e": " o adensamento do processo de favelização sobre áreas da Serra do Mar na região Sudeste."
+                  }
+          },
+          {
+              "_id": "5bce9e6d66576a48259d6063",
+              "title": "Questão 7",
+              "text": " (Mackenzie 2012)  Floresta aciculifoliada com árvores que atingem mais de 30 metros de altura, recobria originalmente a Região Sul do Brasil. Este ecossistema encontra-se em extinção devido à intensa exploração econômica da madeira e da utilização dessas áreas para a agricultura. Atualmente, restam apenas 2% de sua formação vegetal original. Analisando o texto, assinale a alternativa que relaciona de forma correta o bioma citado ao clima correspondente.",
+              "correct": "c",
+              "solve": " A Mata de Araucária está associada ao clima subtropical (chuvas bem distribuídas no decorrer do ano, maior amplitude térmica anual e temperaturas mais baixas no inverno). O estrato superior da floresta é dominado pela Araucaria angustifolia, uma conífera aciculifoliada (folhas finas), já o estrato inferior é composto por espécies latifoliadas como a canela e a imbuia. Estima-se que 97% da floresta foi destruída devido à exploração de madeira, avanço da agropecuária, indústria e urbanização na região Sul do Brasil e zonas serras do Sudeste como a Serra da Mantiqueira (SP e MG).",
+              "options": {
+                  "a": " Floresta Subtropical – Clima Temperado Úmido",
+                  "b": " Floresta Decídua – Clima Tropical Úmido",
+                  "c": " Mata dos Pinhais – Clima Subtropical",
+                  "d": " Mata de Araucárias – Clima Temperado Atlântico",
+                  "e": " Floresta Mata de Cocais – Clima Subtropical"
+                  }
           }
-        ]
-      }
-    ]
-  }
+          ]
+        }
+      ]
+    }
+  ]
+}

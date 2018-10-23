@@ -66,7 +66,6 @@ export default {
     
 
 const imageData = {
-    "relacoesEcologicas_Thm.jpg": require('@assets/qstImg/relacoesEcologicas_Thm.jpg'),
     "agrotoxico.jpg": require('@assets/qstImg/agrotoxico.jpg'),
     "comunidadesEPopulacoes_Mttr.jpg": require('@assets/qstImg/comunidadesEPopulacoes_Mttr.jpg'),
     "ecossistemaAquatico_Qst.png": require('@assets/qstImg/ecossistemaAquatico_Qst.png'),
@@ -81,7 +80,17 @@ const imageData = {
     "teiaConsumidor3_Qst.png": require('@assets/qstImg/teiaConsumidor3_Qst.png'),
     "teiaGalinha_Qst.png": require('@assets/qstImg/teiaGalinha_Qst.png'),
     "teiasECadeias_Mttr.jpg": require('@assets/qstImg/teiasECadeias_Mttr.jpg'),
-    "ratoPassaroEsquilo_Qst.png": require('@assets/qstImg/ratoPassaroEsquilo_Qst.png')
+    "ratoPassaroEsquilo_Qst.png": require('@assets/qstImg/ratoPassaroEsquilo_Qst.png'),
+
+    "adaptacoesVegetais_Mttr.jpg": require('@assets/qstImg/adaptacoesVegetais_Mttr.jpg'),
+    "araucarias_Qst.png": require('@assets/qstImg/araucarias_Qst.png'),
+    "biomas_Thm.jpg": require('@assets/qstImg/biomas_Thm.jpg'),
+    "biomasBrasileiros_Mttr.jpg": require('@assets/qstImg/biomasBrasileiros_Mttr.jpg'),
+    "cactus_Qst.png": require('@assets/qstImg/cactus_Qst.png'),
+    "cerrado_Qst.jpg": require('@assets/qstImg/cerrado_Qst.jpg'),
+    "desastreNatural_Mttr.jpg": require('@assets/qstImg/desastreNatural_Mttr.jpg'),
+    "desmatamento_Qst.png": require('@assets/qstImg/desmatamento_Qst.png'),
+    "interferenciaHumana_Mttr.jpg": require('@assets/qstImg/interferenciaHumana_Mttr.jpg'),
 }
 
 // class api{
