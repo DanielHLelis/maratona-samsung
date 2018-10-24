@@ -1,62 +1,124 @@
 import React, { Component } from 'react'
-import { Text, View, Image, Alert } from 'react-native'
+import { Text, View, Image, Modal, Animated, ActivityIndicator } from 'react-native'
 import styled from 'styled-components'
 
-import storage from '@utils/storage'
 import COLORS from '@config/colors'
-import constants from '@config/constants'
 import IMAGES from '@config/images'
 import TYPOGRAPHY from '@config/typography'
-import Openable from '@components/core/OpenableImage'
 
 import Button from '@components/core/Button'
 
-let data = require('@tests/test.json');
-
 export default class AppIntroScreen extends Component {
 
-  // componentWillMount(){
-  //   // storage.cleanAll();
-  //   storage.debug();
-  // }
+  constructor(props){
+    super(props);
 
-  // _reset(){
-  //   Alert.alert(
-  //     'Audacioso(a)!!!',
-  //     'Essa tela é para os devs resetarem os dados do app...\nO senhor, DEV, gostaria de resetar?',
-  //     [
-  //       {
-  //         text:'Sim',
-  //         onPress: storage.cleanAll
-  //       },
-  //       {
-  //         text:'Melhor não',
-  //         style:'cancel'
-  //       }
-  //     ],
-  //     {cancelable: true}
-  //   )
-  // }
-  // delayLongPress={2500} onLongPress={this._reset}
+    this.state = {
+      loaded: false,
+      BG: IMAGES.BG
+    }
+  }
+
+  loaded = (loaded = true) => {
+    setTimeout(
+      () => this.setState({loaded}),
+      500
+    )
+  }
 
   render() {
     return (
-      <Background>
-        <BackgroundImage source={IMAGES.BG} blurRadius={4} />
-        
-        <StyledText>
-          Alpha{'\n'}Estudos
-        </StyledText>
-
-        <View style={{ width: '80%' }}>
-          <Button typography={TYPOGRAPHY.mediumText} marginTop={30} onPress={() => this.props.navigation.navigate('MenusScreen', {data: data})}>
-            Entrar
-          </Button>
-        </View>
-      </Background>
+      <View>
+        <Intro {...this.props} BG={this.state.BG} loaded={this.loaded} />
+        <LoadingScreen visible={!this.state.loaded} />
+      </View>
     );
   }
 };
+
+const Intro = props => (
+  <Background>
+    <BackgroundImage onLoadStart={() => props.loaded(false)} onLoadEnd={() => props.loaded()} source={props.BG} blurRadius={4} />
+
+    <StyledText>
+      Alpha{'\n'}Estudos
+    </StyledText>
+
+    <View style={{ width: '80%' }}>
+      <Button typography={TYPOGRAPHY.mediumText} marginTop={30} onPress={() => props.navigation.navigate('MenusScreen')}>
+        Entrar
+      </Button>
+    </View>
+  </Background>
+)
+
+class LoadingScreen extends Component{
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      alpha: new Animated.Value(1),
+      opacity: new Animated.Value(1),
+      visible: true,
+      none: false
+    }
+  }
+
+  componentDidUpdate(){
+    if(this.props.visible === false && this.state.visible){
+      Animated.timing(
+        this.state.opacity,
+        {
+          toValue: 0,
+          duration: 500
+        }
+      ).start(() => this.setState({visible: false}))
+    }
+  }
+
+  fadeIn = (who, cb = () => null, dur = 650) => {
+    Animated.timing(
+      who,
+      {
+        toValue: 1,
+        duration: dur  
+      }
+    ).start(cb);
+  }
+  fadeOut = (who, cb = () => null, dur = 650, limit = 0.6) => {
+    Animated.timing(
+      who,
+      {
+        toValue: limit,
+        duration: dur  
+      }
+    ).start(cb);
+  }
+  pulse = (who) => {
+    if(this.state.visible)
+      this.fadeOut(who, ()=>this.fadeIn(who, () => this.pulse(who)));
+  }
+  componentDidMount(){
+    this.pulse(this.state.alpha)
+  }
+
+  render(){
+    let AnimatedText = Animated.createAnimatedComponent(StyledText);
+    return(
+    <Animated.View 
+      style={[this.state.visible?{position: "absolute", height: "100%", width: "100%"}:{display: "none"}, {opacity: this.state.opacity}]} 
+    >
+      <Background>
+        <AnimatedText style={{opacity: this.state.alpha}} >
+          Alpha{'\n'}Estudos
+        </AnimatedText>
+        <ActivityIndicator size="large" color="#fff" />
+      </Background>         
+    </Animated.View>
+    );
+  }
+}
 
 let StyledText = styled.Text`
   color: ${COLORS.lightText};
