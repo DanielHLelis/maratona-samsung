@@ -101,8 +101,8 @@ android {
         applicationId "com.alphaestudos"
         minSdkVersion 16
         targetSdkVersion 26 //Changed from 22
-        versionCode 00106
-        versionName "0.1.6"
+        versionCode 00107
+        versionName "0.1.8"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }

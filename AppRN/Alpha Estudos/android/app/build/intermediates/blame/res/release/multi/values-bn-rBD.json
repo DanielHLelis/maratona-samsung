@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 159
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 267
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 390
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1024
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1134
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1250
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1357
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1467
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1573
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1683
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1808
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1913
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 2014
                 },
                 "from": {
-                    "file": "D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -347,7 +347,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn-rBD/values-bn-rBD.xml",
         "map": [
             {
                 "to": {
@@ -358,7 +358,7 @@
                     "endOffset": 159
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 267
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -396,7 +396,7 @@
                     "endOffset": 390
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -415,7 +415,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -472,7 +472,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -491,7 +491,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -510,7 +510,7 @@
                     "endOffset": 1024
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -529,7 +529,7 @@
                     "endOffset": 1134
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -548,7 +548,7 @@
                     "endOffset": 1250
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -567,7 +567,7 @@
                     "endOffset": 1357
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -586,7 +586,7 @@
                     "endOffset": 1467
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -605,7 +605,7 @@
                     "endOffset": 1573
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -624,7 +624,7 @@
                     "endOffset": 1683
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -643,7 +643,7 @@
                     "endOffset": 1808
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -662,7 +662,7 @@
                     "endOffset": 1913
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -681,7 +681,7 @@
                     "endOffset": 2014
                 },
                 "from": {
-                    "file": "D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-bn-rBD/values-bn-rBD.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -694,7 +694,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
         "map": [
             {
                 "to": {
@@ -705,7 +705,7 @@
                     "endOffset": 159
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -724,7 +724,7 @@
                     "endOffset": 267
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -743,7 +743,7 @@
                     "endOffset": 390
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -762,7 +762,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -781,7 +781,7 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -800,7 +800,7 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -819,7 +819,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -838,7 +838,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -857,7 +857,7 @@
                     "endOffset": 1024
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -876,7 +876,7 @@
                     "endOffset": 1134
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -895,7 +895,7 @@
                     "endOffset": 1250
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -914,7 +914,7 @@
                     "endOffset": 1357
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -933,7 +933,7 @@
                     "endOffset": 1467
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -952,7 +952,7 @@
                     "endOffset": 1573
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -971,7 +971,7 @@
                     "endOffset": 1683
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -990,7 +990,7 @@
                     "endOffset": 1808
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1009,7 +1009,7 @@
                     "endOffset": 1913
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1028,7 +1028,354 @@
                     "endOffset": 2014
                 },
                 "from": {
-                    "file": "D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2147,
+                        "endColumn": 100,
+                        "endOffset": 2243
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bn-rBD\\values-bn-rBD.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 108,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 108,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endColumn": 107,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 107,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 272,
+                    "endColumn": 122,
+                    "endOffset": 390
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 122,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 111,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 111,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endColumn": 105,
+                    "endOffset": 608
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 105,
+                        "endOffset": 837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 613,
+                    "endColumn": 93,
+                    "endOffset": 702
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 842,
+                        "endColumn": 93,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 707,
+                    "endColumn": 104,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 936,
+                        "endColumn": 104,
+                        "endOffset": 1036
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 129,
+                    "endOffset": 937
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1041,
+                        "endColumn": 129,
+                        "endOffset": 1166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 942,
+                    "endColumn": 86,
+                    "endOffset": 1024
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1171,
+                        "endColumn": 86,
+                        "endOffset": 1253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1029,
+                    "endColumn": 109,
+                    "endOffset": 1134
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endColumn": 109,
+                        "endOffset": 1363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1139,
+                    "endColumn": 115,
+                    "endOffset": 1250
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1368,
+                        "endColumn": 115,
+                        "endOffset": 1479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1255,
+                    "endColumn": 106,
+                    "endOffset": 1357
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1484,
+                        "endColumn": 106,
+                        "endOffset": 1586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1362,
+                    "endColumn": 109,
+                    "endOffset": 1467
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1591,
+                        "endColumn": 109,
+                        "endOffset": 1696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1472,
+                    "endColumn": 105,
+                    "endOffset": 1573
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1701,
+                        "endColumn": 105,
+                        "endOffset": 1802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1578,
+                    "endColumn": 109,
+                    "endOffset": 1683
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1807,
+                        "endColumn": 109,
+                        "endOffset": 1912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1688,
+                    "endColumn": 124,
+                    "endOffset": 1808
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1917,
+                        "endColumn": 124,
+                        "endOffset": 2037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1813,
+                    "endColumn": 104,
+                    "endOffset": 1913
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2042,
+                        "endColumn": 104,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1918,
+                    "endColumn": 100,
+                    "endOffset": 2014
+                },
+                "from": {
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-bn-rBD\\values-bn-rBD.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

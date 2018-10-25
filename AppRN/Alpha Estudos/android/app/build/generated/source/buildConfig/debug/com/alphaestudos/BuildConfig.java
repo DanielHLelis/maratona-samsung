@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.alphaestudos";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 70;
-  public static final String VERSION_NAME = "0.1.6";
+  public static final int VERSION_CODE = 71;
+  public static final String VERSION_NAME = "0.1.8";
 }
