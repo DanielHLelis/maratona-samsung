@@ -13,31 +13,32 @@ import {
 import constants from "@config/constants";
 import images from "@config/images";
 import colors from "@config/colors";
+import TYPOGRAPHY from "@config/typography";
 
 import storage from '@utils/storage'
 import Header from "@components/Header";
-import TYPOGRAPHY from "@config/typography";
+
 
 import api from '@utils/api'
 
-export default (MenusScreen = (props) => 
-      <Background>
-        <Header
-          leftPress={() => props.navigation.goBack()}
-          leftComponent={IconSet.back}
-          rightComponent={IconSet.history}
-          rightPress={() => props.navigation.navigate('HistoryScreen')}
-        />
-        <ThemesBox navigation={props.navigation}/>
-      </Background>
-);
+export default (MenusScreen = props=>(
+  <Background>
+    <Header
+      leftPress={() => props.navigation.goBack()}
+      leftComponent={IconSet.back}
+      rightComponent={IconSet.history}
+      rightPress={() => props.navigation.navigate('HistoryScreen')}
+    />
+    <ThemesBox navigation={props.navigation}/>
+  </Background>
+));
 
 class ThemesBox extends Component{
   constructor(props){
     super(props);
 
     this.state = {
-      data: api.themes()
+      data: []
     }
   }
   _updateState = () => {
@@ -45,8 +46,8 @@ class ThemesBox extends Component{
       storage.getStoreItem('done' + el._id, (key, val) => {
         let count = 0;
         val = JSON.parse(val);
-        for(let key in val){
-          if(val[key])count++;
+        for(let i in val){
+          if(val[i])count++;
         }
         this.setState({[el.name]: count});
       })
@@ -59,7 +60,9 @@ class ThemesBox extends Component{
     });
 
   componentWillMount(){
-    this._updateState();
+    api.themes()
+      .then((data) => this.setState({data},() => this._updateState()));
+    
   }
 
   render(){

@@ -2,7 +2,7 @@ const data = require('@assets/questions.json').themes;
 
 export default {
 
-    themes: () => {
+    themes: async () => {
         return data.map((el, indx) => {
             return {
                 _id: el._id,
@@ -12,7 +12,7 @@ export default {
             }
     });
     },
-    mattersByID: (id) => {
+    mattersByID: async (id) => {
         for(let i = 0; i < data.length; i++){
             if(data[i]._id === id)
                 return data[i].matters.map((el, indx) => ({
@@ -26,7 +26,7 @@ export default {
         }
     },
 
-    questionsByID: (id, parentId) => {
+    questionsByID: async (id, parentId) => {
 
         for(let i = 0; i < data.length; i++){
             for(let j = 0; j < data[i].matters.length; j++){
@@ -43,7 +43,7 @@ export default {
         }
     },
 
-    question: (id) => {
+    question: (id, cb = () => null) => {
         for(let i = 0; i < data.length; i++){
             for(let j = 0; j < data[i].matters.length; j++){
                 for(let k = 0; k < data[i].matters[j].questions.length; k++){
@@ -53,6 +53,7 @@ export default {
                         el.images?el.images.forEach((val) => {
                             imgs.push({...val, image: imageData[val.image.uri]});
                         }):null;
+                        cb({...el, images: imgs });
                         return {...el, images: imgs } 
                     }
                         
@@ -92,39 +93,3 @@ const imageData = {
     "desmatamento_Qst.png": require('@assets/qstImg/desmatamento_Qst.png'),
     "interferenciaHumana_Mttr.jpg": require('@assets/qstImg/interferenciaHumana_Mttr.jpg'),
 }
-
-// class api{
-//     constructor(){
-//         this.data = JSON.parse(Test).themes;
-//     }
-
-
-//     get themes(){
-//         return this.data.map((el, indx) => ({
-//             _id: indx,
-//             name: el.name,
-//             image: el.image
-//         }));
-//     }
-
-//     get matters(name){
-//         for(let i = 0; i < this.data.length; i++)
-//             if(this.data[i].name === name)return this.data[i].matters;
-//     }
-
-//     get mattersByID(id){
-//         return this.data[id].matters.map((el, indx) => ({
-//             _id: indx,
-//             _parentId: id,
-//             name: el.name,
-//             image: el.image,
-//             difficulty: el.difficulty,
-//             disbled: (el.disbled)?true:false
-//         }));
-//     }
-
-//     get questionsByID(parentId, id){
-//         return ({_id: `${parentId}/${id}` ,themeId: parentId, matterId: id, questions: this.data[parentId].matters[id].questions});
-//     }
-
-// }

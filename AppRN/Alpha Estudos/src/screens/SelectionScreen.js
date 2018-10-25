@@ -47,7 +47,9 @@ class SelectionScreen extends Component{
 
     _getData = () => {
         if(this.state._id !== null)
-            this.setState({data: api.mattersByID(this.state._id)});
+            api.mattersByID(this.state._id)
+                .then((data) => this.setState({data}))
+            
     }
 
     _done(){

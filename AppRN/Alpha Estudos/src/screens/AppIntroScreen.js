@@ -7,6 +7,7 @@ import IMAGES from '@config/images'
 import TYPOGRAPHY from '@config/typography'
 
 import Button from '@components/core/Button'
+import storage from '@utils/storage';
 
 export default class AppIntroScreen extends Component {
 

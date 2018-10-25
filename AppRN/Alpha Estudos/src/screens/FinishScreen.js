@@ -17,6 +17,7 @@ import QuestionsList from '@components/QuestionsList'
 
 import typography from '@config/typography'
 import colors from '@config/colors'
+import storage from '@utils/storage'
 
 const formatTime = (d,m,a,h,s) => {
     d = ((d.toString().length===1) ? `0${d}` : d);
@@ -46,19 +47,47 @@ export default class FinishScreen extends Component{
     )
 
     favToggle = () => {
-        this.setState({favorite: !this.state.favorite});
+        if(this.state.favorite){
+            storage.getStoreItem('historyFavorites', (key, res) => {
+                res = JSON.parse(res);
+                if(res === null || res === undefined) res = [];
+                
+                for(let i = 0; i < res.length; i++){
+                    if(res[i]._id == this.state.data.startTime){
+                        res.splice(i, 1);
+                        break;
+                    }
+                }
+
+                storage.setStoreItem('historyFavorites', JSON.stringify(res), () => this.setState({favorite: false}), () => this.setState({favorite: true}));
+            })
+        }else{
+            storage.getStoreItem('historyFavorites', (key, res) => {
+                res = JSON.parse(res);
+                if(res === null || res === undefined) res = [];
+
+                res.unshift({
+                    _id: this.state.data.startTime.toString(),
+                    data: this.state.data
+                });
+
+                if(res.length > 50) res.pop();
+
+                storage.setStoreItem('historyFavorites', JSON.stringify(res), () => this.setState({favorite: true}), () => this.setState({favorite: false}));
+            });
+        }
     }
 
     render(){
         let { navigation } = this.props;
         let { data } = this.state;
-
+        console.log(data);
         return(
             <Background>
                 <Header
                     leftComponent={IconSet.back}
                     leftPress={() => navigation.goBack()}
-                    rightComponent={<View style={{opacity: 0.6}}>{this.favIcon()}</View>}
+                    rightComponent={<View >{this.favIcon()}</View>}
                     rightPress={this.favToggle}
                 />
                 <ScrollView>
@@ -116,12 +145,12 @@ const SubTitle = styled.Text`
 `;
 
 const Percentage = styled.Text`
-    color: ${props => (props.val === 1)?('#00aa00'):((props.val >= 0.4)?('#ffca35'):('#ff5500'))};
+    color: ${props => (props.val == 1)?('#00aa00'):((props.val >= 0.4)?('#ffca35'):('#ff5500'))};
     ${typography.largeText};
     font-weight: 100;
     align-self: center;
     font-size: 100;
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 `;
 
 const StyledQuestionsList = styled(QuestionsList)`

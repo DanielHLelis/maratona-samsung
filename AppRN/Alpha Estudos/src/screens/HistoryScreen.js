@@ -91,14 +91,6 @@ class HistoryBox extends Component{
         }
     }
 
-    _questionExtractor = (el) => {
-        let obj = [];
-        for(let a in el){
-            obj.push({title: a, marked: el[a].marked, correct: el[a].correct, _id: el[a]._id});
-        }
-        return obj;
-    }
-
     _deleteItem = (item) => {
         Alert.alert(
             'Cuidado!',
@@ -125,7 +117,7 @@ class HistoryBox extends Component{
             <ScrollView>
                     {this.props.data.map( (el, indx) => (
                         <View key={indx.toString()}>
-                            <TouchableOpacity activeOpacity={0.5} onLongPress={()=>this._deleteItem(el)} onPress={()=>this.props.navigation.navigate('FinishScreen', {data: el})} >
+                            <TouchableOpacity activeOpacity={0.5}  onPress={()=>this.props.navigation.navigate('FinishScreen', {data: el})} >
                                 <HistoryItem {...el} />
                             </TouchableOpacity>
                         </View>
