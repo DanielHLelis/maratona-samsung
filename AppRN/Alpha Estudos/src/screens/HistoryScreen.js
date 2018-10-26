@@ -34,7 +34,13 @@ export default class HistoryScreen extends Component{
 
     _update = () => {
         storage.getStoreItem('historyItems', (key, val) => {
-                this.setState({data: (val)?JSON.parse(val):[]});
+            val = (val)?JSON.parse(val):[]
+            val = val.sort((a, b) => {
+                if((a.favorite && b.favorite) || (!a.favorite && !b.favorite)){
+                    return a.startTime > b.startTime ? -1 : 1
+                }else return a.favorite ? -2 : 2
+            });
+            this.setState({data: val});
         })
     }
     _erase = () => {
@@ -75,7 +81,7 @@ export default class HistoryScreen extends Component{
                     rightComponent={IconSet.erase}
                     rightPress={this._erase}
                 />
-                <HistoryBox setData={this._setData} data={this.state.data} navigation={this.props.navigation} />
+                <HistoryBox setData={this._setData} data={this.state.data} update={this._update} navigation={this.props.navigation} />
             </Background>
         );
     }
@@ -117,7 +123,7 @@ class HistoryBox extends Component{
             <ScrollView>
                     {this.props.data.map( (el, indx) => (
                         <View key={indx.toString()}>
-                            <TouchableOpacity activeOpacity={0.5}  onPress={()=>this.props.navigation.navigate('FinishScreen', {data: el})} >
+                            <TouchableOpacity activeOpacity={0.5}  onPress={()=>this.props.navigation.navigate('FinishScreen', {data: el, update: this.props.update})} >
                                 <HistoryItem {...el} />
                             </TouchableOpacity>
                         </View>
@@ -138,14 +144,21 @@ const formatTime = (d,m,a,h,s) => {
 
 const HistoryItem = props => (
     <ListData {...props}>
-        <ColWrapper style={{alignItems: 'flex-start'}}>
-            <ListTitle>
-                {props.name}
-            </ListTitle>
-            <ListDate>
-               {formatTime(props.time.day, props.time.month, props.time.year, props.time.hour, props.time.minute)}
-            </ListDate>
-        </ColWrapper>
+        <RowWrapper>
+            <ColWrapper style={{alignItems: 'flex-start'}}>
+                <ListTitle>
+                    {props.name}
+                </ListTitle>
+                <ListDate>
+                {formatTime(props.time.day, props.time.month, props.time.year, props.time.hour, props.time.minute)}
+                </ListDate>
+            </ColWrapper>
+            {
+                props.favorite
+                ? <Icon name="star" color="gold" size={30} style={{marginLeft: 10}} />
+                :null
+            }    
+        </RowWrapper>
         <ListDone count={props.done} length={props.total}>
                 {Math.floor((props.done/props.total)*100)}%
         </ListDone>
@@ -182,6 +195,11 @@ const ColWrapper = styled.View`
     padding-vertical: 10;
     flex-direction: column;
     align-items: center;
+`;
+const RowWrapper = styled.View`
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 `;
 
 const ListTitle = styled.Text`

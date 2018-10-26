@@ -26,11 +26,10 @@ export default class RevisionScreen extends Component{
             question: {},
             solve: false
         }
-        console.log(this.state.data);
     }
 
     componentWillMount(){
-        api.question(this.state.data._id, question => this.setState({question}, () => console.log(question.options)));
+        api.question(this.state.data._id, question => this.setState({question}));
     }
 
     showTip = (val) => this.setState({solve: val})

@@ -35,53 +35,41 @@ export default class FinishScreen extends Component{
         super(props);
 
         this.state = {
-            favorite: false,
-            data: this.props.navigation.getParam('data', {})
+            data: this.props.navigation.getParam('data', {}),
+            update: this.props.navigation.getParam('update', () => null)
         }
     }
 
     favIcon = () =>(
-        this.state.favorite
+        this.state.data.favorite
         ? IconSet.starFull
         : IconSet.star
     )
 
     favToggle = () => {
-        if(this.state.favorite){
-            storage.getStoreItem('historyFavorites', (key, res) => {
-                res = JSON.parse(res);
-                if(res === null || res === undefined) res = [];
-                
-                for(let i = 0; i < res.length; i++){
-                    if(res[i]._id == this.state.data.startTime){
-                        res.splice(i, 1);
-                        break;
-                    }
+        let {favorite} = this.state.data
+        storage.getStoreItem('historyItems', (key, res) => {
+            res = JSON.parse(res);
+            if(res === null || res === undefined) res = [];
+            
+            for(let i = 0; i < res.length; i++){
+                if(res[i].startTime == this.state.data.startTime){
+                    console.log(res[i], this.state.data.favorite);
+                    res[i].favorite = !favorite;
+                    break;
                 }
-
-                storage.setStoreItem('historyFavorites', JSON.stringify(res), () => this.setState({favorite: false}), () => this.setState({favorite: true}));
-            })
-        }else{
-            storage.getStoreItem('historyFavorites', (key, res) => {
-                res = JSON.parse(res);
-                if(res === null || res === undefined) res = [];
-
-                res.unshift({
-                    _id: this.state.data.startTime.toString(),
-                    data: this.state.data
-                });
-
-                if(res.length > 50) res.pop();
-
-                storage.setStoreItem('historyFavorites', JSON.stringify(res), () => this.setState({favorite: true}), () => this.setState({favorite: false}));
-            });
-        }
+            }
+            storage.setStoreItem('historyItems', JSON.stringify(res), () => {
+                this.setState({data: {...this.state.data, favorite: !favorite}});
+                this.state.update();
+            }, () => this.setState({data: {...this.state.data, favorite: favorite}}));
+        });
     }
 
     render(){
         let { navigation } = this.props;
         let { data } = this.state;
-        console.log(data);
+        // console.log(data);
         return(
             <Background>
                 <Header
