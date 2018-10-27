@@ -95,7 +95,7 @@
             {
               "_id": "5bc134eacd6b2c90d7e8fce1",
               "title": "Questão 5",
-              "text": "(G1 - ifsp 2017 - Adaptado) Num campo agrícola hipotético, um agricultor utilizou um agrotóxico que contém metais pesados e contaminou o sistema de cadeia alimentar representado pela pirâmide de biomassa na imagem, a partir dos produtores.",
+              "text": "(G1 - ifsp 2017 - Adaptado) Num campo agrícola hipotético, um agricultor utilizou um agrotóxico que contém metais pesados e contaminou o sistema de cadeia alimentar representado pela pirâmide de biomassa na imagem, a partir dos produtores. Assim, assinale a alternativa que apresenta os organismos que mais reterão o metal pesado em seu organismo.",
               "correct": "d",
               "solve": "As corujas (consumidores terciários) estão no topo da cadeia alimentar e reterão maior quantidade do metal pesado, incorporando-o através dos tróficos anteriores.",
               "images": [
@@ -260,7 +260,7 @@
             {
               "_id": "5bc134ea269e273967fc889e",
               "title": "Questão 1",
-              "text": "(G1 - cps 2016) Os vegetais precisam respirar. Para tanto, eles absorvem gás oxigênio do ambiente. Essa absorção ocorre principalmente através de suas folhas e de suas raízes. Assim, o solo precisa ter certa quantidade de ar para que as raízes possam absorver o gás oxigênio. Considerando esse aspecto, podemos afirmar que as minhocas prestam um importante serviço ecológico, pois contribuem para o arejamento do solo. As minhocas estão sempre cavando túneis e revolvendo a terra a procura de restos orgânicos, dos quais se alimentam, deixando a terra fofa e arejada. Além disso, esses túneis facilitam a drenagem das águas das chuvas. Em solos muito duros, normalmente não há minhocas, principalmente porque ali elas não conseguem cavar as suas galerias. Não existindo esses animais, a terra terá menos húmus e menos gás oxigênio e, portanto, oferecerá menos recursos para a vida vegetal.",
+              "text": "(G1 - cps 2016) Os vegetais precisam respirar. Para tanto, eles absorvem gás oxigênio do ambiente. Essa absorção ocorre principalmente através de suas folhas e de suas raízes. Assim, o solo precisa ter certa quantidade de ar para que as raízes possam absorver o gás oxigênio. Considerando esse aspecto, podemos afirmar que as minhocas prestam um importante serviço ecológico, pois contribuem para o arejamento do solo. As minhocas estão sempre cavando túneis e revolvendo a terra a procura de restos orgânicos, dos quais se alimentam, deixando a terra fofa e arejada. Além disso, esses túneis facilitam a drenagem das águas das chuvas. Em solos muito duros, normalmente não há minhocas, principalmente porque ali elas não conseguem cavar as suas galerias. Não existindo esses animais, a terra terá menos húmus e menos gás oxigênio e, portanto, oferecerá menos recursos para a vida vegetal. Sobre esses animais, é correto afirmar que",
               "correct": "e",
               "solve": "As minhocas são anelídeos que possuem o corpo cilíndrico e segmentado. Elas se locomovem por rastejamento, pela atividade de contração e distensão coordenada de sua musculatura voluntária. Através do mecanismo “estica-encolhe”, elas cavam túneis que arejam o solo e distribuem detritos vegetais que, entrando em decomposição, contribuem para fertilizar os terrenos onde vivem.",
               "options": {
@@ -434,7 +434,7 @@
             {
               "_id":"5bce87dd1dabdd9899ca1e68",
               "title":"Questão 3",
-              "text":"(Enem PPL 2014) Determinado bioma brasileiro apresenta vegetação conhecida por perder as folhas e ficar apenas com galhos esbranquiçados, ao passar por até nove meses de seca. As plantas podem acumular água no caule e na raiz, além de apresentarem folhas pequenas, que em algumas espécies assumem a forma de espinhos.",
+              "text":"(Enem PPL 2014) Determinado bioma brasileiro apresenta vegetação conhecida por perder as folhas e ficar apenas com galhos esbranquiçados, ao passar por até nove meses de seca. As plantas podem acumular água no caule e na raiz, além de apresentarem folhas pequenas, que em algumas espécies assumem a forma de espinhos. Qual bioma brasileiro apresenta plantas com essas características?",
               "correct":"c",
               "solve":"Como mencionado corretamente na alternativa [C], a descrição da vegetação decídua e xerófita refere-se à caatinga, cujas características fitogeográficas são influenciadas pelo clima semiárido. Estão incorretas as alternativas: [A] e [B], porque o cerrado e a vegetação do pantanal estão associados ao clima tropical semiúmido com verões (seis meses) secos; [D] e [E], porque a mata Atlântica e a Floresta Amazônica estão associadas aos climas quentes e úmidos.",
               "options":{
@@ -448,7 +448,7 @@
             {
               "_id":"5bce8971428e9062d5f23aee",
               "title":"Questão 4",
-              "text":"(G1 - cftmg 2013 - Adaptado) Observe a fotografia abaixo.",
+              "text":"(G1 - cftmg 2013 - Adaptado)No bioma brasileiro mostrado na imagem, predominam as seguintes características:",
               "correct":"c",
               "solve":"A foto representa o bioma Cerrado com fisionomia de savana, isto é, apresenta vários estratos, herbáceo (gramíneas e ervas), arbustivo e arbóreo (diversas espécies, incluindo palmeiras). Trata-se de um ecossistema com alta biodiversidade e caracterizado por plantas esclerófilas, ou seja, que apresentam troncos grossos, tortuosidade de galhos, além de folhas duras e coriáceas.",
               "images":[
@@ -478,7 +478,7 @@
               {
                   "_id":"5bce90f5572d793c272259d4",
                   "title":"Questão 1",
-                  "text":"(G1 - cftmg 2014) As características a seguir são típicas de um bioma brasileiro: - baixa pluviosidade anual; - elevadas temperaturas anuais; - pequena umidade relativa do ar; - espécies vegetais e animais bem adaptadas.",
+                  "text":"(G1 - cftmg 2014 - Adaptado) As características a seguir são típicas de um bioma brasileiro: I-Baixa pluviosidade anual; II-Elevadas temperaturas anuais; III-Pequena umidade relativa do ar; IV-Espécies vegetais e animais bem adaptadas. Esse conjunto de características refere-se à (ao)",
                   "correct":"a",
                   "solve":"O bioma brasileiro Caatinga apresenta todas as características citadas no enunciado da questão.",
                   "options":{
@@ -533,7 +533,7 @@
               {
                   "_id":"5bce98f78aefce986e383ee1",
                   "title":"Questão 5",
-                  "text":"(G1 - ifpe 2017) Ecossistema costeiro, de transição entre os ambientes terrestre e marinho, sujeito ao regime das marés, formado por uma série de vegetais resistentes ao fluxo das marés e, portanto, ao sal. Ocupa quase todo o litoral brasileiro e funciona como um berçário para os recursos pesqueiros, sustentando direta ou indiretamente mais de 1 milhão de pessoas. MINISTÉRIO DO MEIO AMBIENTE. Disponível em: http://www.mma.gov.br/biodiversidade/biodiversidadeaquatica/zona-costeira-e-marinha.Acesso em 09 de maio2017.",
+                  "text":"(G1 - ifpe 2017 - Adaptado) Ecossistema costeiro, de transição entre os ambientes terrestre e marinho, sujeito ao regime das marés, formado por uma série de vegetais resistentes ao fluxo das marés e, portanto, ao sal. Ocupa quase todo o litoral brasileiro e funciona como um berçário para os recursos pesqueiros, sustentando direta ou indiretamente mais de 1 milhão de pessoas. MINISTÉRIO DO MEIO AMBIENTE. Disponível em: http://www.mma.gov.br/biodiversidade/biodiversidadeaquatica/zona-costeira-e-marinha.Acesso em 09 de maio2017. De acordo com as características citadas, podemos afirmar que o texto descreve o bioma",
                   "correct":"a",
                   "solve":"A alternativa [A] está correta porque o texto descreve a formação fitogeográfica dos manguezais, vegetação halófita e de raízes pneumatóforas típica de áreas salobras. As alternativas incorretas são: [B], porque a Mata Atlântica é uma formação arbórea; [C], porque a Mata dos Cocais é uma transição entre Floresta Amazônica e caatinga; [D], porque o Pampa é uma formação herbácea; [E], porque a caatinga é uma formação complexa.",
                   "options":{
@@ -575,7 +575,7 @@
           ]
         },
         {
-          "_id": "5bc134ea7cc4e3e342595d43",
+          "_id": "5bd0b6e674da5da944e0a6af",
           "name": "Desastres Naturais",
           "image": {
             "uri": "desastreNatural_Mttr.jpg"
