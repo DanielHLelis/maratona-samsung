@@ -12,31 +12,22 @@
                 "cons3":"1.4.jpg",
                 "cons4":"1.5.jpg"
             },
-            "chain":["Embaúba", "Mariposa", "Rã-de-Vidro", "Sapo-Martelo", "Surucucu-Pico-de-Jaca"],
+            "chain":["Embaúba", "Mariposa", "Rã-de-Vidro", "Sapo-Martelo", "Surucucu Pico de Jaca"],
             "questions":[
                 {
                     "_id":"5bd3a67b1718f5122dfcd3d8",
                     "title":"Questão 1",
-                    "text":"",
-                    "correct":"",
-                    "solve":"",
-                    "images":[
-                        {
-                            "image":{
-                                "uri":""
-                            }  
-                        }
-                    ],
+                    "text":"Caso haja uma diminuição no número de surucucus pico de jaca, a população de _________ irá aumentar, seguido de uma queda na população de _________.",
+                    "correct":"a",
+                    "solve":"A população de sapos-martelo irá aumentar por causa da queda no número de predadores, o que causará uma queda no número de rãs-de-vidro, já que elas são predadas pelos sapos.",
                     "options":{
-                        "a":"",
-                        "b":"",
-                        "c":"",
-                        "d":"",
-                        "e":""
+                        "a":"sapos-martelo / rãs-de-vidro",
+                        "b":"mariposas / embaúbas",
+                        "c":"rãs-de-vidro / sapos-martelo",
+                        "d":"embaúbas / rãs-de-vidro"
                     }
                 }
             ]
-
         },
         {
             "_id":"5bd3a442577a10aef6ba2ab9",
@@ -55,22 +46,14 @@
                 {
                     "_id":"5bd3a68e3ba2825c988bfabc",
                     "title":"Questão 1",
-                    "text":"",
-                    "correct":"",
-                    "solve":"",
-                    "images":[
-                        {
-                            "image":{
-                                "uri":""
-                            }  
-                        }
-                    ],
+                    "text":"Sobre o tatu é correto afirmar:",
+                    "correct":"d",
+                    "solve":"Representa o consumidor secundário por se alimentar do besouro, que por sua vez se alimenta das gramíneas",
                     "options":{
-                        "a":"",
-                        "b":"",
-                        "c":"",
-                        "d":"",
-                        "e":""
+                        "a":"Faz parte do nível trófico dos produtores.",
+                        "b":"Seu nível trófico apresenta menos energia que o nível trófico das cobras.",
+                        "c":"Sua população se extinguiria caso houvesse uma queda no número de besouros.",
+                        "d":"Representa o consumidor secundário ou de segunda ordem."
                     }
                 }
             ]
@@ -93,15 +76,15 @@
                 {
                     "_id":"5bd3a69c34b0b48f127fb5c0",
                     "title":"Questão 1",
-                    "text":"O numero",
-                    "correct":"",
-                    "solve":"",
+                    "text":"Assinale o nível trófico representado pela rã.",
+                    "correct":"b",
+                    "solve":"Ao se alimentar do mosquito-palha(consumidor primário) a rã se comporta como consumidor secundário.",
                     "options":{
-                        "a":"",
-                        "b":"",
-                        "c":"",
-                        "d":"",
-                        "e":""
+                        "a":"Produtor.",
+                        "b":"Consumidor secundário.",
+                        "c":"Consumidor terciário.",
+                        "d":"Consumidor quaternário.",
+                        "e":"Decompositor."
                     }
                 }
             ]
@@ -148,20 +131,20 @@
                 "cons3":"5.4.jpg",
                 "cons4":"5.5.jpg"
             },
-            "chain":["Cactus", "Gafanhoto", "Lagartixa", "Raposa do Deserto", "Jararaca"],
+            "chain":["Cacto", "Gafanhoto", "Lagartixa", "Raposa do Deserto", "Jararaca"],
             "questions":[
                 {
                     "_id":"5bd3a6bb2d62526a8df2a121",
                     "title":"Questão 1",
-                    "text":"",
-                    "correct":"",
-                    "solve":"",
+                    "text":"Assinale a opção correta.",
+                    "correct":"e",
+                    "solve":"O cacto ocupa o primeiro nível trófico como produtor e a jararaca o quinto nível trófico como consumidor quaternário",
                     "options":{
-                        "a":"",
-                        "b":"",
-                        "c":"",
-                        "d":"",
-                        "e":""
+                        "a":"O cacto representa o produtor e a raposa do deserto o consumidor secundário.",
+                        "b":"O gafanhoto representa o consumidor secundário e a lagatixa o consumidor terciário.",
+                        "c":"O nível trófico da lagartixa possui mais energia que o nível trófico do cacto.",
+                        "d":"O nível trofico da raposa do deserto possui mais energia que o nivel trófico do gafanhoto",
+                        "e":"O cacto representa o proutor e a jararaca o consumidor quaternário."
                     }
                 }
             ]
