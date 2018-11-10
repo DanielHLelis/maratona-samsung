@@ -75,21 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_f020bf40f3e43f2e222bc9b6a0920e52f436fcb8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/me.relex/photodraweeview/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="e5ceac4d4c5f5559d813fb8e0419203a51b40462">
         <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/me.relex-photodraweeview-1.0.0_83a65e8886800bfcff04842eb245ead7e7217985.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_f020bf40f3e43f2e222bc9b6a0920e52f436fcb8.jar" />
     </item>
     <item
         is-multidex="false"

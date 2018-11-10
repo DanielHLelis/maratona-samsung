@@ -101,8 +101,8 @@ android {
         applicationId "com.alphaestudos"
         minSdkVersion 16
         targetSdkVersion 26 //Changed from 22
-        versionCode 00107
-        versionName "0.1.8"
+        versionCode 72
+        versionName "0.1.9"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
@@ -151,7 +151,6 @@ dependencies {
     compile project(':react-native-photo-view')
     compile project(':rn-fetch-blob')
     compile project(':react-native-vector-icons')
-    compile project(':react-native-blur')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules

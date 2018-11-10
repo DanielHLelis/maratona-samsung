@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher.png",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

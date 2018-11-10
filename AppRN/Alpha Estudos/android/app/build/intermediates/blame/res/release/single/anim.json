@@ -1,47 +1,39 @@
 [
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_out.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_in.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_in.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_up.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_up.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_in.xml"
-    },
-    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_out.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_down.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_down.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_down.xml",
@@ -52,16 +44,8 @@
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
@@ -72,8 +56,8 @@
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
@@ -84,120 +68,120 @@
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_push_up_in.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_down.xml"
-    },
-    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_out.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_up.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_up.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_fade_in.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_out.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_in.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_fade_out.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_down.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_in.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_in.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_up.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_out.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_out.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_up.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",
@@ -208,51 +192,67 @@
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_in.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_out.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_up.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_slide_up.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_up.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_slide_up.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_out.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_out.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
-        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
         "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_in.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\anim\\catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
     }
 ]

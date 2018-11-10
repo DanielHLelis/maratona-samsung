@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w720dp\\values-w720dp.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w720dp\\values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w720dp\\values-w720dp.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\ymegam\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w720dp\\values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "outputFile": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -83,7 +83,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\Users\\danie\\Documents\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w720dp\\values-w720dp.xml",
+                    "file": "/Users/ymegam/Documents/GitHub/maratona-samsung/AppRN/Alpha Estudos/android/D:\\home\\ymegam\\Documentos\\GitHub\\maratona-samsung\\AppRN\\Alpha Estudos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w720dp\\values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
